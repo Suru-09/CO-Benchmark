@@ -6,11 +6,10 @@ import java.util.Arrays;
 import java.util.concurrent.ThreadLocalRandom;
 
 public class SpigotAlgorithm implements IBenchmark {
-
-        private int digitsRequested;
-        private int[] digits;
-        private StringBuilder preDigits = new StringBuilder();
-        private String allDigits = "";
+    private int digitsRequested;
+    private int[] digits;
+    private StringBuilder preDigits = new StringBuilder();
+    private String allDigits = "";
 
     public String getAllDigits() {
         return allDigits;
@@ -18,50 +17,51 @@ public class SpigotAlgorithm implements IBenchmark {
 
 
     // Max value such that digits.length <= INT_MAX.
-        //   ceil(((2**31-1) - 1) * 3 / 10)
-        private static final int MAX_DIGITS_REQUESTED = 644245094;
+    //   ceil(((2**31-1) - 1) * 3 / 10)
+    private static final int MAX_DIGITS_REQUESTED = 644245094;
 
-        // Get the number of digits requested from the command line arguments.
-        public boolean setRequestedDigits(int digits_requested) {
+    // Get the number of digits requested from the command line arguments.
+    public boolean setRequestedDigits(int digits_requested) {
 
-            //TODO CHANGE THIS
+        //TODO CHANGE THIS
 
-            this.digitsRequested = digits_requested;
+        this.digitsRequested = digits_requested;
 
-            if (digits_requested > MAX_DIGITS_REQUESTED) {
-                System.err.println("Maximum digit count is " + MAX_DIGITS_REQUESTED);
-                return false;
-            }
-
-            if (digits_requested <= 10) {
-                System.err.println("Digit count must be positive and > 10");
-                return false;
-            }
-
-            return true;
+        if (digits_requested > MAX_DIGITS_REQUESTED) {
+            System.err.println("Maximum digit count is " + MAX_DIGITS_REQUESTED);
+            return false;
         }
 
-        // Allocate digits[]
-        public boolean init() {
-            int array_size_needed = digitsRequested * 10 / 3 + 1;
-            digits = new int[array_size_needed];
-            if (digits == null) {
-                System.err.print("Failed to allocate " + (array_size_needed*4)
-                        + " bytes.");
-                return false;
-            }
-
-            // fill each digit with a 2
-            Arrays.fill(digits, 2);
-
-            return true;
+        if (digits_requested <= 10) {
+            System.err.println("Digit count must be positive and > 10");
+            return false;
         }
+
+        return true;
+    }
+
+    // Allocate digits[]
+    public boolean init() {
+        int array_size_needed = digitsRequested * 10 / 3 + 1;
+        digits = new int[array_size_needed];
+        if (digits == null) {
+            System.err.print("Failed to allocate " + (array_size_needed*4)
+                    + " bytes.");
+            return false;
+        }
+
+        // fill each digit with a 2
+        Arrays.fill(digits, 2);
+
+        return true;
+    }
 
     @Override
     public void initialize(Object... params) {
-
-        setRequestedDigits(25000);
-        init();
+        if ( params[0] instanceof Integer ){
+            setRequestedDigits((Integer) params[0]);
+            init();
+        }
     }
 
     @Override

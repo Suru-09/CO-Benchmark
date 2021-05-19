@@ -18,5 +18,18 @@
     },
     "score": 0.0,
     "id": 432532
+<<<<<<< Updated upstream
+=======
+  },
+  {
+    "username": "gion",
+    "password": "pass",
+    "configuration": {
+      "cpu": "i7",
+      "ram": "16 gb"
+    },
+    "score": 0.0,
+    "id": 4332
+>>>>>>> Stashed changes
   }
 ]

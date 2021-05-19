@@ -72,6 +72,7 @@ public class UserRepository extends AbstractRepository<Long, User>{
             ex.printStackTrace();
         }
     }
+<<<<<<< Updated upstream
 
     public static void main(String[] args) throws CustomException {
         User user = new User("gion", "pass", new Configuration("i7", "16 gb"));
@@ -83,4 +84,6 @@ public class UserRepository extends AbstractRepository<Long, User>{
         repo.add(user);
         repo.updateRepository();
     }
+=======
+>>>>>>> Stashed changes
 }

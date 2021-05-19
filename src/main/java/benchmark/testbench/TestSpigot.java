@@ -8,20 +8,25 @@ import benchmark.timing.ITimer;
 import benchmark.timing.Timer;
 import benchmark.bench.IBenchmark;
 
+//
+//class Multithreading extends Thread {
+//	public void run() {
+//		TestSpigot test = new TestSpigot();
+//		SpigotAlgorithm bench = test.getBench();
+//		bench.run(1);
+//	}
+//}
+
 public class TestSpigot {
-
 	private IBenchmark bench = new SpigotAlgorithm();
+//	private ILog log = new ConsoleLogger();
 
-	public SpigotAlgorithm getBench() {
-		return (SpigotAlgorithm) bench;
-	}
+	private double time;
 
-	public TestSpigot() {
+	public TestSpigot(int size) {
 		ITimer timer = new Timer();
-		ILog log = new ConsoleLogger();
-		TimeUnit timeUnit = TimeUnit.Milli;
 
-		bench.initialize(10000000);
+		bench.initialize(size);
 		bench.warmUp();
 
 		timer.start();
@@ -29,11 +34,25 @@ public class TestSpigot {
 		bench.run(1);
 
 		long time = timer.stop();
-		log.writeTime("Finished in", time, timeUnit);
-		log.write("Result is", bench.getResult());
+		//log.writeTime("Finished in", time, timeUnit);
+		//log.write("Result is", bench.getResult());
+
+		this.time = TimeUnit.toTimeUnit(time, TimeUnit.Milli);
 
 		bench.clean();
-		log.close();
+//		log.close();
 	}
 
+
+	public SpigotAlgorithm getBench() {
+		return (SpigotAlgorithm) bench;
+	}
+
+	public double getTime() {
+		return time;
+	}
+
+//	public ConsoleLogger getLog() {
+//		return (ConsoleLogger) log;
+//	}
 }

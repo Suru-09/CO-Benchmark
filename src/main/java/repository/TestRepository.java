@@ -91,6 +91,7 @@ public class TestRepository extends AbstractRepository<Long, Test>{
             ex.printStackTrace();
         }
     }
+<<<<<<< Updated upstream
 
     public static void main(String[] args) throws CustomException{
         Test test = new Test(20, 4, 2353L);
@@ -102,4 +103,6 @@ public class TestRepository extends AbstractRepository<Long, Test>{
         repo.add(test);
         repo.updateRepository();
     }
+=======
+>>>>>>> Stashed changes
 }

@@ -9,10 +9,17 @@ import benchmark.timing.ITimer;
 import benchmark.timing.Timer;
 import benchmark.bench.IBenchmark;
 
-public class TestMonteCarlo {
+class Multithreading1 extends Thread {
+    public void run() {
+        TestMonteCarlo test = new TestMonteCarlo ();
+        MonteCarlo bench = test.getBench();
+        bench.run(1);
+    }
+}
 
-    private IBenchmark bench = new MonteCarlo();
-    private ILog log = new ConsoleLogger();
+public class TestMonteCarlo {
+    private final IBenchmark bench = new MonteCarlo();
+    private final ILog log = new ConsoleLogger();
 
     public ILog getLogger() {
         return log;
