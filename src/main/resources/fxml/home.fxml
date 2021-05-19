@@ -48,43 +48,42 @@
       <VBox layoutX="78.0" layoutY="125.0" spacing="30.0">
          <children>
             <Text strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text_white" text="Algorithm" />
-            <ChoiceBox prefHeight="46.0" prefWidth="220.0">
+            <ChoiceBox fx:id="algorithmChoiceBox" prefHeight="46.0" prefWidth="220.0">
                <VBox.margin>
                   <Insets top="-20.0" />
                </VBox.margin>
             </ChoiceBox>
             <Text strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text_white" text="Input size" />
-            <ChoiceBox prefWidth="220.0">
+            <ChoiceBox fx:id="inputSizeChoiceBox" prefWidth="220.0">
                <VBox.margin>
                   <Insets top="-20.0" />
                </VBox.margin>
             </ChoiceBox>
             <Text strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text_white" text="Thread numbers" />
-            <ChoiceBox prefWidth="220.0">
+            <ChoiceBox fx:id="threadChoiceBox" prefWidth="220.0">
                <VBox.margin>
                   <Insets top="-20.0" />
                </VBox.margin>
             </ChoiceBox>
-            <Button mnemonicParsing="false" text="Start benchmark!">
+            <VBox alignment="CENTER" spacing="20.0">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#startBenchmarkClick" text="Start benchmark!" />
+                  <Button mnemonicParsing="false" onAction="#seeStatisticsClick" text="See statistics" />
+               </children>
                <VBox.margin>
                   <Insets top="40.0" />
                </VBox.margin>
-            </Button>
-            <Button mnemonicParsing="false" text="See statistics">
-               <VBox.margin>
-                  <Insets left="23.0" />
-               </VBox.margin>
-            </Button>
+            </VBox>
          </children>
       </VBox>
       <AnchorPane layoutX="365.0" layoutY="196.0">
          <children>
-            <ListView prefHeight="487.0" prefWidth="695.0" style="-fx-background-color: red;" />
+            <ListView fx:id="threadResultsListView" prefHeight="487.0" prefWidth="695.0" style="-fx-background-color: red;" />
          </children>
       </AnchorPane>
       <AnchorPane layoutX="349.0" layoutY="145.0" prefHeight="560.0" prefWidth="723.0">
          <children>
-            <BarChart layoutY="36.0" prefHeight="525.0" prefWidth="720.0">
+            <BarChart fx:id="dtbStatisticsBarChart" layoutY="36.0" prefHeight="525.0" prefWidth="720.0" visible="false">
               <xAxis>
                 <CategoryAxis side="BOTTOM" />
               </xAxis>

@@ -28,14 +28,14 @@
                         <Insets />
                      </VBox.margin>
                   </Text>
-                  <TextField promptText="Username" styleClass="t" />
-                  <PasswordField promptText="Password">
+                  <TextField fx:id="usernameTextField" promptText="Username" styleClass="t" />
+                  <PasswordField fx:id="passwordPasswordField" promptText="Password">
                      <VBox.margin>
                         <Insets />
                      </VBox.margin>
                   </PasswordField>
-                  <TextField promptText="CPU" styleClass="t" />
-                  <TextField promptText="Ram Memory" styleClass="t" />
+                  <TextField fx:id="cpuTextField" promptText="CPU" styleClass="t" />
+                  <TextField fx:id="ramTextField" promptText="Ram Memory" styleClass="t" />
                   <HBox alignment="CENTER">
                      <children>
                         <ImageView fitHeight="46.0" fitWidth="45.0" pickOnBounds="true" preserveRatio="true">
@@ -46,7 +46,7 @@
                               <Insets />
                            </HBox.margin>
                         </ImageView>
-                        <Button alignment="CENTER" mnemonicParsing="false" text="Sign In">
+                        <Button alignment="CENTER" mnemonicParsing="false" onAction="#signUpClick" text="Sign Up">
                            <HBox.margin>
                               <Insets left="5.0" />
                            </HBox.margin>

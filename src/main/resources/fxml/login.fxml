@@ -15,7 +15,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1080.0" styleClass="root_darkest" stylesheets="@../css/style_general.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1080.0" styleClass="root_darkest" stylesheets="@../css/style_general.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.login.LoginController.java">
    <children>
       <HBox layoutX="82.0" layoutY="103.0">
          <children>
@@ -29,18 +29,18 @@
                         <Insets />
                      </VBox.margin>
                   </Text>
-                  <TextField promptText="Username" styleClass="t" />
-                  <Label prefHeight="70.0" prefWidth="400.0" text="Invalid username!">
+                  <TextField fx:id="usernameTextField" promptText="Username" styleClass="t" />
+                  <Label fx:id="usernameErrLabel" prefHeight="70.0" prefWidth="400.0" text="Invalid username!">
                      <VBox.margin>
                         <Insets left="30.0" top="-80.0" />
                      </VBox.margin>
                   </Label>
-                  <PasswordField promptText="Password">
+                  <PasswordField fx:id="passwordPasswordField" promptText="Password">
                      <VBox.margin>
                         <Insets top="-50.0" />
                      </VBox.margin>
                   </PasswordField>
-                  <Label prefHeight="90.0" prefWidth="472.0" text="Invalid password!">
+                  <Label fx:id="passErrLabel" prefHeight="90.0" prefWidth="472.0" text="Invalid password!">
                      <VBox.margin>
                         <Insets left="30.0" top="-80.0" />
                      </VBox.margin>
@@ -55,7 +55,7 @@
                               <Insets />
                            </HBox.margin>
                         </ImageView>
-                        <Button alignment="CENTER" mnemonicParsing="false" text="Sign In">
+                        <Button alignment="CENTER" mnemonicParsing="false" onAction="#signInClick" text="Sign In">
                            <HBox.margin>
                               <Insets left="5.0" />
                            </HBox.margin>
@@ -104,7 +104,7 @@
                               <Insets />
                            </HBox.margin>
                         </ImageView>
-                        <Button mnemonicParsing="false" styleClass="text_white" text="Create Account">
+                        <Button mnemonicParsing="false" onAction="#createAccountClick" styleClass="text_white" text="Create Account">
                            <HBox.margin>
                               <Insets left="10.0" />
                            </HBox.margin>
