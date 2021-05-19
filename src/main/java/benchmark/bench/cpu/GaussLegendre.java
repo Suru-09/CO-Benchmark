@@ -40,7 +40,7 @@ public class GaussLegendre implements IBenchmark {
     public static BigDecimal pi(final int SCALE) {
         BigDecimal a = ONE;
         BigDecimal b = ONE.divide(sqrt(TWO, SCALE), SCALE, ROUND_HALF_UP);
-        BigDecimal t = new BigDecimal(0.25);
+        BigDecimal t = new BigDecimal("0.25");
         BigDecimal x = ONE;
         BigDecimal y;
 
@@ -58,7 +58,7 @@ public class GaussLegendre implements IBenchmark {
     // the Babylonian square root method (Newton's method)
     public static BigDecimal sqrt(BigDecimal A, final int SCALE) {
         BigDecimal x0 = new BigDecimal("0");
-        BigDecimal x1 = new BigDecimal(Math.sqrt(A.doubleValue()));
+        BigDecimal x1 = BigDecimal.valueOf(Math.sqrt(A.doubleValue()));
 
         while (!x0.equals(x1)) {
             x0 = x1;

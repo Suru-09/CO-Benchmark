@@ -1,0 +1,22 @@
+[
+  {
+    "username": "gion",
+    "password": "pass",
+    "configuration": {
+      "cpu": "i7",
+      "ram": "16 gb"
+    },
+    "score": 0.0,
+    "id": 4432
+  },
+  {
+    "username": "bob",
+    "password": "pass",
+    "configuration": {
+      "cpu": "i7",
+      "ram": "16 gb"
+    },
+    "score": 0.0,
+    "id": 432532
+  }
+]

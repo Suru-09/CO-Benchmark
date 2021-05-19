@@ -1,6 +1,9 @@
 package domain;
 
+import com.google.gson.annotations.Expose;
+
 public abstract class BaseEntity<ID> {
+    @Expose
     private ID id;
 
     public ID getId() {
