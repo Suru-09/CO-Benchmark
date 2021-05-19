@@ -1,7 +1,6 @@
 package repository;
 
 import com.google.gson.GsonBuilder;
-import domain.Configuration;
 import domain.User;
 
 import com.google.gson.Gson;
@@ -72,18 +71,4 @@ public class UserRepository extends AbstractRepository<Long, User>{
             ex.printStackTrace();
         }
     }
-<<<<<<< Updated upstream
-
-    public static void main(String[] args) throws CustomException {
-        User user = new User("gion", "pass", new Configuration("i7", "16 gb"));
-        user.setId(4432L);
-
-        UserRepository repo = new UserRepository();
-
-        repo.loadData();
-        repo.add(user);
-        repo.updateRepository();
-    }
-=======
->>>>>>> Stashed changes
 }
