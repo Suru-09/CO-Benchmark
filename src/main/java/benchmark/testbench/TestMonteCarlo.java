@@ -12,6 +12,11 @@ import benchmark.bench.IBenchmark;
 public class TestMonteCarlo {
 
     private IBenchmark bench = new MonteCarlo();
+    private ILog log = new ConsoleLogger();
+
+    public ILog getLogger() {
+        return log;
+    }
 
     public MonteCarlo getBench() {
         return (MonteCarlo)bench;
@@ -19,7 +24,6 @@ public class TestMonteCarlo {
 
     public void TestBench() {
         ITimer timer = new Timer();
-        ILog log = new ConsoleLogger();
         TimeUnit timeUnit = TimeUnit.Milli;
 
         bench.initialize(10000000);

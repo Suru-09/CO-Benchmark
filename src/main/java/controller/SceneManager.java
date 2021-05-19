@@ -21,8 +21,7 @@ public class SceneManager {
     public enum States {
         LOGIN("fxml/login.fxml"),
         REGISTER("fxml/register.fxml"),
-        ADMIN_LOGGED("fxml/adminLogged.fxml"),
-        CUSTOMER_LOGGED("fxml/customerLogged.fxml");
+        HOME("fxml/home.fxml");
 
         public final String url;
 

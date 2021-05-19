@@ -11,7 +11,7 @@ class Multithreading extends Thread {
 
 public class spigot {
     public static void main(String[] args) {
-        for(int i = 0 ; i < 8; ++i) {
+        for(int i = 0 ; i < 4; ++i) {
             Multithreading obj = new Multithreading();
             obj.start();
         }
