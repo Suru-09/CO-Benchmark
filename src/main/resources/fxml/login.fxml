@@ -15,19 +15,18 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1080.0" styleClass="root_darkest" stylesheets="@../css/style_general.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <HBox layoutX="82.0" layoutY="103.0">
          <children>
-            <VBox prefHeight="484.0" prefWidth="400.0" spacing="100.0">
+            <VBox alignment="CENTER" prefHeight="484.0" prefWidth="400.0" spacing="100.0">
                <children>
                   <Text strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text_Login" text="Login">
                      <font>
                         <Font size="62.0" />
                      </font>
                      <VBox.margin>
-                        <Insets left="155.0" />
+                        <Insets />
                      </VBox.margin>
                   </Text>
                   <TextField promptText="Username" styleClass="t" />
@@ -46,14 +45,14 @@
                         <Insets left="30.0" top="-80.0" />
                      </VBox.margin>
                   </Label>
-                  <HBox>
+                  <HBox alignment="CENTER">
                      <children>
                         <ImageView fitHeight="46.0" fitWidth="45.0" pickOnBounds="true" preserveRatio="true">
                            <image>
                               <Image url="@../images/loginButton.png" />
                            </image>
                            <HBox.margin>
-                              <Insets left="100.0" />
+                              <Insets />
                            </HBox.margin>
                         </ImageView>
                         <Button alignment="CENTER" mnemonicParsing="false" text="Sign In">
@@ -69,7 +68,7 @@
                </children>
             </VBox>
             <Region prefHeight="487.0" prefWidth="152.0" />
-            <VBox spacing="60.0">
+            <VBox alignment="TOP_CENTER" spacing="60.0">
                <children>
                   <Text strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text_CPUTitle" text="CPU Furnace">
                      <font>
@@ -92,17 +91,17 @@
                         <Font size="62.0" />
                      </font>
                      <VBox.margin>
-                        <Insets left="50.0" top="10.0" />
+                        <Insets left="55.0" top="10.0" />
                      </VBox.margin>
                   </Text>
-                  <HBox>
+                  <HBox alignment="CENTER">
                      <children>
                         <ImageView fitHeight="46.0" fitWidth="45.0" pickOnBounds="true" preserveRatio="true">
                            <image>
                               <Image url="@../images/createAccount.jpg" />
                            </image>
                            <HBox.margin>
-                              <Insets left="70.0" />
+                              <Insets />
                            </HBox.margin>
                         </ImageView>
                         <Button mnemonicParsing="false" styleClass="text_white" text="Create Account">
