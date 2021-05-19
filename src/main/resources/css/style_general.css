@@ -183,3 +183,34 @@
     -fx-font-family: "Franklin Gothic Book";
     -fx-font-size: 25px;
 }
+
+.text_Login {
+    -fx-font-family: "Franklin Gothic Book";
+    -fx-font-weight: bolder;
+    -fx-fill: bloo;
+    -fx-font-size: 40px;
+}
+
+.text_CPUTitle {
+    -fx-font-family: "Franklin Gothic Book";
+    -fx-font-weight: bolder;
+    -fx-fill: linear-gradient(#FFFF33 0%, #FF8C00 25%, #DC143C 75%, #8B0000 100%);
+    -fx-font-size: 40px;
+}
+
+.text_dontHaveAccount {
+    -fx-font-family: "Franklin Gothic Book";
+    -fx-font-weight: bolder;
+    -fx-fill: white;
+    -fx-font-size: 30px;
+}
+
+.label {
+    -fx-background-insets: 0;
+    -fx-background-color: gray-background-4, gray-background-4, gray-background-4, gray-background-4;
+    -fx-opacity: 1;
+
+    -fx-text-fill: white;
+    -fx-font-family: "Franklin Gothic Book";
+    -fx-font-size: 20px;
+}
