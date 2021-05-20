@@ -218,3 +218,7 @@
     -fx-font-family: "Franklin Gothic Book";
     -fx-font-size: 20px;
 }
+
+.notification-bar > .pane {
+    -fx-background-color: grey-background-4 !important;
+}

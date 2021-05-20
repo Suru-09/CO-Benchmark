@@ -4,6 +4,7 @@ import javafx.fxml.FXML;
 import javafx.scene.control.Label;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
+import service.CustomNotification;
 import service.login.LoginService;
 
 
@@ -21,7 +22,13 @@ public class LoginController {
         String username = usernameTextField.getText();
         String password = passwordPasswordField.getText();
 
-        loginService.signIn(username, password);
+        if ( loginService.signIn(username, password) == -1) {
+            CustomNotification notification = new CustomNotification(
+              "Error",
+              "User already exists",
+              CustomNotification.Type.ERROR
+            );
+        }
     }
 
     public void createAccountClick() {
