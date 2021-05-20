@@ -38,14 +38,17 @@ public class LoginController {
             );
         }
 
-        userRepository = UserRepository.getInstance();
-        for(User u: userRepository.getAll()) {
-            if(username.equals(u.getUsername())
-               && password.equals(u.getPassword()) ) {
-                userRepository.setCurrentUser(u);
-                break;
-            }
+        FXMLLoader loader = SceneManager.getInstance().getFXML(SceneManager.States.HOME);
+        try {
+            HomeController controller = loader.getController();
+            controller.setUsername(username);
         }
+        catch (Exception e) {
+           e.printStackTrace();
+        }
+
+        SceneManager.getInstance().switchScene(SceneManager.States.HOME);
+
     }
 
     public void createAccountClick() {

@@ -4,7 +4,7 @@ import controller.SceneManager;
 import repository.UserRepository;
 
 public class LoginService {
-    private final UserRepository userRepo = UserRepository.getInstance();
+    private final UserRepository userRepo = new UserRepository();
 
     public LoginService(){}
 
@@ -12,8 +12,6 @@ public class LoginService {
         if ( !userRepo.userExists(username, password) ){
             return -1;
         }
-
-        SceneManager.getInstance().switchScene(SceneManager.States.HOME);
 
         return 0;
     }

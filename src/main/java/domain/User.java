@@ -76,4 +76,14 @@ public class User extends BaseEntity<Long>{
         return Objects.equals(username, user.username);
     }
 
+    @Override
+    public String toString() {
+        return "User{" +
+                "username='" + username + '\'' +
+                ", password='" + password + '\'' +
+                ", configuration=" + configuration +
+                ", tests=" + tests +
+                ", score=" + score +
+                '}';
+    }
 }

@@ -6,7 +6,7 @@ import domain.User;
 import repository.UserRepository;
 
 public class RegisterService {
-    private final UserRepository userRepo = UserRepository.getInstance();
+    private final UserRepository userRepo = new UserRepository();
 
     public RegisterService(){}
 

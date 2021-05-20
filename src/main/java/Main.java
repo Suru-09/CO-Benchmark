@@ -1,6 +1,7 @@
 import controller.SceneManager;
 import javafx.application.Application;
 import javafx.stage.Stage;
+import repository.UserRepository;
 
 public class Main extends Application {
     private Stage stage;

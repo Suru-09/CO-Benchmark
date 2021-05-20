@@ -15,32 +15,12 @@ import java.util.List;
 public class UserRepository extends AbstractRepository<Long, User>{
     private final String PATH = "src/main/resources/databases/user_database.json";
 
-    private static UserRepository instance = null;
-    private User currentUser;
-
     private final IDGenerator idGenerator;
 
 
     public UserRepository(){
         loadData();
         idGenerator = new IDGenerator(super.getLastID());
-    }
-
-    public static UserRepository getInstance(){
-        if ( instance == null ){
-            instance = new UserRepository();
-        }
-        return instance;
-    }
-
-
-    public User getCurrentUser() {
-        return currentUser;
-    }
-
-
-    public void setCurrentUser(User currentUser) {
-        this.currentUser = currentUser;
     }
 
     public void add(User user) throws CustomException{
@@ -89,6 +69,15 @@ public class UserRepository extends AbstractRepository<Long, User>{
             }
         }
         return false;
+    }
+
+    public User getUserAfterUsername(String username){
+        for (User user : super.getAll()){
+            if ( user.getUsername().equals(username) ){
+                return user;
+            }
+        }
+        return null;
     }
 
     public void updateRepository(){

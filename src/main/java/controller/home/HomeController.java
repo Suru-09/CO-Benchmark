@@ -7,11 +7,16 @@ import javafx.fxml.Initializable;
 import javafx.scene.chart.BarChart;
 import javafx.scene.control.ChoiceBox;
 import javafx.scene.control.ListView;
+import repository.UserRepository;
+import service.home.HomeService;
 
 import java.net.URL;
 import java.util.ResourceBundle;
 
 public class HomeController implements Initializable {
+
+    UserRepository userRepository = new UserRepository();
+    HomeService homeService;
 
     @FXML
     public ChoiceBox<String> algorithmChoiceBox;
@@ -22,7 +27,7 @@ public class HomeController implements Initializable {
     public BarChart<Integer, Double> dtbStatisticsBarChart;
 
     public void startBenchmarkClick() {
-
+        System.out.println(homeService.getUser());
     }
 
     public void seeStatisticsClick() {
@@ -70,5 +75,10 @@ public class HomeController implements Initializable {
         setAlgorithmChoiceBox();
         setInputSizeChoiceBox();
         setThreadChoiceBox();
+    }
+
+    public void setUsername(String username) {
+        System.out.println(userRepository.getUserAfterUsername(username));
+        homeService = new HomeService(userRepository.getUserAfterUsername(username));
     }
 }
