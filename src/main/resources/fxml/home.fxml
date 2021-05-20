@@ -1,15 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.geometry.*?>
+<?import javafx.geometry.Insets?>
 <?import javafx.scene.chart.BarChart?>
 <?import javafx.scene.chart.CategoryAxis?>
 <?import javafx.scene.chart.NumberAxis?>
-<?import javafx.scene.control.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.ListView?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
-<?import javafx.scene.layout.*?>
-<?import javafx.scene.text.*?>
-<AnchorPane fx:controller="controller.home.HomeController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1080.0" styleClass="root_darkest" stylesheets="@../css/style_general.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1080.0" styleClass="root_darkest" stylesheets="@../css/style_general.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.home.HomeController">
    <children>
       <VBox alignment="TOP_CENTER" layoutX="745.0" layoutY="-1.0" prefHeight="263.0" prefWidth="244.0" spacing="60.0">
          <children>
@@ -39,22 +45,22 @@
             </HBox>
          </children>
       </VBox>
-      <VBox layoutX="78.0" layoutY="125.0" spacing="30.0">
+      <VBox layoutX="78.0" layoutY="125.0" prefHeight="498.0" prefWidth="239.0" spacing="30.0">
          <children>
             <Text strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text_white" text="Algorithm" />
-            <ChoiceBox fx:id="algorithmChoiceBox" prefHeight="46.0" prefWidth="220.0">
+            <ChoiceBox id="choiceBox" fx:id="algorithmChoiceBox" prefHeight="46.0" prefWidth="251.0">
                <VBox.margin>
                   <Insets top="-20.0" />
                </VBox.margin>
             </ChoiceBox>
             <Text strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text_white" text="Input size" />
-            <ChoiceBox fx:id="inputSizeChoiceBox" prefWidth="220.0">
+            <ChoiceBox fx:id="inputSizeChoiceBox" prefHeight="46.0" prefWidth="246.0">
                <VBox.margin>
                   <Insets top="-20.0" />
                </VBox.margin>
             </ChoiceBox>
             <Text strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text_white" text="Thread numbers" />
-            <ChoiceBox fx:id="threadChoiceBox" prefWidth="220.0">
+            <ChoiceBox fx:id="threadChoiceBox" prefHeight="46.0" prefWidth="242.0">
                <VBox.margin>
                   <Insets top="-20.0" />
                </VBox.margin>

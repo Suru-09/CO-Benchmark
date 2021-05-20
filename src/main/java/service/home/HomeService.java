@@ -9,7 +9,7 @@ import domain.User;
 import repository.TestRepository;
 import repository.UserRepository;
 
-public class HomeService {
+public class HomeService{
     private TestRepository testRepo = TestRepository.getInstance();
     private UserRepository userRepo = UserRepository.getInstance();
     private User currentUser;
@@ -48,6 +48,7 @@ public class HomeService {
             ex.printStackTrace();
         }
     }
+
 }
 
 class Oof {
@@ -57,7 +58,7 @@ class Oof {
 
         try {
             repo.setCurrentUser(repo.findById(0L));
-            hs.runTestbench(Test.Algorithm.GAUSS_LEGENDRE, 10000, 1);
+            hs.runTestbench(Test.Algorithm.GAUSS_LEGENDRE, 1000000, 1);
         }
         catch (Exception ignored){ }
     }
