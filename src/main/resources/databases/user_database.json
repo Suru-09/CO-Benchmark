@@ -6,7 +6,21 @@
       "cpu": "AMD Ryzen 7 2700",
       "ram": "16 GB"
     },
-    "score": 0.0,
+    "scoreSpigot": 0.2727334739199507,
+    "scoreMonteCarlo": 0.00974048121142681,
+    "scoreGaussLegendre": 0.06818336847998767,
     "id": 1
+  },
+  {
+    "username": "Dragos",
+    "password": "Cox123",
+    "configuration": {
+      "cpu": "Intel I7-6700K",
+      "ram": "16 GB"
+    },
+    "scoreSpigot": 0.431873297422939,
+    "scoreMonteCarlo": 0.07197888290382316,
+    "scoreGaussLegendre": 0.0,
+    "id": 2
   }
 ]

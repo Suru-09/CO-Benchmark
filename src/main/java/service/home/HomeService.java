@@ -31,6 +31,7 @@ public class HomeService{
         for (User user : userRepo.getAll()){
             user.setTests(testRepo.getTestsForUser(user.getId()));
         }
+        userRepo.updateRepository();
     }
 
     public List<Long> runTestbench(Test.Algorithm algorithm, int size, int threads, Long userID){

@@ -84,7 +84,6 @@ public class HomeController implements Initializable {
 
         for (Test test : tests){
             testTableView.getItems().add(test);
-
         }
 
         testTableView.refresh();
@@ -94,15 +93,26 @@ public class HomeController implements Initializable {
         statisticsBarChart.getData().clear();
 
         ArrayList<User> users = homeService.getUsers();
-        XYChart.Series<String, Double> series = new XYChart.Series<>();
+        XYChart.Series<String, Double> spigotSeries = new XYChart.Series<>();
+        spigotSeries.setName("SPIGOT");
+        XYChart.Series<String, Double> gaussSeries = new XYChart.Series<>();
+        gaussSeries.setName("GAUSS LEGENDRE");
+        XYChart.Series<String, Double> carloSeries = new XYChart.Series<>();
+        carloSeries.setName("MONTE CARLO");
 
         for (User user : users){
             if ( !user.getTests().isEmpty() ){
-                series.getData().add(new XYChart.Data<>(user.getUsername() + " - " + user.getConfiguration().getCpu(), user.getScore()) );
+                String configText = user.getUsername() + " - " + user.getConfiguration().getCpu();
+
+                spigotSeries.getData().add(new XYChart.Data<>(configText, user.getScoreSpigot()) );
+                gaussSeries.getData().add(new XYChart.Data<>(configText, user.getScoreGaussLegendre()) );
+                carloSeries.getData().add(new XYChart.Data<>(configText, user.getScoreMonteCarlo()) );
             }
         }
 
-        statisticsBarChart.getData().add(series);
+        statisticsBarChart.getData().add(spigotSeries);
+        statisticsBarChart.getData().add(gaussSeries);
+        statisticsBarChart.getData().add(carloSeries);
     }
 
     public void startBenchmark() {
@@ -110,7 +120,7 @@ public class HomeController implements Initializable {
         int inputSize = getInputSize();
         int threads = getThreadsChoiceBox();
 
-        List<Long> testTimes = homeService.runTestbench(Test.Algorithm.fromString(algorithm), inputSize/100, threads, RepoManager.getInstance().getCurrentUser().getId());
+        List<Long> testTimes = homeService.runTestbench(Test.Algorithm.fromString(algorithm), inputSize, threads, RepoManager.getInstance().getCurrentUser().getId());
         homeService.addTests(testTimes, Test.Algorithm.fromString(algorithm), inputSize, threads, RepoManager.getInstance().getCurrentUser().getId());
 
         populateTestTableView();
@@ -133,8 +143,9 @@ public class HomeController implements Initializable {
 
     public void setInputSizeChoiceBox() {
         ObservableList<String> sizes = FXCollections.observableArrayList(
-                "1000000", "2500000", "5000000", "7500000"
-                , "10000000", "25000000", "50000000", "75000000");
+                "10000", "25000", "50000", "75000"
+                , "100000", "125000", "150000", "175000"
+                , "200000", "225000", "250000");
 
         inputSizeChoiceBox.getItems().addAll(sizes);
         inputSizeChoiceBox.getSelectionModel().selectFirst();

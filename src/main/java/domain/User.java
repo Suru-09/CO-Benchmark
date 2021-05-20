@@ -14,12 +14,20 @@ public class User extends BaseEntity<Long>{
     @Exclude
     private List<Test> tests = new ArrayList<>();
 
-    private double score = 0;
+    @Exclude
+    private double scoreSpigot;
+    @Exclude
+    private double scoreMonteCarlo;
+    @Exclude
+    private double scoreGaussLegendre;
 
     public User(String username, String password, Configuration configuration) {
         this.username = username;
         this.password = password;
         this.configuration = configuration;
+        this.scoreSpigot = 0;
+        this.scoreMonteCarlo = 0;
+        this.scoreGaussLegendre = 0;
     }
 
     // Getters & Setters
@@ -56,20 +64,45 @@ public class User extends BaseEntity<Long>{
         calculateScore();
     }
 
-    public double getScore() {
-        return score;
+    public double getScoreSpigot() {
+        return scoreSpigot;
     }
 
-    public void setScore(double score) {
-        this.score = score;
+    public double getScoreMonteCarlo() {
+        return scoreMonteCarlo;
     }
 
+    public double getScoreGaussLegendre() {
+        return scoreGaussLegendre;
+    }
 
     private void calculateScore(){
-        for (Test test : tests){
-            score += test.getScore();
+        if ( tests.isEmpty() ){
+            return;
         }
-        score /= tests.size();
+        int spigotTestSize = 0;
+        int carloTestSize = 0;
+        int gaussTestSize = 0;
+        for (Test test : tests){
+            switch (test.getAlgorithm()){
+                case SPIGOT -> {
+                    scoreSpigot += test.getScore();
+                    spigotTestSize++;
+
+                }
+                case MONTE_CARLO -> {
+                    scoreMonteCarlo += test.getScore();
+                    carloTestSize++;
+                }
+                case GAUSS_LEGENDRE -> {
+                    scoreGaussLegendre += test.getScore();
+                    gaussTestSize++;
+                }
+            }
+        }
+        scoreSpigot = ( spigotTestSize != 0 ) ? scoreSpigot/spigotTestSize : 0;
+        scoreMonteCarlo = ( carloTestSize != 0 ) ? scoreSpigot/carloTestSize : 0;
+        scoreGaussLegendre = ( gaussTestSize != 0 ) ? scoreSpigot/gaussTestSize : 0;
     }
 
     public void addTest(Test test){
@@ -91,7 +124,9 @@ public class User extends BaseEntity<Long>{
                 ", password='" + password + '\'' +
                 ", configuration=" + configuration +
                 ", tests=" + tests +
-                ", score=" + score +
+                ", scoreSpigot=" + scoreSpigot +
+                ", scoreMonteCarlo=" + scoreMonteCarlo +
+                ", scoreGaussLegendre=" + scoreGaussLegendre +
                 '}';
     }
 }
