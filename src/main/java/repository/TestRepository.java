@@ -20,7 +20,7 @@ public class TestRepository extends AbstractRepository<Long, Test>{
     public TestRepository(){
         loadData();
 
-        idGenerator = new IDGenerator(super.getLastID());
+        idGenerator = new IDGenerator((long) (super.elems.size()+1));
     }
 
     public void add(Test test) throws CustomException {

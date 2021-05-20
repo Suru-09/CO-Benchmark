@@ -2,7 +2,7 @@ package benchmark.testbench;
 
 public class MultiThreading<T> extends Thread {
     private int size, threads;
-    private TestAlgoritm test;
+    private T test;
     private long time;
 
     public void setTime(long time) {
@@ -13,7 +13,7 @@ public class MultiThreading<T> extends Thread {
         return time;
     }
 
-    public MultiThreading(TestAlgoritm test) {
+    public MultiThreading(T test) {
         this.test = test;
     }
 

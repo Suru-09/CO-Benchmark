@@ -104,13 +104,11 @@ public class Test extends BaseEntity<Long> {
 
     @Override
     public String toString() {
-        return "Test{" +
-                "algorithm=" + algorithm +
-                ", size=" + size +
-                ", threads=" + threads +
-                ", time=" + time +
-                ", score=" + score +
-                ", userID=" + userID +
-                '}';
+        return  "ID = " + userID + " " +
+                algorithm + " " +
+                size + " " +
+                threads + " " +
+                (int) time + " " +
+                (int) score + " ";
     }
 }

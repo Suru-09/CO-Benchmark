@@ -61,6 +61,7 @@ public abstract class AbstractRepository<ID, T extends BaseEntity<ID>> implement
         }
 
         Object[] arr = elems.keySet().toArray();
+
         return (ID)arr[elems.size()-1];
     }
 
