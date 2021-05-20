@@ -1,11 +1,7 @@
 package domain;
 
-import com.google.gson.annotations.Expose;
-
 public class Configuration {
-    @Expose
     private String cpu;
-    @Expose
     private String ram;
 
     public Configuration(String cpu, String ram) {

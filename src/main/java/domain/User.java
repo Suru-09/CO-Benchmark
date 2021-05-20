@@ -1,21 +1,19 @@
 package domain;
 
-import com.google.gson.annotations.Expose;
+import domain.strategy.Exclude;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 
 public class User extends BaseEntity<Long>{
-    @Expose
     private String username;
-    @Expose
     private String password;
-    @Expose
     private Configuration configuration;
 
+    @Exclude
     private List<Test> tests = new ArrayList<>();
 
-    @Expose
     private double score;
 
     public User(String username, String password, Configuration configuration) {
@@ -69,4 +67,13 @@ public class User extends BaseEntity<Long>{
     public void addTest(Test test){
         tests.add(test);
     }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        User user = (User) o;
+        return Objects.equals(username, user.username);
+    }
+
 }

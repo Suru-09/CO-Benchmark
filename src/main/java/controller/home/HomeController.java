@@ -1,18 +1,25 @@
 package controller.home;
 
 import javafx.fxml.FXML;
-import javafx.scene.control.PasswordField;
-import javafx.scene.control.TextField;
+import javafx.scene.chart.BarChart;
+import javafx.scene.control.ChoiceBox;
+import javafx.scene.control.ListView;
 
 public class HomeController {
 
     @FXML
-    private TextField usernameTextField;
-    private PasswordField passwordPasswordField;
-    private TextField cpuTextField;
-    private TextField ramTextField;
+    public ChoiceBox<String> algorithmChoiceBox;
+    public ChoiceBox<String> inputSizeChoiceBox;
+    public ChoiceBox<String> threadChoiceBox;
 
-    public void signUpClick() {
+    public ListView<String> threadResultsListView;
+    public BarChart<Integer, Double> dtbStatisticsBarChart;
+
+    public void startBenchmarkClick() {
+
+    }
+
+    public void seeStatisticsClick() {
 
     }
 

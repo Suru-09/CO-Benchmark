@@ -1,25 +1,53 @@
 package controller.register;
 
 import javafx.fxml.FXML;
-import javafx.scene.chart.BarChart;
-import javafx.scene.control.ChoiceBox;
-import javafx.scene.control.ListView;
+import javafx.scene.control.Label;
+import javafx.scene.control.PasswordField;
+import javafx.scene.control.TextField;
+import service.register.RegisterService;
 
 public class RegisterController {
+    RegisterService registerService = new RegisterService();
 
     @FXML
-    private ChoiceBox<String> algorithmChoiceBox;
-    private ChoiceBox<String> inputSizeChoiceBox;
-    private ChoiceBox<String> threadChoiceBox;
+    public TextField usernameTextField;
+    public PasswordField passwordPasswordField;
+    public TextField cpuTextField;
+    public TextField ramTextField;
 
-    private ListView<String> threadResultsListView;
-    private BarChart<Integer, Double> dtbStatisticsBarChart;
+    public Label usernameErrLabel;
+    public Label passwordErrLabel;
 
-    private void startBenchmarkClick() {
+    public void signUpClick() {
+        String username = usernameTextField.getText();
+        String password = passwordPasswordField.getText();
+        String cpu = cpuTextField.getText();
+        String ram = ramTextField.getText();
 
-    }
+        int state = registerService.signUp(username, password, cpu, ram);
 
-    private void seeStatisticsClick() {
+        switch (state){
+            case -1 -> {
+                System.out.println("User already exists!");
+                usernameErrLabel.setVisible(false);
+                passwordErrLabel.setVisible(false);
+            }
+            case 1 -> {
+                System.out.println("Invalid username!");
+                usernameErrLabel.setVisible(true);
+                passwordErrLabel.setVisible(false);
+            }
+            case 2 -> {
+                System.out.println("Invalid password!");
+                usernameErrLabel.setVisible(false);
+                passwordErrLabel.setVisible(true);
+            }
+            case 3 -> {
+                System.out.println("Invalid username and password!");
+                usernameErrLabel.setVisible(true);
+                passwordErrLabel.setVisible(true);
+            }
+        }
 
     }
 

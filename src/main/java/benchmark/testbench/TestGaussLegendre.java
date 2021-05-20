@@ -2,42 +2,30 @@ package benchmark.testbench;
 
 import benchmark.bench.IBenchmark;
 import benchmark.bench.cpu.GaussLegendre;
-import benchmark.logging.ConsoleLogger;
-import benchmark.logging.ILog;
 import benchmark.logging.TimeUnit;
 import benchmark.timing.ITimer;
 import benchmark.timing.Timer;
 
-public class TestGaussLegendre {
-
+public class TestGaussLegendre extends TestAlgoritm {
     private IBenchmark bench = new GaussLegendre();
-    private ILog log = new ConsoleLogger();
 
-    public ILog getLogger() {
-        return log;
+    public TestGaussLegendre(int size) {
+        ITimer timer = new Timer();
+
+        bench.initialize(size);
+        bench.warmUp();
+
+        timer.start();
+
+        bench.run();
+
+        long time = timer.stop();
+        super.setTime(TimeUnit.toTimeUnit(time, TimeUnit.Milli));
+
+        bench.clean();
     }
 
     public IBenchmark getBench() {
         return (GaussLegendre)bench;
     }
-
-    public TestGaussLegendre() {
-        ITimer timer = new Timer();
-
-        int N = 1000000;
-
-        bench.initialize(N);
-        bench.warmUp();
-
-        timer.resume();
-        bench.run();
-        long time = timer.pause();
-
-        log.write(GaussLegendre.PI);
-        long total_time = timer.stop();
-
-        log.close();
-        bench.clean();
-    }
-
 }

@@ -11,7 +11,7 @@ repositories {
     mavenCentral()
 }
 
-mainClassName = 'JarMain'
+mainClassName = 'Main'
 
 jar {
     from {
@@ -44,6 +44,6 @@ test {
 sourceCompatibility = 15
 
 javafx {
-    version = "15"
+    version = "16"
     modules = [ 'javafx.controls', 'javafx.fxml', 'javafx.graphics', 'javafx.base' ]
 }

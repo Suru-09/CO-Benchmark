@@ -1,39 +1,26 @@
 package benchmark.testbench;
 
+import benchmark.bench.IBenchmark;
 import benchmark.bench.cpu.MonteCarlo;
-import benchmark.bench.cpu.SpigotAlgorithm;
-import benchmark.logging.ConsoleLogger;
-import benchmark.logging.ILog;
 import benchmark.logging.TimeUnit;
 import benchmark.timing.ITimer;
 import benchmark.timing.Timer;
-import benchmark.bench.IBenchmark;
 
-class Multithreading1 extends Thread {
-    public void run() {
-        TestMonteCarlo test = new TestMonteCarlo ();
-        MonteCarlo bench = test.getBench();
-        bench.run(1);
-    }
-}
+//class Multithreading1 extends Thread {
+//    public void run() {
+//        TestMonteCarlo test = new TestMonteCarlo ();
+//        MonteCarlo bench = test.getBench();
+//        bench.run(1);
+//    }
+//}
 
-public class TestMonteCarlo {
+public class TestMonteCarlo extends TestAlgoritm {
     private final IBenchmark bench = new MonteCarlo();
-    private final ILog log = new ConsoleLogger();
 
-    public ILog getLogger() {
-        return log;
-    }
-
-    public MonteCarlo getBench() {
-        return (MonteCarlo)bench;
-    }
-
-    public void TestBench() {
+    public TestMonteCarlo(int size) {
         ITimer timer = new Timer();
-        TimeUnit timeUnit = TimeUnit.Milli;
 
-        bench.initialize(10000000);
+        bench.initialize(size);
         bench.warmUp();
 
         timer.start();
@@ -41,10 +28,12 @@ public class TestMonteCarlo {
         bench.run(1);
 
         long time = timer.stop();
-        log.writeTime("Finished in", time, timeUnit);
-        log.write("Result is", bench.getResult());
+        super.setTime( TimeUnit.toTimeUnit(time, TimeUnit.Milli) );
 
         bench.clean();
-        log.close();
+    }
+
+    public MonteCarlo getBench() {
+        return (MonteCarlo) bench;
     }
 }

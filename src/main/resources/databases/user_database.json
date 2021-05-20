@@ -1,35 +1,22 @@
 [
   {
-    "username": "gion",
-    "password": "pass",
+    "username": "admin",
+    "password": "admin",
     "configuration": {
-      "cpu": "i7",
-      "ram": "16 gb"
+      "cpu": "nope",
+      "ram": "none"
     },
     "score": 0.0,
-    "id": 4432
+    "id": 0
   },
   {
-    "username": "bob",
-    "password": "pass",
+    "username": "Coxxx",
+    "password": "Cox123",
     "configuration": {
-      "cpu": "i7",
-      "ram": "16 gb"
+      "cpu": "",
+      "ram": ""
     },
     "score": 0.0,
-    "id": 432532
-<<<<<<< Updated upstream
-=======
-  },
-  {
-    "username": "gion",
-    "password": "pass",
-    "configuration": {
-      "cpu": "i7",
-      "ram": "16 gb"
-    },
-    "score": 0.0,
-    "id": 4332
->>>>>>> Stashed changes
+    "id": 1
   }
 ]

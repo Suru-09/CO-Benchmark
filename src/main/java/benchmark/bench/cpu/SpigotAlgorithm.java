@@ -3,7 +3,6 @@ package benchmark.bench.cpu;
 import benchmark.bench.IBenchmark;
 
 import java.util.Arrays;
-import java.util.concurrent.ThreadLocalRandom;
 
 public class SpigotAlgorithm implements IBenchmark {
     private int digitsRequested;

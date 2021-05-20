@@ -1,10 +1,20 @@
 [
   {
-    "size": 20,
-    "threads": 4,
-    "time": 50.0,
-    "score": 400.0,
-    "userID": 2353,
-    "id": 534
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 10000,
+    "threads": 1,
+    "time": 320.9539,
+    "score": 31157.122564954032,
+    "userID": 0,
+    "id": 1
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 10000,
+    "threads": 1,
+    "time": 325.8663,
+    "score": 30687.432238313686,
+    "userID": 0,
+    "id": 2
   }
 ]

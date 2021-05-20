@@ -1,8 +1,5 @@
 package domain;
 
-import com.google.gson.annotations.Expose;
-import service.home.HomeService;
-
 public class Test extends BaseEntity<Long> {
     private Algorithm algorithm;
 
@@ -24,6 +21,14 @@ public class Test extends BaseEntity<Long> {
         this.size = size;
         this.threads = threads;
         this.userID = userID;
+    }
+
+    public Algorithm getAlgorithm() {
+        return algorithm;
+    }
+
+    public void setAlgorithm(Algorithm algorithm) {
+        this.algorithm = algorithm;
     }
 
     public int getSize() {
@@ -74,10 +79,10 @@ public class Test extends BaseEntity<Long> {
                 this.score = size/time * 1000;
             }
             case GAUSS_LEGENDRE -> {
-
+                this.score = size/time * 1000;
             }
             case MONTE_CARLO -> {
-
+                this.score = size/time * 1000;
             }
         }
     }
