@@ -3,8 +3,8 @@
     "algorithm": "SPIGOT",
     "size": 1000000,
     "threads": 2,
-    "time": 3.0968012E9,
-    "score": 0.3229138505887946,
+    "time": 3.1004868E9,
+    "score": 0.3225299975474819,
     "userID": 1,
     "id": 2
   },
@@ -12,8 +12,8 @@
     "algorithm": "SPIGOT",
     "size": 1000000,
     "threads": 2,
-    "time": 3.093366701E9,
-    "score": 0.32327237494239774,
+    "time": 3.1012063E9,
+    "score": 0.32245516849362776,
     "userID": 1,
     "id": 3
   },
@@ -21,8 +21,8 @@
     "algorithm": "SPIGOT",
     "size": 1000000,
     "threads": 2,
-    "time": 3.2317596E9,
-    "score": 0.3094289562874664,
+    "time": 3.0535714E9,
+    "score": 0.3274853831811498,
     "userID": 1,
     "id": 4
   },
@@ -30,8 +30,8 @@
     "algorithm": "SPIGOT",
     "size": 1000000,
     "threads": 2,
-    "time": 3.2287519E9,
-    "score": 0.30971720063099306,
+    "time": 3.0554657E9,
+    "score": 0.32728235175410414,
     "userID": 1,
     "id": 5
   },
@@ -39,8 +39,8 @@
     "algorithm": "SPIGOT",
     "size": 1000000,
     "threads": 2,
-    "time": 3.108299199E9,
-    "score": 0.321719350673101,
+    "time": 3.1348601E9,
+    "score": 0.31899350149628686,
     "userID": 1,
     "id": 6
   },
@@ -48,99 +48,45 @@
     "algorithm": "SPIGOT",
     "size": 1000000,
     "threads": 2,
-    "time": 3.1088877E9,
-    "score": 0.32165845038403923,
+    "time": 3.1332166E9,
+    "score": 0.31916082660866796,
     "userID": 1,
     "id": 7
   },
   {
     "algorithm": "SPIGOT",
     "size": 1000000,
-    "threads": 2,
-    "time": 3.1098595E9,
-    "score": 0.32155793533437765,
+    "threads": 4,
+    "time": 3.1570532E9,
+    "score": 0.31675107660523427,
     "userID": 1,
     "id": 8
   },
   {
     "algorithm": "SPIGOT",
     "size": 1000000,
-    "threads": 2,
-    "time": 3.1138434E9,
-    "score": 0.3211465290772169,
+    "threads": 4,
+    "time": 3.1510968E9,
+    "score": 0.3173498192756249,
     "userID": 1,
     "id": 9
   },
   {
     "algorithm": "SPIGOT",
     "size": 1000000,
-    "threads": 2,
-    "time": 2.9519941E9,
-    "score": 0.3387540645829881,
+    "threads": 4,
+    "time": 3.1626297E9,
+    "score": 0.31619256595231493,
     "userID": 1,
     "id": 10
   },
   {
     "algorithm": "SPIGOT",
     "size": 1000000,
-    "threads": 2,
-    "time": 2.9465096E9,
-    "score": 0.3393846061115837,
+    "threads": 4,
+    "time": 3.1593867E9,
+    "score": 0.31651712656763414,
     "userID": 1,
     "id": 11
-  },
-  {
-    "algorithm": "SPIGOT",
-    "size": 1000000,
-    "threads": 2,
-    "time": 2.9736012E9,
-    "score": 0.33629257346277636,
-    "userID": 1,
-    "id": 12
-  },
-  {
-    "algorithm": "SPIGOT",
-    "size": 1000000,
-    "threads": 2,
-    "time": 2.9711822E9,
-    "score": 0.3365663674210218,
-    "userID": 1,
-    "id": 13
-  },
-  {
-    "algorithm": "SPIGOT",
-    "size": 1000000,
-    "threads": 2,
-    "time": 2.9688913E9,
-    "score": 0.33682607376026197,
-    "userID": 1,
-    "id": 14
-  },
-  {
-    "algorithm": "SPIGOT",
-    "size": 1000000,
-    "threads": 2,
-    "time": 2.9700948E9,
-    "score": 0.3366895898407014,
-    "userID": 1,
-    "id": 15
-  },
-  {
-    "algorithm": "SPIGOT",
-    "size": 1000000,
-    "threads": 2,
-    "time": 3.1907362E9,
-    "score": 0.3134072945297076,
-    "userID": 1,
-    "id": 16
-  },
-  {
-    "algorithm": "SPIGOT",
-    "size": 1000000,
-    "threads": 2,
-    "time": 3.1951237E9,
-    "score": 0.3129769279355287,
-    "userID": 1,
-    "id": 17
   }
 ]

@@ -108,7 +108,7 @@ public class Test extends BaseEntity<Long> {
                 algorithm + " " +
                 size + " " +
                 threads + " " +
-                (int) time + " " +
-                (int) score + " ";
+                time + " " +
+                score + " ";
     }
 }

@@ -9,6 +9,7 @@ import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.chart.BarChart;
 import javafx.scene.control.ChoiceBox;
+import javafx.scene.control.ListView;
 import javafx.scene.control.TreeTableColumn;
 import javafx.scene.control.TreeTableView;
 import javafx.util.Callback;
@@ -30,7 +31,7 @@ public class HomeController implements Initializable {
     public ChoiceBox<String> inputSizeChoiceBox;
     public ChoiceBox<String> threadChoiceBox;
 
-    public TreeTableView<TestPropertyWrapper> threadResultsTableView;
+    public ListView<Test> threadResultsListView;
     public BarChart<Integer, Double> dtbStatisticsBarChart;
 
     public void startBenchmarkClick() {
@@ -41,65 +42,15 @@ public class HomeController implements Initializable {
         homeService.addTests(homeService.runTestbench(Test.Algorithm.fromString(algorithm), inputSize/100, threads),
                 Test.Algorithm.fromString(algorithm), inputSize, threads);
 
-        ObservableList<TestPropertyWrapper> listTests = FXCollections.observableArrayList();
+        ObservableList<Test> listTests = FXCollections.observableArrayList();
+
+        listTests.addAll(testRepository.getTestsForUser(homeService.getUser().getId()));
+
+        threadResultsListView.getItems().addAll(listTests);
 
         System.out.println(listTests);
 
-        TreeTableColumn<TestPropertyWrapper, String> idCol = new TreeTableColumn<>("User ID");
 
-        idCol.setCellValueFactory(new Callback<TreeTableColumn.CellDataFeatures<TestPropertyWrapper, String>, ObservableValue<String>>() {
-          @Override
-          public ObservableValue<String> call(TreeTableColumn.CellDataFeatures<TestPropertyWrapper, String> param) {
-              return param.getValue().getValue().userID;
-          }
-      });
-
-        TreeTableColumn <TestPropertyWrapper, String> algCol = new TreeTableColumn<>("Algorithm");
-
-        algCol.setCellValueFactory(new Callback<TreeTableColumn.CellDataFeatures<TestPropertyWrapper, String>, ObservableValue<String>>() {
-            @Override
-            public ObservableValue<String> call(TreeTableColumn.CellDataFeatures<TestPropertyWrapper, String> param) {
-                return param.getValue().getValue().algorithm;
-            }
-        });
-
-        TreeTableColumn<TestPropertyWrapper, String> scoreCol = new TreeTableColumn<>("Score");
-
-        scoreCol.setCellValueFactory(new Callback<TreeTableColumn.CellDataFeatures<TestPropertyWrapper, String>, ObservableValue<String>>() {
-            @Override
-            public ObservableValue<String> call(TreeTableColumn.CellDataFeatures<TestPropertyWrapper, String> param) {
-                return param.getValue().getValue().score;
-            }
-        });
-
-        TreeTableColumn<TestPropertyWrapper, String> timeCol = new TreeTableColumn<>("Time");
-
-        timeCol.setCellValueFactory(new Callback<TreeTableColumn.CellDataFeatures<TestPropertyWrapper, String>, ObservableValue<String>>() {
-            @Override
-            public ObservableValue<String> call(TreeTableColumn.CellDataFeatures<TestPropertyWrapper, String> param) {
-                return param.getValue().getValue().time;
-            }
-        });
-
-        TreeTableColumn<TestPropertyWrapper, String> threadsCol = new TreeTableColumn<>("Threads");
-
-        threadsCol.setCellValueFactory(new Callback<TreeTableColumn.CellDataFeatures<TestPropertyWrapper, String>, ObservableValue<String>>() {
-            @Override
-            public ObservableValue<String> call(TreeTableColumn.CellDataFeatures<TestPropertyWrapper, String> param) {
-                return param.getValue().getValue().threads;
-            }
-        });
-
-        for (Test i: testRepository.getTestsForUser(homeService.getUser().getId())) {
-            TestPropertyWrapper testPropertyWrapper = new TestPropertyWrapper("" + i.getUserID(), "" +
-                    i.getAlgorithm(), "" + i.getScore(), "" + i.getSize(), "" + i.getTime(),
-                    "" + i.getThreads());
-            listTests.add(testPropertyWrapper);
-
-        }
-
-        //threadResultsTableView.getColumns().addAll(listTests);
-        threadResultsTableView.getColumns().addAll(idCol, algCol);//, scoreCol, timeCol, threadsCol);
 
     }
 
