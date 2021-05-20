@@ -53,6 +53,18 @@ public class HomeController implements Initializable {
 
     }
 
+    public String getAlgorithmChoiceBox() {
+        return algorithmChoiceBox.getSelectionModel().getSelectedItem();
+    }
+
+    public int getInputSize() {
+        return Integer.parseInt(algorithmChoiceBox.getSelectionModel().getSelectedItem());
+    }
+
+    public int getThreadsChoiceBox() {
+        return Integer.parseInt(algorithmChoiceBox.getSelectionModel().getSelectedItem());
+    }
+
     @Override
     public void initialize(URL location, ResourceBundle resources) {
         setAlgorithmChoiceBox();
