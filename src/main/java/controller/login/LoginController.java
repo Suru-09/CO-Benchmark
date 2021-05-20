@@ -18,7 +18,6 @@ import java.io.IOException;
 
 
 public class LoginController {
-    UserRepository userRepository;
     LoginService loginService = new LoginService();
 
     @FXML
@@ -29,7 +28,7 @@ public class LoginController {
         String username = usernameTextField.getText();
         String password = passwordPasswordField.getText();
 
-        if ( loginService.signIn(username, password) == -1) {
+        if ( !loginService.signIn(username, password) ) {
             CustomNotification notification = new CustomNotification(
               "Error",
               "User or password doesn't exist",
@@ -39,17 +38,9 @@ public class LoginController {
             return;
         }
 
-        FXMLLoader loader = SceneManager.getInstance().getFXML(SceneManager.States.HOME);
-        try {
-            HomeController controller = loader.getController();
-            controller.setUsername(username);
-        }
-        catch (Exception e) {
-           e.printStackTrace();
-        }
-
         usernameTextField.clear();
         passwordPasswordField.clear();
+
 
         SceneManager.getInstance().switchScene(SceneManager.States.HOME);
 

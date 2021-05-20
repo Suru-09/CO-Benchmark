@@ -14,13 +14,6 @@ public class TestMonteCarlo extends TestAlgoritm {
     private final IBenchmark bench = new MonteCarlo();
     private int size;
     private int threads;
-    private long time;
-
-    private List<Long> timeList = new ArrayList<>();
-
-    public List<Long> getTimeList() {
-        return timeList;
-    }
 
     public TestMonteCarlo(int size, int threads) {
         this.size = size;
@@ -47,7 +40,6 @@ public class TestMonteCarlo extends TestAlgoritm {
     }
 
     public void threads() {
-
         ArrayList<MultiThreading<TestMonteCarlo>> threadsArr = new ArrayList<>();
 
         for(int i = 0 ; i < threads; ++i) {
@@ -60,15 +52,11 @@ public class TestMonteCarlo extends TestAlgoritm {
         for(int i = 0 ; i < threads; ++i) {
             try {
                 threadsArr.get(i).join();
-                timeList.add(threadsArr.get(i).getTime());
+                super.addTime(threadsArr.get(i).getTime());
             }
             catch(Exception e) {
                 e.printStackTrace();
             }
         }
-    }
-
-    public MonteCarlo getBench() {
-        return (MonteCarlo) bench;
     }
 }

@@ -24,4 +24,12 @@ public class Configuration {
     public void setRam(String ram) {
         this.ram = ram;
     }
+
+    @Override
+    public String toString() {
+        return "Configuration{" +
+                "cpu='" + cpu + '\'' +
+                ", ram='" + ram + '\'' +
+                '}';
+    }
 }

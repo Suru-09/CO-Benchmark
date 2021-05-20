@@ -14,7 +14,7 @@ public class User extends BaseEntity<Long>{
     @Exclude
     private List<Test> tests = new ArrayList<>();
 
-    private double score;
+    private double score = 0;
 
     public User(String username, String password, Configuration configuration) {
         this.username = username;
@@ -53,6 +53,7 @@ public class User extends BaseEntity<Long>{
 
     public void setTests(List<Test> tests) {
         this.tests = tests;
+        calculateScore();
     }
 
     public double getScore() {
@@ -63,7 +64,14 @@ public class User extends BaseEntity<Long>{
         this.score = score;
     }
 
-    //
+
+    private void calculateScore(){
+        for (Test test : tests){
+            score += test.getScore();
+        }
+        score /= tests.size();
+    }
+
     public void addTest(Test test){
         tests.add(test);
     }

@@ -1,18 +1,26 @@
 package service.login;
 
 import controller.SceneManager;
+import controller.home.HomeController;
+import javafx.fxml.FXMLLoader;
+import repository.RepoManager;
 import repository.UserRepository;
 
 public class LoginService {
-    private final UserRepository userRepo = new UserRepository();
+    private final UserRepository userRepo = RepoManager.getInstance().getUserRepo();
 
     public LoginService(){}
 
-    public int signIn(String username, String password) {
+    public boolean signIn(String username, String password) {
         if ( !userRepo.userExists(username, password) ){
-            return -1;
+            return false;
         }
 
-        return 0;
+        RepoManager.getInstance().setCurrentUser(userRepo.getUserAfterUsername(username));
+        FXMLLoader loader = SceneManager.getInstance().getFXML(SceneManager.States.HOME);
+        HomeController controller = loader.getController();
+        controller.populateTestTableView();
+
+        return true;
     }
 }

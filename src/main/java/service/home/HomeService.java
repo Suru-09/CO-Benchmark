@@ -7,6 +7,7 @@ import benchmark.testbench.TestSpigot;
 import domain.Test;
 import domain.User;
 import domain.exception.CustomException;
+import repository.RepoManager;
 import repository.TestRepository;
 import repository.UserRepository;
 
@@ -14,18 +15,21 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class HomeService{
-    private TestRepository testRepo = new TestRepository();
-    private User currentUser;
+    private final TestRepository testRepo = RepoManager.getInstance().getTestRepo();
+    private final UserRepository userRepo = RepoManager.getInstance().getUserRepo();
 
-    public User getUser() {
-        return currentUser;
+    public ArrayList<Test> getTestsForCurrentUser(){
+        return (ArrayList<Test>) testRepo.getTestsForUser(RepoManager.getInstance().getCurrentUser().getId());
     }
 
-    public HomeService(User user){
-        currentUser = user;
+    public void doEverything(){
+        for (User user : userRepo.getAll()){
+            user.setTests(testRepo.getTestsForUser(user.getId()));
+            System.out.println(user);
+        }
     }
 
-    public List<Long> runTestbench(Test.Algorithm algorithm, int size, int threads){
+    public List<Long> runTestbench(Test.Algorithm algorithm, int size, int threads, Long userID){
         TestAlgoritm testAlgoritm;
 
         List<Long> timeList = new ArrayList<>();
@@ -34,60 +38,38 @@ public class HomeService{
             case SPIGOT -> {
                 testAlgoritm = new TestSpigot(size, threads);
                 ((TestSpigot)testAlgoritm).threads();
-                System.out.println(((TestSpigot)testAlgoritm).getTimeList());
-                return ((TestSpigot)testAlgoritm).getTimeList();
+                System.out.println(testAlgoritm.getTimeList());
+                return testAlgoritm.getTimeList();
             }
             case MONTE_CARLO -> {
                 testAlgoritm = new TestMonteCarlo(size, threads);
                 ((TestMonteCarlo)testAlgoritm).threads();
-                System.out.println(((TestMonteCarlo)testAlgoritm).getTimeList());
-                return ((TestMonteCarlo)testAlgoritm).getTimeList();
+                System.out.println(testAlgoritm.getTimeList());
+                return testAlgoritm.getTimeList();
             }
             case GAUSS_LEGENDRE -> {
                 testAlgoritm = new TestGaussLegendre(size, threads);
                 ((TestGaussLegendre)testAlgoritm).threads();
-                System.out.println(((TestGaussLegendre)testAlgoritm).getTimeList());
-                return ((TestGaussLegendre)testAlgoritm).getTimeList();
+                System.out.println(testAlgoritm.getTimeList());
+                return testAlgoritm.getTimeList();
             }
             default -> {
                 return timeList;
             }
         }
-
     }
 
-    public void addTests(List<Long> timeList, Test.Algorithm alg, int size, int threads) {
-
-        Test newTest;
-
+    public void addTests(List<Long> timeList, Test.Algorithm alg, int size, int threads, Long userID) {
         for (Long i : timeList) {
-            newTest = new Test(alg, size, threads, currentUser.getId());
-            newTest.setTime(i);
+            Test test = new Test(alg, size, threads, userID);
+            test.setTime(i);
             try {
-                testRepo.add(newTest);
+                testRepo.add(test);
             }catch (CustomException e) {
                 e.printStackTrace();
             }
         }
 
         testRepo.updateRepository();
-
-        System.out.println(testRepo.getTestsForUser(currentUser.getId()));
-    }
-}
-
-class Oof {
-    public static void main(String[] args) {
-//        HomeService hs = new HomeService();
-////        UserRepository repo = new UserRepository();
-////
-////        try {
-////            ///repo.setCurrentUser(repo.findById(0L));
-////            hs.runTestbench(Test.Algorithm.MONTE_CARLO, 100_000_0, 4);
-////        }
-////        catch (Exception ignored){
-////            ignored.printStackTrace();
-////        }
-//        System.out.println(hs.getUser());
     }
 }

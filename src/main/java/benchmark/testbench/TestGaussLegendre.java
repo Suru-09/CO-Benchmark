@@ -10,18 +10,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class TestGaussLegendre extends TestAlgoritm {
+    private final IBenchmark bench = new GaussLegendre();
 
-    private IBenchmark bench = new GaussLegendre();
-
-    private int size;
-    private int threads;
-    private long time;
-
-    private List<Long> timeList = new ArrayList<>();
-
-    public List<Long> getTimeList() {
-        return timeList;
-    }
+    private final int size;
+    private final int threads;
 
     public TestGaussLegendre(int size, int threads) {
         this.size = size;
@@ -37,7 +29,7 @@ public class TestGaussLegendre extends TestAlgoritm {
         timer.start();
 
         bench.run();
-        time = timer.stop();
+        long time = timer.stop();
 
         System.out.println("TIME: " + time);
 
@@ -49,7 +41,6 @@ public class TestGaussLegendre extends TestAlgoritm {
     }
 
     public void threads() {
-
         ArrayList<MultiThreading<TestGaussLegendre>> threadsArr = new ArrayList<>();
 
         for(int i = 0 ; i < threads; ++i) {
@@ -62,15 +53,11 @@ public class TestGaussLegendre extends TestAlgoritm {
         for(int i = 0; i < threads; ++i) {
             try {
                 threadsArr.get(i).join();
-                timeList.add(threadsArr.get(i).getTime());
+                super.addTime(threadsArr.get(i).getTime());
             }
             catch(Exception e) {
                 e.printStackTrace();
             }
         }
-    }
-
-    public TestGaussLegendre getBench() {
-        return (TestGaussLegendre)bench;
     }
 }

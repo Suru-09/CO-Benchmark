@@ -2,60 +2,78 @@ package controller.home;
 
 import controller.SceneManager;
 import domain.Test;
-import javafx.beans.value.ObservableValue;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.chart.BarChart;
 import javafx.scene.control.ChoiceBox;
-import javafx.scene.control.ListView;
-import javafx.scene.control.TreeTableColumn;
-import javafx.scene.control.TreeTableView;
-import javafx.util.Callback;
-import repository.TestRepository;
-import repository.UserRepository;
+import javafx.scene.control.Label;
+import javafx.scene.control.TableColumn;
+import javafx.scene.control.TableView;
+import javafx.scene.control.cell.PropertyValueFactory;
+import repository.RepoManager;
 import service.home.HomeService;
 
 import java.net.URL;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.ResourceBundle;
 
 public class HomeController implements Initializable {
-
-    UserRepository userRepository = new UserRepository();
-    HomeService homeService;
-    TestRepository testRepository = new TestRepository();
+    HomeService homeService = new HomeService();
 
     @FXML
     public ChoiceBox<String> algorithmChoiceBox;
     public ChoiceBox<String> inputSizeChoiceBox;
     public ChoiceBox<String> threadChoiceBox;
 
-    public ListView<Test> threadResultsListView;
-    public BarChart<Integer, Double> dtbStatisticsBarChart;
+    public TableView<Test> testTableView;
+    public TableColumn<Test, Test.Algorithm> algorithmColumn;
+    public TableColumn<Test, Integer> sizeColumn;
+    public TableColumn<Test, Integer> threadsColumn;
+    public TableColumn<Test, Double> timeColumn;
+    public TableColumn<Test, Double> scoreColumn;
+
+    public BarChart<Integer, Double> statisticsBarChart;
+
+    public void setTestTableView(){
+        testTableView.setPlaceholder(new Label(""));
+
+        algorithmColumn.setCellValueFactory(new PropertyValueFactory<>("algorithm"));
+        sizeColumn.setCellValueFactory(new PropertyValueFactory<>("size"));
+        threadsColumn.setCellValueFactory(new PropertyValueFactory<>("threads"));
+        timeColumn.setCellValueFactory(new PropertyValueFactory<>("time"));
+        scoreColumn.setCellValueFactory(new PropertyValueFactory<>("score"));
+    }
+
+    public void populateTestTableView(){
+        testTableView.getItems().clear();
+
+        ArrayList<Test> tests = homeService.getTestsForCurrentUser();
+
+        for (Test test : tests){
+            testTableView.getItems().add(test);
+        }
+
+        testTableView.refresh();
+    }
+
+    public void populate
 
     public void startBenchmarkClick() {
         String algorithm = getAlgorithmChoiceBox();
         int inputSize = getInputSize();
         int threads = getThreadsChoiceBox();
 
-        homeService.addTests(homeService.runTestbench(Test.Algorithm.fromString(algorithm), inputSize/100, threads),
-                Test.Algorithm.fromString(algorithm), inputSize, threads);
+        List<Long> testTimes = homeService.runTestbench(Test.Algorithm.fromString(algorithm), inputSize/100, threads, RepoManager.getInstance().getCurrentUser().getId());
+        homeService.addTests(testTimes, Test.Algorithm.fromString(algorithm), inputSize, threads, RepoManager.getInstance().getCurrentUser().getId());
 
-        ObservableList<Test> listTests = FXCollections.observableArrayList();
-
-        listTests.addAll(testRepository.getTestsForUser(homeService.getUser().getId()));
-
-        threadResultsListView.getItems().addAll(listTests);
-
-        System.out.println(listTests);
-
-
-
+        populateTestTableView();
     }
 
     public void seeStatisticsClick() {
-
+        homeService.doEverything();
     }
 
     public void setAlgorithmChoiceBox() {
@@ -68,10 +86,11 @@ public class HomeController implements Initializable {
     }
 
     public void setInputSizeChoiceBox() {
-        ObservableList<String> nums = FXCollections.observableArrayList("1000000", "10000000",
-                "50000000");
+        ObservableList<String> sizes = FXCollections.observableArrayList(
+                "1000000", "2500000", "5000000", "7500000"
+                , "10000000", "25000000", "50000000", "75000000");
 
-        inputSizeChoiceBox.getItems().addAll(nums);
+        inputSizeChoiceBox.getItems().addAll(sizes);
         inputSizeChoiceBox.getSelectionModel().selectFirst();
     }
 
@@ -101,14 +120,11 @@ public class HomeController implements Initializable {
         setAlgorithmChoiceBox();
         setInputSizeChoiceBox();
         setThreadChoiceBox();
-    }
-
-    public void setUsername(String username) {
-        System.out.println(userRepository.getUserAfterUsername(username));
-        homeService = new HomeService(userRepository.getUserAfterUsername(username));
+        setTestTableView();
     }
 
     public void goBackClick() {
+        testTableView.getItems().clear();
         SceneManager.getInstance().switchScene(SceneManager.States.LOGIN);
     }
 }

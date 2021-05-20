@@ -56,7 +56,7 @@ public abstract class AbstractRepository<ID, T extends BaseEntity<ID>> implement
     }
 
     public ID getLastID() {
-        if ( elems == null ){
+        if ( elems.isEmpty() ){
             return null;
         }
 
@@ -73,10 +73,10 @@ public abstract class AbstractRepository<ID, T extends BaseEntity<ID>> implement
 
         try {
             BufferedWriter writer = Files.newBufferedWriter(Paths.get(path));
-            String json = gson.toJson(getAll());
+            String json = gson.toJson(this.getAll());
 
             // TODO: Take out this print()
-            System.out.println(json);
+            //System.out.println("json " + json);
 
             writer.write(json);
             writer.close();

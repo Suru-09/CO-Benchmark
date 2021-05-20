@@ -13,23 +13,17 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class TestRepository extends AbstractRepository<Long, Test>{
-
     private static final String PATH = "src/main/resources/databases/test_database.json";
     private final IDGenerator idGenerator;
 
     public TestRepository(){
         loadData();
-
-        idGenerator = new IDGenerator((long) (super.elems.size()+1));
+        idGenerator = new IDGenerator(super.getLastID());
     }
 
     public void add(Test test) throws CustomException {
         test.setId(idGenerator.getID());
         super.add(test);
-    }
-
-    public void delete(Long ID) throws CustomException {
-        super.delete(ID);
     }
 
     private void loadData(){
@@ -55,10 +49,10 @@ public class TestRepository extends AbstractRepository<Long, Test>{
     }
 
     public List<Test> getTestsForUser(Long userID){
-        try {
-            ArrayList<Test> data = new ArrayList<>(super.getAll());
-            ArrayList<Test> dataFinal = new ArrayList<>();
+        ArrayList<Test> data = new ArrayList<>(super.getAll());
+        ArrayList<Test> dataFinal = new ArrayList<>();
 
+        try {
             for (Test test : data){
                 if (test.getUserID().equals(userID)){
                     dataFinal.add(test);

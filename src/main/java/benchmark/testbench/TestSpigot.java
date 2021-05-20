@@ -15,13 +15,6 @@ public class TestSpigot extends TestAlgoritm {
 	private final IBenchmark bench = new SpigotAlgorithm();
 	private int size;
 	private int threads;
-	private long time;
-
-	private List<Long> timeList = new ArrayList<>();
-
-	public List<Long> getTimeList() {
-		return timeList;
-	}
 
 	public TestSpigot(int size, int threads) {
 		this.size = size;
@@ -29,16 +22,14 @@ public class TestSpigot extends TestAlgoritm {
 	}
 
 	public void start() {
-
 		ITimer timer = new Timer();
 
 		bench.initialize(size);
 		bench.warmUp();
 
-
 		timer.start();
 		bench.run(1);
-		time = timer.stop();
+		long time = timer.stop();
 
 		MultiThreading<TestSpigot> currThread = (MultiThreading<TestSpigot>) Thread.currentThread();
 		currThread.setTime(time);
@@ -62,15 +53,11 @@ public class TestSpigot extends TestAlgoritm {
 		for(int i = 0 ; i < threads; ++i) {
 			try {
 				threadsArr.get(i).join();
-				timeList.add(threadsArr.get(i).getTime());
+				super.addTime(threadsArr.get(i).getTime());
 			}
 			catch(Exception e) {
 				e.printStackTrace();
 			}
 		}
-	}
-
-	public SpigotAlgorithm getBench() {
-		return (SpigotAlgorithm) bench;
 	}
 }
