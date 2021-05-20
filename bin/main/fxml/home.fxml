@@ -82,7 +82,7 @@
          <children>
             <AnchorPane fx:id="barChartPane" prefHeight="516.0" prefWidth="723.0" visible="false">
                <children>
-                  <BarChart fx:id="statisticsBarChart" layoutY="36.0" prefHeight="483.0" prefWidth="720.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                  <BarChart fx:id="statisticsBarChart" animated="false" layoutY="36.0" prefHeight="483.0" prefWidth="720.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                     <xAxis>
                       <CategoryAxis fx:id="cpuAxis" label="CPU" side="BOTTOM" />
                     </xAxis>

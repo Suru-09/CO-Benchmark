@@ -1,22 +1,12 @@
 [
   {
-    "username": "Coxxx",
+    "username": "Bogdan",
     "password": "Cox123",
     "configuration": {
-      "cpu": "",
-      "ram": ""
+      "cpu": "AMD Ryzen 7 2700",
+      "ram": "16 GB"
     },
     "score": 0.0,
     "id": 1
-  },
-  {
-    "username": "JKGBdfjk",
-    "password": "JFD324k",
-    "configuration": {
-      "cpu": "DKLDGN",
-      "ram": "KLDf"
-    },
-    "score": 0.0,
-    "id": 2
   }
 ]

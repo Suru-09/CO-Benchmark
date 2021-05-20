@@ -97,7 +97,9 @@ public class HomeController implements Initializable {
         XYChart.Series<String, Double> series = new XYChart.Series<>();
 
         for (User user : users){
-            series.getData().add(new XYChart.Data<>(user.getConfiguration().getCpu(), user.getScore()) );
+            if ( !user.getTests().isEmpty() ){
+                series.getData().add(new XYChart.Data<>(user.getUsername() + " - " + user.getConfiguration().getCpu(), user.getScore()) );
+            }
         }
 
         statisticsBarChart.getData().add(series);
