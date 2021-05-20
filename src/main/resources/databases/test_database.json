@@ -52,5 +52,23 @@
     "score": 249937.51562109473,
     "userID": 1,
     "id": 6
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 1000000,
+    "threads": 2,
+    "time": 3.693651E9,
+    "score": 0.27073483661558717,
+    "userID": 1,
+    "id": 7
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 1000000,
+    "threads": 2,
+    "time": 3.6904033E9,
+    "score": 0.27097309391632074,
+    "userID": 1,
+    "id": 8
   }
 ]

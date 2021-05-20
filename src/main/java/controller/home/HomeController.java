@@ -1,5 +1,6 @@
 package controller.home;
 
+import controller.SceneManager;
 import domain.Test;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
@@ -31,9 +32,6 @@ public class HomeController implements Initializable {
         String algorithm = getAlgorithmChoiceBox();
         int inputSize = getInputSize();
         int threads = getThreadsChoiceBox();
-
-
-        //System.out.println(homeService.runTestbench(Test.Algorithm.fromString(algorithm), inputSize/100, threads));
 
         homeService.addTests(homeService.runTestbench(Test.Algorithm.fromString(algorithm), inputSize/100, threads),
                 Test.Algorithm.fromString(algorithm), inputSize, threads);
@@ -92,5 +90,9 @@ public class HomeController implements Initializable {
     public void setUsername(String username) {
         System.out.println(userRepository.getUserAfterUsername(username));
         homeService = new HomeService(userRepository.getUserAfterUsername(username));
+    }
+
+    public void goBackClick() {
+        SceneManager.getInstance().switchScene(SceneManager.States.LOGIN);
     }
 }

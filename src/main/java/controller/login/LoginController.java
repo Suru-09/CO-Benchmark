@@ -8,6 +8,8 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.control.Label;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
+import javafx.scene.input.KeyCode;
+import javafx.scene.input.KeyEvent;
 import repository.UserRepository;
 import service.CustomNotification;
 import service.login.LoginService;
@@ -23,9 +25,6 @@ public class LoginController {
     public TextField usernameTextField;
     public PasswordField passwordPasswordField;
 
-    public Label usernameErrLabel;
-    public Label passErrLabel;
-
     public void signInClick() {
         String username = usernameTextField.getText();
         String password = passwordPasswordField.getText();
@@ -33,9 +32,11 @@ public class LoginController {
         if ( loginService.signIn(username, password) == -1) {
             CustomNotification notification = new CustomNotification(
               "Error",
-              "User doesn't exist",
+              "User or password doesn't exist",
               CustomNotification.Type.ERROR
             );
+
+            return;
         }
 
         FXMLLoader loader = SceneManager.getInstance().getFXML(SceneManager.States.HOME);
@@ -47,12 +48,26 @@ public class LoginController {
            e.printStackTrace();
         }
 
+        usernameTextField.clear();
+        passwordPasswordField.clear();
+
         SceneManager.getInstance().switchScene(SceneManager.States.HOME);
 
     }
 
     public void createAccountClick() {
 
+        usernameTextField.clear();
+        passwordPasswordField.clear();
+
+        SceneManager.getInstance().switchScene(SceneManager.States.REGISTER);
+    }
+
+    @FXML
+    private void enterPressed(KeyEvent keyEvent){
+        if (keyEvent.getCode() == KeyCode.ENTER) {
+            signInClick();
+        }
     }
 
 }

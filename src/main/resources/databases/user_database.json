@@ -18,5 +18,25 @@
     },
     "score": 0.0,
     "id": 1
+  },
+  {
+    "username": "Cacacacacacac",
+    "password": "Cacacacacaca2",
+    "configuration": {
+      "cpu": "213",
+      "ram": "321"
+    },
+    "score": 0.0,
+    "id": 2
+  },
+  {
+    "username": "Aadsdasdasdas",
+    "password": "Acacaca1",
+    "configuration": {
+      "cpu": "123",
+      "ram": "321"
+    },
+    "score": 0.0,
+    "id": 3
   }
 ]

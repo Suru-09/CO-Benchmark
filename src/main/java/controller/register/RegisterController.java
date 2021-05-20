@@ -1,5 +1,6 @@
 package controller.register;
 
+import controller.SceneManager;
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
 import javafx.scene.control.PasswordField;
@@ -49,6 +50,17 @@ public class RegisterController {
             }
         }
 
+        usernameTextField.clear();
+        passwordPasswordField.clear();
+        cpuTextField.clear();
+        ramTextField.clear();
+
+        SceneManager.getInstance().switchScene(SceneManager.States.HOME);
+
+    }
+
+    public void goBackClick() {
+        SceneManager.getInstance().switchScene(SceneManager.States.LOGIN);
     }
 
 }

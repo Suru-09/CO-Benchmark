@@ -34,8 +34,6 @@ public class RegisterService {
             return -1;
         }
 
-        SceneManager.getInstance().switchScene(SceneManager.States.HOME);
-
         return 0;
     }
 

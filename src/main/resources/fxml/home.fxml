@@ -93,5 +93,6 @@
             </BarChart>
          </children>
       </AnchorPane>
+      <Button alignment="CENTER" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#goBackClick" text="Back" />
    </children>
 </AnchorPane>
