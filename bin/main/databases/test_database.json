@@ -196,5 +196,23 @@
     "score": 0.7150740234665728,
     "userID": 1,
     "id": 22
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 1000000,
+    "threads": 2,
+    "time": 3.6756135E9,
+    "score": 0.2720634256022838,
+    "userID": 1,
+    "id": 23
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 1000000,
+    "threads": 2,
+    "time": 3.6588073E9,
+    "score": 0.273313109438696,
+    "userID": 1,
+    "id": 24
   }
 ]

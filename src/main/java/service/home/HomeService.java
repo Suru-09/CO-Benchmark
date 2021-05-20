@@ -22,10 +22,14 @@ public class HomeService{
         return (ArrayList<Test>) testRepo.getTestsForUser(RepoManager.getInstance().getCurrentUser().getId());
     }
 
-    public void doEverything(){
+    public ArrayList<User> getUsers(){
+        return (ArrayList<User>) userRepo.getAll();
+    }
+
+    public void addTestsToUsers(){
+        // TODO: add tests based on algorithm
         for (User user : userRepo.getAll()){
             user.setTests(testRepo.getTestsForUser(user.getId()));
-            System.out.println(user);
         }
     }
 

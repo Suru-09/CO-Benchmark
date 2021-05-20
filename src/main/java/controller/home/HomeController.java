@@ -2,16 +2,21 @@ package controller.home;
 
 import controller.SceneManager;
 import domain.Test;
+import domain.User;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.chart.BarChart;
+import javafx.scene.chart.CategoryAxis;
+import javafx.scene.chart.NumberAxis;
+import javafx.scene.chart.XYChart;
 import javafx.scene.control.ChoiceBox;
 import javafx.scene.control.Label;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.control.cell.PropertyValueFactory;
+import javafx.scene.layout.AnchorPane;
 import repository.RepoManager;
 import service.home.HomeService;
 
@@ -28,6 +33,9 @@ public class HomeController implements Initializable {
     public ChoiceBox<String> inputSizeChoiceBox;
     public ChoiceBox<String> threadChoiceBox;
 
+    public AnchorPane barChartPane;
+    public AnchorPane tableViewPane;
+
     public TableView<Test> testTableView;
     public TableColumn<Test, Test.Algorithm> algorithmColumn;
     public TableColumn<Test, Integer> sizeColumn;
@@ -35,8 +43,26 @@ public class HomeController implements Initializable {
     public TableColumn<Test, Double> timeColumn;
     public TableColumn<Test, Double> scoreColumn;
 
-    public BarChart<Integer, Double> statisticsBarChart;
+    public CategoryAxis cpuAxis;
+    public NumberAxis scoreAxis;
+    public BarChart<String, Double> statisticsBarChart;
 
+    // ACTIONS
+    public void startBenchmarkClick(){
+        barChartPane.setVisible(false);
+        tableViewPane.setVisible(true);
+
+        startBenchmark();
+    }
+
+    public void seeStatisticsClick() {
+        barChartPane.setVisible(true);
+        tableViewPane.setVisible(false);
+
+        seeStatistics();
+    }
+
+    // SETUP
     public void setTestTableView(){
         testTableView.setPlaceholder(new Label(""));
 
@@ -47,6 +73,10 @@ public class HomeController implements Initializable {
         scoreColumn.setCellValueFactory(new PropertyValueFactory<>("score"));
     }
 
+    public void setStatisticsBarChart(){
+
+    }
+
     public void populateTestTableView(){
         testTableView.getItems().clear();
 
@@ -54,14 +84,26 @@ public class HomeController implements Initializable {
 
         for (Test test : tests){
             testTableView.getItems().add(test);
+
         }
 
         testTableView.refresh();
     }
 
-    public void populate
+    public void populateStatisticsBarChart(){
+        statisticsBarChart.getData().clear();
 
-    public void startBenchmarkClick() {
+        ArrayList<User> users = homeService.getUsers();
+        XYChart.Series<String, Double> series = new XYChart.Series<>();
+
+        for (User user : users){
+            series.getData().add(new XYChart.Data<>(user.getConfiguration().getCpu(), user.getScore()) );
+        }
+
+        statisticsBarChart.getData().add(series);
+    }
+
+    public void startBenchmark() {
         String algorithm = getAlgorithmChoiceBox();
         int inputSize = getInputSize();
         int threads = getThreadsChoiceBox();
@@ -72,8 +114,10 @@ public class HomeController implements Initializable {
         populateTestTableView();
     }
 
-    public void seeStatisticsClick() {
-        homeService.doEverything();
+    public void seeStatistics() {
+        homeService.addTestsToUsers();
+
+        populateStatisticsBarChart();
     }
 
     public void setAlgorithmChoiceBox() {

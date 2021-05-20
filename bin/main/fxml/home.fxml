@@ -80,33 +80,29 @@
       </VBox>
       <StackPane layoutX="349.0" layoutY="180.0" prefHeight="509.0" prefWidth="723.0">
          <children>
-            <AnchorPane prefHeight="516.0" prefWidth="723.0">
+            <AnchorPane fx:id="barChartPane" prefHeight="516.0" prefWidth="723.0" visible="false">
                <children>
-                  <BarChart fx:id="dtbStatisticsBarChart" layoutY="36.0" prefHeight="483.0" prefWidth="720.0" visible="false" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                  <BarChart fx:id="statisticsBarChart" layoutY="36.0" prefHeight="483.0" prefWidth="720.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                     <xAxis>
-                      <CategoryAxis side="BOTTOM" />
+                      <CategoryAxis fx:id="cpuAxis" label="CPU" side="BOTTOM" />
                     </xAxis>
                     <yAxis>
-                      <NumberAxis side="LEFT" />
+                      <NumberAxis fx:id="scoreAxis" label="Score" side="LEFT" />
                     </yAxis>
                   </BarChart>
                </children>
             </AnchorPane>
-            <AnchorPane prefHeight="504.0" prefWidth="723.0">
+            <AnchorPane fx:id="tableViewPane" prefHeight="504.0" prefWidth="723.0">
                <children>
-                  <StackPane AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
-                     <children>
-                        <TableView fx:id="testTableView" editable="true" prefHeight="200.0" prefWidth="200.0" tableMenuButtonVisible="true">
-                          <columns>
-                              <TableColumn fx:id="algorithmColumn" editable="false" prefWidth="137.0" text="Algorithm" />
-                            <TableColumn fx:id="sizeColumn" editable="false" prefWidth="117.0" text="Size" />
-                            <TableColumn fx:id="threadsColumn" editable="false" prefWidth="131.0" text="Threads" />
-                              <TableColumn fx:id="timeColumn" editable="false" prefWidth="162.0" text="Time" />
-                              <TableColumn fx:id="scoreColumn" editable="false" prefWidth="175.0" resizable="false" text="Score" />
-                          </columns>
-                        </TableView>
-                     </children>
-                  </StackPane>
+                  <TableView fx:id="testTableView" editable="true" prefHeight="200.0" prefWidth="200.0" tableMenuButtonVisible="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                    <columns>
+                        <TableColumn fx:id="algorithmColumn" editable="false" prefWidth="137.0" text="Algorithm" />
+                      <TableColumn fx:id="sizeColumn" editable="false" prefWidth="117.0" text="Size" />
+                      <TableColumn fx:id="threadsColumn" editable="false" prefWidth="131.0" text="Threads" />
+                        <TableColumn fx:id="timeColumn" editable="false" prefWidth="162.0" text="Time" />
+                        <TableColumn fx:id="scoreColumn" editable="false" prefWidth="175.0" resizable="false" text="Score" />
+                    </columns>
+                  </TableView>
                </children>
             </AnchorPane>
          </children>
