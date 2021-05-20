@@ -9,6 +9,9 @@ import domain.User;
 import repository.TestRepository;
 import repository.UserRepository;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class HomeService{
     private TestRepository testRepo = TestRepository.getInstance();
     private UserRepository userRepo = UserRepository.getInstance();
@@ -18,35 +21,43 @@ public class HomeService{
         currentUser = userRepo.getCurrentUser();
     }
 
-    public void runTestbench(Test.Algorithm algorithm, int size, int threads){
+    public List<Long> runTestbench(Test.Algorithm algorithm, int size, int threads){
         TestAlgoritm testAlgoritm;
-        Test test = new Test(algorithm, size, threads, currentUser.getId());
-        
+
+        List<Long> timeList = new ArrayList<>();
+
         switch ( algorithm ){
             case SPIGOT -> {
-                testAlgoritm = new TestSpigot(size);
+                testAlgoritm = new TestSpigot(size, threads);
+                ((TestSpigot)testAlgoritm).threads();
+                System.out.println(((TestSpigot)testAlgoritm).getTimeList());
+                return ((TestSpigot)testAlgoritm).getTimeList();
             }
             case MONTE_CARLO -> {
                 testAlgoritm = new TestMonteCarlo(size);
             }
             case GAUSS_LEGENDRE -> {
-                testAlgoritm = new TestGaussLegendre(size);
+                testAlgoritm = new TestGaussLegendre(size, threads);
             }
             default -> {
-                return;
+                return timeList;
             }
         }
-        double time = testAlgoritm.getTime();
 
-        test.setTime(time);
+        return timeList;
+    }
 
-        try {
-            testRepo.add(test);
-            testRepo.updateRepository();
-        }
-        catch (Exception ex){
-            ex.printStackTrace();
-        }
+    public void addTests(List<Long> timeList) {
+
+//        test.setTime(time);
+//
+//        try {
+//            testRepo.add(test);
+//            testRepo.updateRepository();
+//        }
+//        catch (Exception ex){
+//            ex.printStackTrace();
+//        }
     }
 
 }
@@ -57,9 +68,11 @@ class Oof {
         UserRepository repo = new UserRepository();
 
         try {
-            repo.setCurrentUser(repo.findById(0L));
-            hs.runTestbench(Test.Algorithm.GAUSS_LEGENDRE, 1000000, 1);
+            //repo.setCurrentUser(repo.findById(0L));
+            hs.runTestbench(Test.Algorithm.SPIGOT, 10000, 8);
         }
-        catch (Exception ignored){ }
+        catch (Exception ignored){
+            ignored.printStackTrace();
+        }
     }
 }

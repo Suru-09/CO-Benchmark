@@ -25,7 +25,7 @@ public class LoginController {
         if ( loginService.signIn(username, password) == -1) {
             CustomNotification notification = new CustomNotification(
               "Error",
-              "User already exists",
+              "User doesn't exist",
               CustomNotification.Type.ERROR
             );
         }

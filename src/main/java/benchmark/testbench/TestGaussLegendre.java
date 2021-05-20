@@ -7,9 +7,18 @@ import benchmark.timing.ITimer;
 import benchmark.timing.Timer;
 
 public class TestGaussLegendre extends TestAlgoritm {
+
     private IBenchmark bench = new GaussLegendre();
 
-    public TestGaussLegendre(int size) {
+    private int size;
+    private int threads;
+
+    public TestGaussLegendre(int size, int threads) {
+        this.size = size;
+        this.threads = threads;
+    }
+
+    public void start() {
         ITimer timer = new Timer();
 
         bench.initialize(size);
@@ -23,6 +32,10 @@ public class TestGaussLegendre extends TestAlgoritm {
         super.setTime(TimeUnit.toTimeUnit(time, TimeUnit.Milli));
 
         bench.clean();
+    }
+
+    public void threads() {
+        
     }
 
     public IBenchmark getBench() {
