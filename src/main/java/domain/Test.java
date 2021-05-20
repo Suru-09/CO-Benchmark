@@ -20,6 +20,15 @@ public class Test extends BaseEntity<Long> {
         Algorithm(String url) {
             this.url = url;
         }
+
+        public static Algorithm fromString (String url) {
+            return switch (url) {
+                case "Spigot" -> SPIGOT;
+                case "Monte Carlo" -> MONTE_CARLO;
+                case "Gauss Legendre" -> GAUSS_LEGENDRE;
+                default -> null;
+            };
+        }
     }
 
     public Test(Algorithm algorithm, int size, int threads, Long userID) {

@@ -1,5 +1,6 @@
 package controller.home;
 
+import domain.Test;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
@@ -27,7 +28,16 @@ public class HomeController implements Initializable {
     public BarChart<Integer, Double> dtbStatisticsBarChart;
 
     public void startBenchmarkClick() {
-        System.out.println(homeService.getUser());
+        String algorithm = getAlgorithmChoiceBox();
+        int inputSize = getInputSize();
+        int threads = getThreadsChoiceBox();
+
+
+        //System.out.println(homeService.runTestbench(Test.Algorithm.fromString(algorithm), inputSize/100, threads));
+
+        homeService.addTests(homeService.runTestbench(Test.Algorithm.fromString(algorithm), inputSize/100, threads),
+                Test.Algorithm.fromString(algorithm), inputSize, threads);
+
     }
 
     public void seeStatisticsClick() {
@@ -39,6 +49,7 @@ public class HomeController implements Initializable {
                 "Gauss Legendre");
 
         algorithmChoiceBox.getItems().addAll(algs);
+        algorithmChoiceBox.getSelectionModel().selectFirst();
 
     }
 
@@ -47,7 +58,7 @@ public class HomeController implements Initializable {
                 "50000000");
 
         inputSizeChoiceBox.getItems().addAll(nums);
-
+        inputSizeChoiceBox.getSelectionModel().selectFirst();
     }
 
     public void setThreadChoiceBox() {
@@ -55,6 +66,7 @@ public class HomeController implements Initializable {
                 "8");
 
         threadChoiceBox.getItems().addAll(threads);
+        threadChoiceBox.getSelectionModel().selectFirst();
 
     }
 
@@ -63,11 +75,11 @@ public class HomeController implements Initializable {
     }
 
     public int getInputSize() {
-        return Integer.parseInt(algorithmChoiceBox.getSelectionModel().getSelectedItem());
+        return Integer.parseInt(inputSizeChoiceBox.getSelectionModel().getSelectedItem());
     }
 
     public int getThreadsChoiceBox() {
-        return Integer.parseInt(algorithmChoiceBox.getSelectionModel().getSelectedItem());
+        return Integer.parseInt(threadChoiceBox.getSelectionModel().getSelectedItem());
     }
 
     @Override

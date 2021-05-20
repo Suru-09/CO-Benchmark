@@ -6,6 +6,7 @@ import benchmark.testbench.TestMonteCarlo;
 import benchmark.testbench.TestSpigot;
 import domain.Test;
 import domain.User;
+import domain.exception.CustomException;
 import repository.TestRepository;
 import repository.UserRepository;
 
@@ -13,7 +14,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class HomeService{
-    private TestRepository testRepo = TestRepository.getInstance();
+    private TestRepository testRepo = new TestRepository();
     private User currentUser;
 
     public User getUser() {
@@ -55,19 +56,24 @@ public class HomeService{
 
     }
 
-    public void addTests(List<Long> timeList) {
+    public void addTests(List<Long> timeList, Test.Algorithm alg, int size, int threads) {
 
-//        test.setTime(time);
-//
-//        try {
-//            testRepo.add(test);
-//            testRepo.updateRepository();
-//        }
-//        catch (Exception ex){
-//            ex.printStackTrace();
-//        }
+        Test newTest;
+
+        for (Long i : timeList) {
+            newTest = new Test(alg, size, threads, currentUser.getId());
+            newTest.setTime(i);
+            try {
+                testRepo.add(newTest);
+            }catch (CustomException e) {
+                e.printStackTrace();
+            }
+        }
+
+        testRepo.updateRepository();
+
+        System.out.println(testRepo.getTestsForUser(currentUser.getId()));
     }
-
 }
 
 class Oof {

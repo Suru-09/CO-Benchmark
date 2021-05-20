@@ -13,8 +13,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class TestRepository extends AbstractRepository<Long, Test>{
+
     private static final String PATH = "src/main/resources/databases/test_database.json";
-    private static TestRepository repo_instance = null;
     private final IDGenerator idGenerator;
 
     public TestRepository(){
@@ -22,14 +22,6 @@ public class TestRepository extends AbstractRepository<Long, Test>{
 
         idGenerator = new IDGenerator(super.getLastID());
     }
-
-    public static TestRepository getInstance(){
-        if ( repo_instance == null ){
-            repo_instance = new TestRepository();
-        }
-        return repo_instance;
-    }
-
 
     public void add(Test test) throws CustomException {
         test.setId(idGenerator.getID());
