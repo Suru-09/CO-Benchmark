@@ -1,14 +1,22 @@
 package controller.login;
 
+import controller.SceneManager;
+import controller.home.HomeController;
+import domain.User;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
 import javafx.scene.control.Label;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
+import repository.UserRepository;
 import service.CustomNotification;
 import service.login.LoginService;
 
+import java.io.IOException;
+
 
 public class LoginController {
+    UserRepository userRepository;
     LoginService loginService = new LoginService();
 
     @FXML
@@ -28,6 +36,15 @@ public class LoginController {
               "User doesn't exist",
               CustomNotification.Type.ERROR
             );
+        }
+
+        userRepository = UserRepository.getInstance();
+        for(User u: userRepository.getAll()) {
+            if(username.equals(u.getUsername())
+               && password.equals(u.getPassword()) ) {
+                userRepository.setCurrentUser(u);
+                break;
+            }
         }
     }
 

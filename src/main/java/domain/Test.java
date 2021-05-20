@@ -11,9 +11,15 @@ public class Test extends BaseEntity<Long> {
     private Long userID;
 
     public enum Algorithm{
-        GAUSS_LEGENDRE,
-        MONTE_CARLO,
-        SPIGOT
+        GAUSS_LEGENDRE("Gauss Legendre"),
+        MONTE_CARLO("Monte Carlo"),
+        SPIGOT("Spigot");
+
+        public String url;
+
+        Algorithm(String url) {
+            this.url = url;
+        }
     }
 
     public Test(Algorithm algorithm, int size, int threads, Long userID) {

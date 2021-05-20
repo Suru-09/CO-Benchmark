@@ -15,7 +15,7 @@ import java.util.List;
 public class HomeService{
     private TestRepository testRepo = TestRepository.getInstance();
     private UserRepository userRepo = UserRepository.getInstance();
-    private User currentUser;
+    private User currentUser = userRepo.getCurrentUser();
 
     public HomeService(){
         currentUser = userRepo.getCurrentUser();
