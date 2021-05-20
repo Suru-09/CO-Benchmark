@@ -31,13 +31,13 @@ public class MultiThreading<T> extends Thread {
             ((TestSpigot)test).start();
         }
 
-//        if(test instanceof TestGaussLegendre) {
-//            ((TestGaussLegendre)test).start();
-//        }
+        if(test instanceof TestGaussLegendre) {
+            ((TestGaussLegendre)test).start();
+        }
 
-//        if(test instanceof TestMonteCarlo) {
-//            ((TestMonteCarlo)test).start();
-//        }
+        if(test instanceof TestMonteCarlo) {
+            ((TestMonteCarlo)test).start();
+        }
 
     }
 }

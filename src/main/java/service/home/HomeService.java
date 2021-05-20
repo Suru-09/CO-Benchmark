@@ -34,17 +34,22 @@ public class HomeService{
                 return ((TestSpigot)testAlgoritm).getTimeList();
             }
             case MONTE_CARLO -> {
-                testAlgoritm = new TestMonteCarlo(size);
+                testAlgoritm = new TestMonteCarlo(size, threads);
+                ((TestMonteCarlo)testAlgoritm).threads();
+                System.out.println(((TestMonteCarlo)testAlgoritm).getTimeList());
+                return ((TestMonteCarlo)testAlgoritm).getTimeList();
             }
             case GAUSS_LEGENDRE -> {
                 testAlgoritm = new TestGaussLegendre(size, threads);
+                ((TestGaussLegendre)testAlgoritm).threads();
+                System.out.println(((TestGaussLegendre)testAlgoritm).getTimeList());
+                return ((TestGaussLegendre)testAlgoritm).getTimeList();
             }
             default -> {
                 return timeList;
             }
         }
 
-        return timeList;
     }
 
     public void addTests(List<Long> timeList) {
@@ -68,8 +73,8 @@ class Oof {
         UserRepository repo = new UserRepository();
 
         try {
-            //repo.setCurrentUser(repo.findById(0L));
-            hs.runTestbench(Test.Algorithm.SPIGOT, 10000, 8);
+            ///repo.setCurrentUser(repo.findById(0L));
+            hs.runTestbench(Test.Algorithm.MONTE_CARLO, 100_000_0, 4);
         }
         catch (Exception ignored){
             ignored.printStackTrace();
