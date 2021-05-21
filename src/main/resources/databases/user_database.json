@@ -34,5 +34,14 @@
       "ram": "16gb"
     },
     "id": 4
+  },
+  {
+    "username": "Dragos",
+    "password": "Ciment123",
+    "configuration": {
+      "cpu": "I7 6700K",
+      "ram": "16 GB"
+    },
+    "id": 5
   }
 ]
