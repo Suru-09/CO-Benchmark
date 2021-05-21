@@ -6,7 +6,6 @@ import java.awt.geom.Point2D;
 import java.util.Objects;
 import java.util.Random;
 import java.util.stream.IntStream;
-import java.util.stream.LongStream;
 
 public class MonteCarlo implements IBenchmark {
 

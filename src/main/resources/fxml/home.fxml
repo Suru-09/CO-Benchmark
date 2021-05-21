@@ -1,22 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.geometry.Insets?>
+<?import javafx.geometry.*?>
 <?import javafx.scene.chart.BarChart?>
 <?import javafx.scene.chart.CategoryAxis?>
 <?import javafx.scene.chart.NumberAxis?>
-<?import javafx.scene.control.Button?>
-<?import javafx.scene.control.ChoiceBox?>
-<?import javafx.scene.control.TableColumn?>
-<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.*?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
-<?import javafx.scene.layout.AnchorPane?>
-<?import javafx.scene.layout.HBox?>
-<?import javafx.scene.layout.StackPane?>
-<?import javafx.scene.layout.VBox?>
-<?import javafx.scene.text.Font?>
-<?import javafx.scene.text.Text?>
-
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1080.0" styleClass="root_darkest" stylesheets="@../css/style_general.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.home.HomeController">
    <children>
       <VBox alignment="TOP_CENTER" layoutX="745.0" layoutY="-1.0" prefHeight="263.0" prefWidth="244.0" spacing="60.0">
@@ -67,14 +59,22 @@
                   <Insets top="-20.0" />
                </VBox.margin>
             </ChoiceBox>
-            <VBox alignment="CENTER" spacing="20.0">
+            <VBox alignment="CENTER" prefHeight="184.0" prefWidth="239.0" spacing="20.0">
                <children>
-                  <Button mnemonicParsing="false" onAction="#startBenchmarkClick" text="Start benchmark!" />
-                  <Button mnemonicParsing="false" onAction="#seeStatisticsClick" text="See statistics" />
+                  <Button mnemonicParsing="false" onAction="#startBenchmarkClick" text="RUN">
+                     <VBox.margin>
+                        <Insets bottom="50.0" />
+                     </VBox.margin>
+                  </Button>
+                  <Button mnemonicParsing="false" onAction="#seeResultsClick" text="Results" />
+                  <Button mnemonicParsing="false" onAction="#seeStatisticsClick" text="Statistics" />
                </children>
                <VBox.margin>
                   <Insets top="40.0" />
                </VBox.margin>
+               <padding>
+                  <Insets top="-50.0" />
+               </padding>
             </VBox>
          </children>
       </VBox>

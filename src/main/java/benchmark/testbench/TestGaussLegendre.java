@@ -7,7 +7,6 @@ import benchmark.timing.ITimer;
 import benchmark.timing.Timer;
 
 import java.util.ArrayList;
-import java.util.List;
 
 public class TestGaussLegendre extends TestAlgoritm {
     private final IBenchmark bench = new GaussLegendre();
@@ -53,7 +52,7 @@ public class TestGaussLegendre extends TestAlgoritm {
         for(int i = 0; i < threads; ++i) {
             try {
                 threadsArr.get(i).join();
-                super.addTime(threadsArr.get(i).getTime());
+                super.addTime(TimeUnit.toTimeUnit(threadsArr.get(i).getTime(), TimeUnit.Sec));
             }
             catch(Exception e) {
                 e.printStackTrace();

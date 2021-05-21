@@ -27,17 +27,16 @@ public class HomeService{
     }
 
     public void addTestsToUsers(){
-        // TODO: add tests based on algorithm
         for (User user : userRepo.getAll()){
             user.setTests(testRepo.getTestsForUser(user.getId()));
         }
         userRepo.updateRepository();
     }
 
-    public List<Long> runTestbench(Test.Algorithm algorithm, int size, int threads, Long userID){
+    public List<Double> runTestbench(Test.Algorithm algorithm, int size, int threads, Long userID){
         TestAlgoritm testAlgoritm;
 
-        List<Long> timeList = new ArrayList<>();
+        List<Double> timeList = new ArrayList<>();
 
         switch ( algorithm ){
             case SPIGOT -> {
@@ -64,8 +63,8 @@ public class HomeService{
         }
     }
 
-    public void addTests(List<Long> timeList, Test.Algorithm alg, int size, int threads, Long userID) {
-        for (Long i : timeList) {
+    public void addTests(List<Double> timeList, Test.Algorithm alg, int size, int threads, Long userID) {
+        for (Double i : timeList) {
             Test test = new Test(alg, size, threads, userID);
             test.setTime(i);
             try {

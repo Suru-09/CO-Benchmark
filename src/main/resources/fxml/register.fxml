@@ -45,13 +45,13 @@
                         <Insets bottom="-40.0" top="-40.0" />
                      </VBox.margin>
                   </Label>
-                  <TextField fx:id="cpuTextField" promptText="CPU" styleClass="t" />
+                  <TextField fx:id="cpuTextField" promptText="CPU" />
                   <Label fx:id="cpuErrLabel" prefHeight="24.0" prefWidth="424.0" text="Invalid CPU!" visible="false">
                      <VBox.margin>
                         <Insets bottom="-40.0" top="-40.0" />
                      </VBox.margin>
                   </Label>
-                  <TextField fx:id="ramTextField" promptText="Ram Memory" styleClass="t" />
+                  <TextField fx:id="ramTextField" promptText="RAM" />
                   <Label fx:id="ramErrLabel" prefHeight="24.0" prefWidth="424.0" text="Invalid ram!" visible="false">
                      <VBox.margin>
                         <Insets bottom="-30.0" top="-40.0" />

@@ -88,7 +88,6 @@ public class User extends BaseEntity<Long>{
                 case SPIGOT -> {
                     scoreSpigot += test.getScore();
                     spigotTestSize++;
-
                 }
                 case MONTE_CARLO -> {
                     scoreMonteCarlo += test.getScore();
@@ -101,8 +100,8 @@ public class User extends BaseEntity<Long>{
             }
         }
         scoreSpigot = ( spigotTestSize != 0 ) ? scoreSpigot/spigotTestSize : 0;
-        scoreMonteCarlo = ( carloTestSize != 0 ) ? scoreSpigot/carloTestSize : 0;
-        scoreGaussLegendre = ( gaussTestSize != 0 ) ? scoreSpigot/gaussTestSize : 0;
+        scoreMonteCarlo = ( carloTestSize != 0 ) ? scoreMonteCarlo/carloTestSize : 0;
+        scoreGaussLegendre = ( gaussTestSize != 0 ) ? scoreGaussLegendre/gaussTestSize : 0;
     }
 
     public void addTest(Test test){

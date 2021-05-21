@@ -1,20 +1,15 @@
 package controller.login;
 
 import controller.SceneManager;
-import controller.home.HomeController;
-import domain.User;
+import controller.register.RegisterController;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
-import javafx.scene.control.Label;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
 import javafx.scene.input.KeyCode;
 import javafx.scene.input.KeyEvent;
-import repository.UserRepository;
 import service.CustomNotification;
 import service.login.LoginService;
-
-import java.io.IOException;
 
 
 public class LoginController {
@@ -47,9 +42,12 @@ public class LoginController {
     }
 
     public void createAccountClick() {
-
         usernameTextField.clear();
         passwordPasswordField.clear();
+
+        FXMLLoader loader = SceneManager.getInstance().getFXML(SceneManager.States.REGISTER);
+        RegisterController controller = loader.getController();
+        controller.setup();
 
         SceneManager.getInstance().switchScene(SceneManager.States.REGISTER);
     }

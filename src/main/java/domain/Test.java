@@ -71,8 +71,8 @@ public class Test extends BaseEntity<Long> {
         calculateScore();
     }
 
-    public double getScore() {
-        return score;
+    public Long getScore() {
+        return Math.round(score);
     }
 
     public void setScore(double score) {
@@ -91,24 +91,26 @@ public class Test extends BaseEntity<Long> {
     private void calculateScore(){
         switch ( algorithm ){
             case SPIGOT -> {
-                this.score = size/time * 1000;
-            }
-            case GAUSS_LEGENDRE -> {
-                this.score = size/time * 1000;
+                this.score = size/Math.sqrt(time) * 10;
             }
             case MONTE_CARLO -> {
-                this.score = size/time * 1000;
+                this.score = size/Math.sqrt(time) * 0.9;
+            }
+            case GAUSS_LEGENDRE -> {
+                this.score = size/Math.sqrt(time) * 2.2;
             }
         }
     }
 
     @Override
     public String toString() {
-        return  "ID = " + userID + " " +
-                algorithm + " " +
-                size + " " +
-                threads + " " +
-                time + " " +
-                score + " ";
+        return "Test{" +
+                "algorithm=" + algorithm +
+                ", size=" + size +
+                ", threads=" + threads +
+                ", time=" + time +
+                ", score=" + score +
+                ", userID=" + userID +
+                '}';
     }
 }

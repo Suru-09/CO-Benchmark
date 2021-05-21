@@ -3,6 +3,7 @@ package controller.home;
 import controller.SceneManager;
 import domain.Test;
 import domain.User;
+import javafx.beans.value.ObservableValue;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
@@ -62,6 +63,16 @@ public class HomeController implements Initializable {
         seeStatistics();
     }
 
+    public void seeResultsClick() {
+        barChartPane.setVisible(false);
+        tableViewPane.setVisible(true);
+    }
+
+    public void goBackClick() {
+        testTableView.getItems().clear();
+        SceneManager.getInstance().switchScene(SceneManager.States.LOGIN);
+    }
+
     // SETUP
     public void setTestTableView(){
         testTableView.setPlaceholder(new Label(""));
@@ -71,10 +82,6 @@ public class HomeController implements Initializable {
         threadsColumn.setCellValueFactory(new PropertyValueFactory<>("threads"));
         timeColumn.setCellValueFactory(new PropertyValueFactory<>("time"));
         scoreColumn.setCellValueFactory(new PropertyValueFactory<>("score"));
-    }
-
-    public void setStatisticsBarChart(){
-
     }
 
     public void populateTestTableView(){
@@ -95,24 +102,24 @@ public class HomeController implements Initializable {
         ArrayList<User> users = homeService.getUsers();
         XYChart.Series<String, Double> spigotSeries = new XYChart.Series<>();
         spigotSeries.setName("SPIGOT");
-        XYChart.Series<String, Double> gaussSeries = new XYChart.Series<>();
-        gaussSeries.setName("GAUSS LEGENDRE");
         XYChart.Series<String, Double> carloSeries = new XYChart.Series<>();
         carloSeries.setName("MONTE CARLO");
+        XYChart.Series<String, Double> gaussSeries = new XYChart.Series<>();
+        gaussSeries.setName("GAUSS LEGENDRE");
 
         for (User user : users){
             if ( !user.getTests().isEmpty() ){
                 String configText = user.getUsername() + " - " + user.getConfiguration().getCpu();
 
                 spigotSeries.getData().add(new XYChart.Data<>(configText, user.getScoreSpigot()) );
-                gaussSeries.getData().add(new XYChart.Data<>(configText, user.getScoreGaussLegendre()) );
                 carloSeries.getData().add(new XYChart.Data<>(configText, user.getScoreMonteCarlo()) );
+                gaussSeries.getData().add(new XYChart.Data<>(configText, user.getScoreGaussLegendre()) );
             }
         }
 
         statisticsBarChart.getData().add(spigotSeries);
-        statisticsBarChart.getData().add(gaussSeries);
         statisticsBarChart.getData().add(carloSeries);
+        statisticsBarChart.getData().add(gaussSeries);
     }
 
     public void startBenchmark() {
@@ -120,7 +127,7 @@ public class HomeController implements Initializable {
         int inputSize = getInputSize();
         int threads = getThreadsChoiceBox();
 
-        List<Long> testTimes = homeService.runTestbench(Test.Algorithm.fromString(algorithm), inputSize, threads, RepoManager.getInstance().getCurrentUser().getId());
+        List<Double> testTimes = homeService.runTestbench(Test.Algorithm.fromString(algorithm), inputSize, threads, RepoManager.getInstance().getCurrentUser().getId());
         homeService.addTests(testTimes, Test.Algorithm.fromString(algorithm), inputSize, threads, RepoManager.getInstance().getCurrentUser().getId());
 
         populateTestTableView();
@@ -133,27 +140,57 @@ public class HomeController implements Initializable {
     }
 
     public void setAlgorithmChoiceBox() {
-        ObservableList<String> algs = FXCollections.observableArrayList("Spigot", "Monte Carlo",
-                "Gauss Legendre");
+        ObservableList<String> algs = FXCollections.observableArrayList("Spigot", "Monte Carlo", "Gauss Legendre");
 
         algorithmChoiceBox.getItems().addAll(algs);
         algorithmChoiceBox.getSelectionModel().selectFirst();
 
+        algorithmChoiceBox.getSelectionModel().selectedIndexProperty().addListener(
+                (ObservableValue<? extends Number> ov, Number old_val, Number new_val) -> {
+                    switch ( new_val.intValue() ){
+                        case 0 -> {
+                            setInputSizeChoiceBox_Spigot();
+                        }
+                        case 1 -> {
+                            setInputSizeChoiceBox_Carlo();
+                        }
+                        case 2 -> {
+                            setInputSizeChoiceBox_Gauss();
+                        }
+                    }
+                });
+
     }
 
-    public void setInputSizeChoiceBox() {
+    public void setInputSizeChoiceBox_Spigot() {
         ObservableList<String> sizes = FXCollections.observableArrayList(
-                "10000", "25000", "50000", "75000"
-                , "100000", "125000", "150000", "175000"
-                , "200000", "225000", "250000");
+                "10000", "20000", "30000", "40000", "50000", "60000", "70000", "80000", "90000", "100000");
 
+        inputSizeChoiceBox.getItems().clear();
+        inputSizeChoiceBox.getItems().addAll(sizes);
+        inputSizeChoiceBox.getSelectionModel().selectFirst();
+    }
+
+    public void setInputSizeChoiceBox_Carlo() {
+        ObservableList<String> sizes = FXCollections.observableArrayList(
+                "100000", "200000", "300000", "400000", "500000", "600000", "700000", "800000", "900000", "1000000");
+
+        inputSizeChoiceBox.getItems().clear();
+        inputSizeChoiceBox.getItems().addAll(sizes);
+        inputSizeChoiceBox.getSelectionModel().selectFirst();
+    }
+
+    public void setInputSizeChoiceBox_Gauss() {
+        ObservableList<String> sizes = FXCollections.observableArrayList(
+                "25000", "50000", "75000", "100000", "125000", "150000", "175000", "200000", "225000", "250000");
+
+        inputSizeChoiceBox.getItems().clear();
         inputSizeChoiceBox.getItems().addAll(sizes);
         inputSizeChoiceBox.getSelectionModel().selectFirst();
     }
 
     public void setThreadChoiceBox() {
-        ObservableList<String> threads = FXCollections.observableArrayList("2", "4",
-                "8");
+        ObservableList<String> threads = FXCollections.observableArrayList("2", "4", "8");
 
         threadChoiceBox.getItems().addAll(threads);
         threadChoiceBox.getSelectionModel().selectFirst();
@@ -175,13 +212,8 @@ public class HomeController implements Initializable {
     @Override
     public void initialize(URL location, ResourceBundle resources) {
         setAlgorithmChoiceBox();
-        setInputSizeChoiceBox();
+        setInputSizeChoiceBox_Spigot();
         setThreadChoiceBox();
         setTestTableView();
-    }
-
-    public void goBackClick() {
-        testTableView.getItems().clear();
-        SceneManager.getInstance().switchScene(SceneManager.States.LOGIN);
     }
 }

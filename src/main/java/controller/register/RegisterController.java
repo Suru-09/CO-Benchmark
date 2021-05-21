@@ -67,14 +67,18 @@ public class RegisterController {
 
         usernameTextField.clear();
         passwordPasswordField.clear();
-        cpuTextField.clear();
-        ramTextField.clear();
 
         SceneManager.getInstance().switchScene(SceneManager.States.HOME);
     }
 
     public void goBackClick() {
         SceneManager.getInstance().switchScene(SceneManager.States.LOGIN);
+    }
+
+    public void setup(){
+//        String[] cpuSuggestions = {"bruh", "hatz"};
+//
+//        TextFields.bindAutoCompletion(cpuTextField, cpuSuggestions);
     }
 
 }

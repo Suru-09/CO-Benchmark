@@ -27,13 +27,13 @@ dependencies {
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine'
     implementation group: 'com.jfoenix', name: 'jfoenix', version: '9.0.10'
     implementation group: 'com.google.code.gson', name: 'gson', version: '2.7'
+    implementation group: 'org.controlsfx', name: 'controlsfx', version: '11.0.1'
 
     compile 'org.openjfx:javafx-base:15:win'
     compile 'org.openjfx:javafx-graphics:15:win'
     compile 'org.openjfx:javafx-controls:15:win'
     compile 'org.openjfx:javafx-fxml:15:win'
     compile 'org.postgresql:postgresql:42.2.19'
-    compile 'org.controlsfx:controlsfx:11.1.0'
     compile group: 'com.jfoenix', name: 'jfoenix', version: '9.0.10'
 }
 
