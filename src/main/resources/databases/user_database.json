@@ -16,5 +16,14 @@
       "ram": "16 GB"
     },
     "id": 2
+  },
+  {
+    "username": "Raul",
+    "password": "Cox123",
+    "configuration": {
+      "cpu": "I7-9750H",
+      "ram": "16 GB"
+    },
+    "id": 3
   }
 ]

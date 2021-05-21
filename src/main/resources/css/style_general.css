@@ -290,3 +290,8 @@
 .table-view > .virtual-flow > .scroll-bar > .decrement-button {
     -fx-opacity: 0;
 }
+
+.default-color0.chart-bar { -fx-bar-fill: #6b8e23; }
+.default-color1.chart-bar { -fx-bar-fill: yellowgreen; }
+.default-color2.chart-bar { -fx-bar-fill: darkseagreen; }
+
