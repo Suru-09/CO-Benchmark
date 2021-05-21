@@ -190,7 +190,7 @@ public class HomeController implements Initializable {
     }
 
     public void setThreadChoiceBox() {
-        ObservableList<String> threads = FXCollections.observableArrayList("2", "4", "6", "8", "10", "12", "14", "16");
+        ObservableList<String> threads = FXCollections.observableArrayList("2", "4", "8", "16", "32");
 
         threadChoiceBox.getItems().addAll(threads);
         threadChoiceBox.getSelectionModel().selectFirst();

@@ -91,13 +91,13 @@ public class Test extends BaseEntity<Long> {
     private void calculateScore(){
         switch ( algorithm ){
             case SPIGOT -> {
-                this.score = size/Math.sqrt(time) * 10;
+                this.score = size * Math.pow(threads, 1.0d/5)/Math.sqrt(time) * 10 ;
             }
             case MONTE_CARLO -> {
-                this.score = size/Math.sqrt(time) * 0.9;
+                this.score = size * Math.pow(threads, 1.0d/5)/Math.sqrt(time) * 0.9;
             }
             case GAUSS_LEGENDRE -> {
-                this.score = size/Math.sqrt(time) * 2.2;
+                this.score = size * Math.pow(threads, 1.0d/5)/Math.sqrt(time) * 2.2;
             }
         }
     }

@@ -7,6 +7,7 @@ import domain.exception.CustomException;
 import domain.strategy.AnnotationExclusionStrategy;
 
 import java.io.BufferedWriter;
+import java.io.FileWriter;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.Collection;
@@ -72,11 +73,11 @@ public abstract class AbstractRepository<ID, T extends BaseEntity<ID>> implement
                 .create();
 
         try {
-            BufferedWriter writer = Files.newBufferedWriter(Paths.get(path));
-            String json = gson.toJson(this.getAll());
+//            JsonWriter writer = new JsonWriter(new FileWriter(path));
+//            gson.toJson(new JsonParser().parse(gson.toJson(this.getAll())), writer);
+            FileWriter writer = new FileWriter(path);
 
-            // TODO: Take out this print()
-            //System.out.println("json " + json);
+            String json = gson.toJson(this.getAll());
 
             writer.write(json);
             writer.close();

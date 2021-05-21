@@ -2,13 +2,12 @@ package repository;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
+import com.google.gson.stream.JsonReader;
 import domain.IDGenerator;
 import domain.Test;
 import domain.exception.CustomException;
 
-import java.io.Reader;
-import java.nio.file.Files;
-import java.nio.file.Paths;
+import java.io.FileReader;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -30,7 +29,7 @@ public class TestRepository extends AbstractRepository<Long, Test>{
         List<Test> data = new ArrayList<>();
 
         try {
-            Reader reader = Files.newBufferedReader(Paths.get(PATH));
+            JsonReader reader = new JsonReader(new FileReader(PATH));
             data = new Gson().fromJson(reader, new TypeToken<ArrayList<Test>>() {}.getType());
             reader.close();
         }
