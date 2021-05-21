@@ -43,5 +43,14 @@
       "ram": "16 GB"
     },
     "id": 5
+  },
+  {
+    "username": "Cristina",
+    "password": "Ciment123",
+    "configuration": {
+      "cpu": "i5-7200U",
+      "ram": "4 GB"
+    },
+    "id": 6
   }
 ]

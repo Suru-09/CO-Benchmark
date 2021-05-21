@@ -100,11 +100,11 @@ public class User extends BaseEntity<Long> {
             }
         }
         scoreSpigot = (spigotTestSize != 0) ? scoreSpigot / spigotTestSize : 0;
-        System.out.println("Spigot" + scoreSpigot);
+        System.out.println("Spigot" + scoreSpigot + " CPU: " + configuration.getCpu() + " Ram: " + configuration.getRam());
         scoreMonteCarlo = (carloTestSize != 0) ? scoreMonteCarlo / carloTestSize : 0;
-        System.out.println("Monte Carlo :" + scoreMonteCarlo);
+        System.out.println("Monte Carlo :" + scoreMonteCarlo + " CPU: " + configuration.getCpu() + " Ram: " + configuration.getRam());
         scoreGaussLegendre = (gaussTestSize != 0) ? scoreGaussLegendre / gaussTestSize : 0;
-        System.out.println("Gauss " + scoreGaussLegendre);
+        System.out.println("Gauss " + scoreGaussLegendre + " CPU: " + configuration.getCpu() + " Ram: " + configuration.getRam() + "\n");
     }
 
     public void addTest(Test test) {
