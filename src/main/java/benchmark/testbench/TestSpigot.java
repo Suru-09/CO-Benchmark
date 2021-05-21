@@ -1,39 +1,61 @@
 package benchmark.testbench;
 
+import benchmark.bench.IBenchmark;
 import benchmark.bench.cpu.SpigotAlgorithm;
-import benchmark.logging.ConsoleLogger;
-import benchmark.logging.ILog;
 import benchmark.logging.TimeUnit;
 import benchmark.timing.ITimer;
 import benchmark.timing.Timer;
-import benchmark.bench.IBenchmark;
 
-public class TestSpigot {
+import java.util.ArrayList;
 
-	private IBenchmark bench = new SpigotAlgorithm();
 
-	public SpigotAlgorithm getBench() {
-		return (SpigotAlgorithm) bench;
+public class TestSpigot extends TestAlgoritm {
+	private final IBenchmark bench = new SpigotAlgorithm();
+	private int size;
+	private int threads;
+
+	public TestSpigot(int size, int threads) {
+		this.size = size;
+		this.threads = threads;
 	}
 
-	public TestSpigot() {
+	public void start() {
 		ITimer timer = new Timer();
-		ILog log = new ConsoleLogger();
-		TimeUnit timeUnit = TimeUnit.Milli;
 
-		bench.initialize(10000000);
+		bench.initialize(size);
 		bench.warmUp();
 
 		timer.start();
-
 		bench.run(1);
-
 		long time = timer.stop();
-		log.writeTime("Finished in", time, timeUnit);
-		log.write("Result is", bench.getResult());
+
+		MultiThreading<TestSpigot> currThread = (MultiThreading<TestSpigot>) Thread.currentThread();
+		currThread.setTime(time);
+
+		super.setTime(TimeUnit.toTimeUnit(time, TimeUnit.Milli));
 
 		bench.clean();
-		log.close();
 	}
 
+	public void threads() {
+
+		ArrayList<MultiThreading<TestSpigot>> threadsArr = new ArrayList<>();
+
+		for(int i = 0 ; i < threads; ++i) {
+			threadsArr.add(new MultiThreading<>(new TestSpigot(size, threads)));
+			threadsArr.get(i).setSize(size);
+			threadsArr.get(i).setThreads(threads);
+			threadsArr.get(i).start();
+		}
+
+		for(int i = 0 ; i < threads; ++i) {
+			try {
+				threadsArr.get(i).join();
+				super.addTime(TimeUnit.toTimeUnit(threadsArr.get(i).getTime(), TimeUnit.Sec));
+			}
+			catch(Exception e) {
+				e.printStackTrace();
+			}
+		}
+	}
 }

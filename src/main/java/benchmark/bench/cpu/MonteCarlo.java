@@ -11,6 +11,7 @@ public class MonteCarlo implements IBenchmark {
 
     private final Random random;
     private MonteCarlo computer;
+    private int nrOfSamples;
 
     public MonteCarlo(Random random) {
         this.random = Objects.requireNonNull(
@@ -35,6 +36,10 @@ public class MonteCarlo implements IBenchmark {
 
     @Override
     public void initialize(Object... params) {
+        if(params.length == 1) {
+            if(params[0] instanceof Integer)
+                nrOfSamples = (int) params[0];
+        }
         computer = new MonteCarlo();
     }
 
@@ -51,15 +56,14 @@ public class MonteCarlo implements IBenchmark {
     @Override
     public void run(Object... options) {
         MonteCarlo computer = new MonteCarlo();
-
-        for (int samples = 100_000_000; samples <= 1_000_000_000; samples += 100_000_000) {
+        for (int samples = 100_000_000; samples <= nrOfSamples * 1000; samples += 100_000_000) {
             double approximation = computer.approximatePi(samples);
-            double pctDiff = 100 * (approximation - Math.PI) / Math.PI;
-            System.out.format("%7d: %10f, deviation from exact Pi: %+10f%%%n",
-                    samples,
-                    approximation,
-                    pctDiff
-            );
+//            double pctDiff = 100 * (approximation - Math.PI) / Math.PI;
+//            System.out.format("%7d: %10f, deviation from exact Pi: %+10f%%%n",
+//                    samples,
+//                    approximation,
+//                    pctDiff
+//            );
         }
     }
 

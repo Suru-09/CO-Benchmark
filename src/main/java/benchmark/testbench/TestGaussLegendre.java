@@ -2,42 +2,61 @@ package benchmark.testbench;
 
 import benchmark.bench.IBenchmark;
 import benchmark.bench.cpu.GaussLegendre;
-import benchmark.logging.ConsoleLogger;
-import benchmark.logging.ILog;
 import benchmark.logging.TimeUnit;
 import benchmark.timing.ITimer;
 import benchmark.timing.Timer;
 
-public class TestGaussLegendre {
+import java.util.ArrayList;
 
-    private IBenchmark bench = new GaussLegendre();
-    private ILog log = new ConsoleLogger();
+public class TestGaussLegendre extends TestAlgoritm {
+    private final IBenchmark bench = new GaussLegendre();
 
-    public ILog getLogger() {
-        return log;
+    private final int size;
+    private final int threads;
+
+    public TestGaussLegendre(int size, int threads) {
+        this.size = size;
+        this.threads = threads;
     }
 
-    public IBenchmark getBench() {
-        return (GaussLegendre)bench;
-    }
-
-    public TestGaussLegendre() {
+    public void start() {
         ITimer timer = new Timer();
 
-        int N = 1000000;
-
-        bench.initialize(N);
+        bench.initialize(size);
         bench.warmUp();
 
-        timer.resume();
+        timer.start();
+
         bench.run();
-        long time = timer.pause();
+        long time = timer.stop();
 
-        log.write(GaussLegendre.PI);
-        long total_time = timer.stop();
+        System.out.println("TIME: " + time);
 
-        log.close();
+        MultiThreading<TestGaussLegendre> currThread = (MultiThreading<TestGaussLegendre>) Thread.currentThread();
+        currThread.setTime(time);
+        super.setTime(TimeUnit.toTimeUnit(time, TimeUnit.Milli));
+
         bench.clean();
     }
 
+    public void threads() {
+        ArrayList<MultiThreading<TestGaussLegendre>> threadsArr = new ArrayList<>();
+
+        for(int i = 0 ; i < threads; ++i) {
+            threadsArr.add(new MultiThreading<>(new TestGaussLegendre(size, threads)));
+            threadsArr.get(i).setSize(size);
+            threadsArr.get(i).setThreads(threads);
+            threadsArr.get(i).start();
+        }
+
+        for(int i = 0; i < threads; ++i) {
+            try {
+                threadsArr.get(i).join();
+                super.addTime(TimeUnit.toTimeUnit(threadsArr.get(i).getTime(), TimeUnit.Sec));
+            }
+            catch(Exception e) {
+                e.printStackTrace();
+            }
+        }
+    }
 }

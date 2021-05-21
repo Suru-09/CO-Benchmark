@@ -1,43 +1,61 @@
 package benchmark.testbench;
 
+import benchmark.bench.IBenchmark;
 import benchmark.bench.cpu.MonteCarlo;
-import benchmark.bench.cpu.SpigotAlgorithm;
-import benchmark.logging.ConsoleLogger;
-import benchmark.logging.ILog;
 import benchmark.logging.TimeUnit;
 import benchmark.timing.ITimer;
 import benchmark.timing.Timer;
-import benchmark.bench.IBenchmark;
 
-public class TestMonteCarlo {
+import java.util.ArrayList;
 
-    private IBenchmark bench = new MonteCarlo();
-    private ILog log = new ConsoleLogger();
 
-    public ILog getLogger() {
-        return log;
+public class TestMonteCarlo extends TestAlgoritm {
+    private final IBenchmark bench = new MonteCarlo();
+    private int size;
+    private int threads;
+
+    public TestMonteCarlo(int size, int threads) {
+        this.size = size;
+        this.threads = threads;
     }
 
-    public MonteCarlo getBench() {
-        return (MonteCarlo)bench;
-    }
-
-    public void TestBench() {
+    public void start() {
         ITimer timer = new Timer();
-        TimeUnit timeUnit = TimeUnit.Milli;
 
-        bench.initialize(10000000);
+        bench.initialize(size);
         bench.warmUp();
 
         timer.start();
 
         bench.run(1);
-
         long time = timer.stop();
-        log.writeTime("Finished in", time, timeUnit);
-        log.write("Result is", bench.getResult());
+
+        MultiThreading<TestSpigot> currThread = (MultiThreading<TestSpigot>) Thread.currentThread();
+        currThread.setTime(time);
+
+        super.setTime( TimeUnit.toTimeUnit(time, TimeUnit.Milli) );
 
         bench.clean();
-        log.close();
+    }
+
+    public void threads() {
+        ArrayList<MultiThreading<TestMonteCarlo>> threadsArr = new ArrayList<>();
+
+        for(int i = 0 ; i < threads; ++i) {
+            threadsArr.add(new MultiThreading<>(new TestMonteCarlo(size, threads)));
+            threadsArr.get(i).setSize(size);
+            threadsArr.get(i).setThreads(threads);
+            threadsArr.get(i).start();
+        }
+
+        for(int i = 0 ; i < threads; ++i) {
+            try {
+                threadsArr.get(i).join();
+                super.addTime( TimeUnit.toTimeUnit(threadsArr.get(i).getTime(), TimeUnit.Sec));
+            }
+            catch(Exception e) {
+                e.printStackTrace();
+            }
+        }
     }
 }

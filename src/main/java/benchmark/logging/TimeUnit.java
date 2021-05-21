@@ -11,7 +11,6 @@ public enum TimeUnit {
 	 * @return Time expressed in given unit
 	 */
 	public static double toTimeUnit(long time, TimeUnit unit) {
-
 		return switch (unit) {
 			case Nano -> time;
 			case Micro -> time / 1000.0;

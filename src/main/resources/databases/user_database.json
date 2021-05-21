@@ -1,0 +1,29 @@
+[
+  {
+    "username": "Bogdan",
+    "password": "Cox123",
+    "configuration": {
+      "cpu": "AMD Ryzen 7 2700",
+      "ram": "16 GB"
+    },
+    "id": 1
+  },
+  {
+    "username": "Dragos",
+    "password": "Cox123",
+    "configuration": {
+      "cpu": "Intel I7-6700K",
+      "ram": "16 GB"
+    },
+    "id": 2
+  },
+  {
+    "username": "Raul",
+    "password": "Cox123",
+    "configuration": {
+      "cpu": "I7-9750H",
+      "ram": "16 GB"
+    },
+    "id": 3
+  }
+]

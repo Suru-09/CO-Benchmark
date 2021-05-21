@@ -1,12 +1,12 @@
 package controller;
 
-import java.io.IOException;
-import java.util.HashMap;
-
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
+
+import java.io.IOException;
+import java.util.HashMap;
 
 public class SceneManager {
     private static SceneManager instance = null;
@@ -34,6 +34,19 @@ public class SceneManager {
         this.loadedPanes = new Pane[States.values().length];
         this.scenes = new Scene[States.values().length];
         this.loaders = new FXMLLoader[States.values().length];
+
+        try {
+            int i = 0 ;
+            for(States state: States.values()) {
+                loaders[i] = new FXMLLoader(getClass().getClassLoader().getResource(state.url));
+                loadedPanes[i] = loaders[i].load();
+                scenes[i] = new Scene(loadedPanes[i]);
+                ++i;
+            }
+        }
+        catch(IOException e) {
+            e.printStackTrace();
+        }
 
 
         rootStage.setScene(scenes[0]);
