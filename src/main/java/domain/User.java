@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
-public class User extends BaseEntity<Long>{
+public class User extends BaseEntity<Long> {
     private String username;
     private String password;
     private Configuration configuration;
@@ -76,15 +76,15 @@ public class User extends BaseEntity<Long>{
         return scoreGaussLegendre;
     }
 
-    private void calculateScore(){
-        if ( tests.isEmpty() ){
+    private void calculateScore() {
+        if (tests.isEmpty()) {
             return;
         }
         int spigotTestSize = 0;
         int carloTestSize = 0;
         int gaussTestSize = 0;
-        for (Test test : tests){
-            switch (test.getAlgorithm()){
+        for (Test test : tests) {
+            switch (test.getAlgorithm()) {
                 case SPIGOT -> {
                     scoreSpigot += test.getScore();
                     spigotTestSize++;
@@ -99,12 +99,15 @@ public class User extends BaseEntity<Long>{
                 }
             }
         }
-        scoreSpigot = ( spigotTestSize != 0 ) ? scoreSpigot/spigotTestSize : 0;
-        scoreMonteCarlo = ( carloTestSize != 0 ) ? scoreMonteCarlo/carloTestSize : 0;
-        scoreGaussLegendre = ( gaussTestSize != 0 ) ? scoreGaussLegendre/gaussTestSize : 0;
+        scoreSpigot = (spigotTestSize != 0) ? scoreSpigot / spigotTestSize : 0;
+        System.out.println("Spigot" + scoreSpigot);
+        scoreMonteCarlo = (carloTestSize != 0) ? scoreMonteCarlo / carloTestSize : 0;
+        System.out.println("Monte Carlo :" + scoreMonteCarlo);
+        scoreGaussLegendre = (gaussTestSize != 0) ? scoreGaussLegendre / gaussTestSize : 0;
+        System.out.println("Gauss " + scoreGaussLegendre);
     }
 
-    public void addTest(Test test){
+    public void addTest(Test test) {
         tests.add(test);
     }
 

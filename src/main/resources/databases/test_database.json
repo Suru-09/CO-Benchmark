@@ -412,5 +412,653 @@
     "score": 73925.87796035103,
     "userID": 1,
     "id": 46
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 10000,
+    "threads": 2,
+    "time": 2.9259996,
+    "score": 67153.53326974681,
+    "userID": 1,
+    "id": 47
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 10000,
+    "threads": 2,
+    "time": 2.9363124,
+    "score": 67035.50255427982,
+    "userID": 1,
+    "id": 48
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 10000,
+    "threads": 2,
+    "time": 2.9727943,
+    "score": 66622.90557533831,
+    "userID": 2,
+    "id": 49
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 10000,
+    "threads": 2,
+    "time": 2.9619332,
+    "score": 66744.94342439155,
+    "userID": 2,
+    "id": 50
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 20000,
+    "threads": 2,
+    "time": 11.6654134,
+    "score": 67264.50147574588,
+    "userID": 2,
+    "id": 51
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 20000,
+    "threads": 2,
+    "time": 11.6726699,
+    "score": 67243.5902042777,
+    "userID": 2,
+    "id": 52
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 30000,
+    "threads": 4,
+    "time": 28.3604052,
+    "score": 74332.20863707845,
+    "userID": 2,
+    "id": 53
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 30000,
+    "threads": 4,
+    "time": 28.4170798,
+    "score": 74258.04811849243,
+    "userID": 2,
+    "id": 54
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 30000,
+    "threads": 4,
+    "time": 28.5011607,
+    "score": 74148.43336909826,
+    "userID": 2,
+    "id": 55
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 30000,
+    "threads": 4,
+    "time": 28.3267549,
+    "score": 74376.34639174187,
+    "userID": 2,
+    "id": 56
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 300000,
+    "threads": 2,
+    "time": 31.5266943,
+    "score": 55237.05877160294,
+    "userID": 2,
+    "id": 57
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 300000,
+    "threads": 2,
+    "time": 41.4663182,
+    "score": 48163.94206105715,
+    "userID": 2,
+    "id": 58
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 20000,
+    "threads": 2,
+    "time": 12.0912634,
+    "score": 66069.36819156776,
+    "userID": 2,
+    "id": 59
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 20000,
+    "threads": 2,
+    "time": 12.1322587,
+    "score": 65957.64845467929,
+    "userID": 2,
+    "id": 60
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 30000,
+    "threads": 2,
+    "time": 26.4563068,
+    "score": 66998.12437897378,
+    "userID": 2,
+    "id": 61
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 30000,
+    "threads": 2,
+    "time": 26.4494357,
+    "score": 67006.82628331223,
+    "userID": 2,
+    "id": 62
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 40000,
+    "threads": 2,
+    "time": 47.7868879,
+    "score": 66467.84774227306,
+    "userID": 2,
+    "id": 63
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 40000,
+    "threads": 2,
+    "time": 47.8268754,
+    "score": 66440.0554306482,
+    "userID": 2,
+    "id": 64
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 40000,
+    "threads": 4,
+    "time": 61.0485704,
+    "score": 67551.38230466722,
+    "userID": 2,
+    "id": 65
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 40000,
+    "threads": 4,
+    "time": 61.0312477,
+    "score": 67560.96829014727,
+    "userID": 2,
+    "id": 66
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 40000,
+    "threads": 4,
+    "time": 60.3601233,
+    "score": 67935.52414331354,
+    "userID": 2,
+    "id": 67
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 40000,
+    "threads": 4,
+    "time": 60.3794561,
+    "score": 67924.64718999699,
+    "userID": 2,
+    "id": 68
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 30000,
+    "threads": 2,
+    "time": 35.4031566,
+    "score": 57917.02703475443,
+    "userID": 2,
+    "id": 69
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 30000,
+    "threads": 2,
+    "time": 35.4126188,
+    "score": 57909.28884531274,
+    "userID": 2,
+    "id": 70
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 30000,
+    "threads": 8,
+    "time": 40.4191486,
+    "score": 71522.99161292639,
+    "userID": 2,
+    "id": 71
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 30000,
+    "threads": 8,
+    "time": 40.3726334,
+    "score": 71564.18224454888,
+    "userID": 2,
+    "id": 72
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 30000,
+    "threads": 8,
+    "time": 46.739524,
+    "score": 66511.55623014056,
+    "userID": 2,
+    "id": 73
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 30000,
+    "threads": 8,
+    "time": 46.9479289,
+    "score": 66363.76748175305,
+    "userID": 2,
+    "id": 74
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 30000,
+    "threads": 8,
+    "time": 40.417788,
+    "score": 71524.19545618743,
+    "userID": 2,
+    "id": 75
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 30000,
+    "threads": 8,
+    "time": 40.4186838,
+    "score": 71523.40285579482,
+    "userID": 2,
+    "id": 76
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 30000,
+    "threads": 8,
+    "time": 46.9118024,
+    "score": 66389.31573536535,
+    "userID": 2,
+    "id": 77
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 30000,
+    "threads": 8,
+    "time": 46.8730198,
+    "score": 66416.77521975976,
+    "userID": 2,
+    "id": 78
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 100000,
+    "threads": 8,
+    "time": 7.6792125,
+    "score": 49226.86333546933,
+    "userID": 2,
+    "id": 79
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 100000,
+    "threads": 8,
+    "time": 8.2395466,
+    "score": 47523.5472411213,
+    "userID": 2,
+    "id": 80
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 100000,
+    "threads": 8,
+    "time": 8.1092126,
+    "score": 47903.93215496801,
+    "userID": 2,
+    "id": 81
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 100000,
+    "threads": 8,
+    "time": 7.5343927,
+    "score": 49697.710361565405,
+    "userID": 2,
+    "id": 82
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 100000,
+    "threads": 8,
+    "time": 7.6573424,
+    "score": 49297.1115200177,
+    "userID": 2,
+    "id": 83
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 100000,
+    "threads": 8,
+    "time": 8.2571103,
+    "score": 47472.97666400814,
+    "userID": 2,
+    "id": 84
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 100000,
+    "threads": 8,
+    "time": 8.1880151,
+    "score": 47672.858067576824,
+    "userID": 2,
+    "id": 85
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 100000,
+    "threads": 8,
+    "time": 7.6766555,
+    "score": 49235.061085752495,
+    "userID": 2,
+    "id": 86
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 8,
+    "time": 2.3255732,
+    "score": 54665.796449587426,
+    "userID": 2,
+    "id": 87
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 8,
+    "time": 2.2080602,
+    "score": 56101.59801845866,
+    "userID": 2,
+    "id": 88
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 8,
+    "time": 2.262505,
+    "score": 55422.474606266514,
+    "userID": 2,
+    "id": 89
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 8,
+    "time": 2.5105546,
+    "score": 52613.3374406619,
+    "userID": 2,
+    "id": 90
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 8,
+    "time": 2.5800253,
+    "score": 51900.16093452527,
+    "userID": 2,
+    "id": 91
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 8,
+    "time": 2.1484242,
+    "score": 56874.90301149525,
+    "userID": 2,
+    "id": 92
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 8,
+    "time": 2.2397757,
+    "score": 55702.979092394344,
+    "userID": 2,
+    "id": 93
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 8,
+    "time": 2.3984426,
+    "score": 53828.964103871855,
+    "userID": 2,
+    "id": 94
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 75000,
+    "threads": 8,
+    "time": 12.6564913,
+    "score": 70298.37387561507,
+    "userID": 2,
+    "id": 95
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 75000,
+    "threads": 8,
+    "time": 12.6984784,
+    "score": 70182.0580200742,
+    "userID": 2,
+    "id": 96
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 75000,
+    "threads": 8,
+    "time": 13.9034285,
+    "score": 67071.95846760215,
+    "userID": 2,
+    "id": 97
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 75000,
+    "threads": 8,
+    "time": 13.6968487,
+    "score": 67575.86481926437,
+    "userID": 2,
+    "id": 98
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 75000,
+    "threads": 8,
+    "time": 12.6489267,
+    "score": 70319.39145318225,
+    "userID": 2,
+    "id": 99
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 75000,
+    "threads": 8,
+    "time": 12.6360456,
+    "score": 70355.22388130704,
+    "userID": 2,
+    "id": 100
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 75000,
+    "threads": 8,
+    "time": 13.7275504,
+    "score": 67500.25572725787,
+    "userID": 2,
+    "id": 101
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 75000,
+    "threads": 8,
+    "time": 13.7054813,
+    "score": 67554.57963833693,
+    "userID": 2,
+    "id": 102
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 75000,
+    "threads": 16,
+    "time": 26.8181229,
+    "score": 55474.5454527454,
+    "userID": 2,
+    "id": 103
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 75000,
+    "threads": 16,
+    "time": 26.432321,
+    "score": 55877.927624811586,
+    "userID": 2,
+    "id": 104
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 75000,
+    "threads": 16,
+    "time": 26.7201917,
+    "score": 55576.11134307088,
+    "userID": 2,
+    "id": 105
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 75000,
+    "threads": 16,
+    "time": 26.7261344,
+    "score": 55569.93217564201,
+    "userID": 2,
+    "id": 106
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 75000,
+    "threads": 16,
+    "time": 26.5135164,
+    "score": 55792.301306649126,
+    "userID": 2,
+    "id": 107
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 75000,
+    "threads": 16,
+    "time": 26.5285539,
+    "score": 55776.486353832755,
+    "userID": 2,
+    "id": 108
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 75000,
+    "threads": 16,
+    "time": 26.6117734,
+    "score": 55689.20682985781,
+    "userID": 2,
+    "id": 109
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 75000,
+    "threads": 16,
+    "time": 26.4741489,
+    "score": 55833.76793725547,
+    "userID": 2,
+    "id": 110
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 75000,
+    "threads": 16,
+    "time": 25.9843045,
+    "score": 56357.58727935458,
+    "userID": 2,
+    "id": 111
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 75000,
+    "threads": 16,
+    "time": 26.7899362,
+    "score": 55503.7212089435,
+    "userID": 2,
+    "id": 112
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 75000,
+    "threads": 16,
+    "time": 26.7203536,
+    "score": 55575.942973553945,
+    "userID": 2,
+    "id": 113
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 75000,
+    "threads": 16,
+    "time": 25.943522,
+    "score": 56401.86617016678,
+    "userID": 2,
+    "id": 114
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 75000,
+    "threads": 16,
+    "time": 27.2115846,
+    "score": 55072.02229305759,
+    "userID": 2,
+    "id": 115
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 75000,
+    "threads": 16,
+    "time": 26.0007627,
+    "score": 56339.74758592858,
+    "userID": 2,
+    "id": 116
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 75000,
+    "threads": 16,
+    "time": 27.09192,
+    "score": 55193.514427507835,
+    "userID": 2,
+    "id": 117
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 75000,
+    "threads": 16,
+    "time": 26.885004,
+    "score": 55405.5012201927,
+    "userID": 2,
+    "id": 118
   }
 ]

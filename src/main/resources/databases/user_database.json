@@ -7,5 +7,14 @@
       "ram": "16 GB"
     },
     "id": 1
+  },
+  {
+    "username": "Raluca",
+    "password": "Raluca2001",
+    "configuration": {
+      "cpu": "Intel i7-8565U",
+      "ram": "8GB"
+    },
+    "id": 2
   }
 ]
