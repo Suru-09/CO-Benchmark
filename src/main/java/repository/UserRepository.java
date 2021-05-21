@@ -22,6 +22,11 @@ public class UserRepository extends AbstractRepository<Long, User>{
         idGenerator = new IDGenerator(super.getLastID());
     }
 
+    public UserRepository(String Path){
+        loadData(Path);
+        idGenerator = new IDGenerator(super.getLastID());
+    }
+
     public void add(User user) throws CustomException{
         if ( super.getAll().contains(user) ){
             throw new CustomException("User already exists!");
@@ -51,6 +56,29 @@ public class UserRepository extends AbstractRepository<Long, User>{
             }
         }
     }
+
+    public void loadData(String Path){
+        List<User> data = new ArrayList<>();
+
+        try {
+            JsonReader reader = new JsonReader(new FileReader(Path));
+            data = new Gson().fromJson(reader, new TypeToken<ArrayList<User>>() {}.getType());
+            reader.close();
+        }
+        catch (Exception ex) {
+            ex.printStackTrace();
+        }
+
+        for (User user : data){
+            try {
+                super.add(user);
+            }
+            catch (Exception ex){
+                ex.printStackTrace();
+            }
+        }
+    }
+
 
     public List<User> getAll() {
         try {

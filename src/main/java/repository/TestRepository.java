@@ -20,6 +20,11 @@ public class TestRepository extends AbstractRepository<Long, Test>{
         idGenerator = new IDGenerator(super.getLastID());
     }
 
+    public TestRepository(String Path){
+        loadData(Path);
+        idGenerator = new IDGenerator(super.getLastID());
+    }
+
     public void add(Test test) throws CustomException {
         test.setId(idGenerator.getID());
         super.add(test);
@@ -30,6 +35,28 @@ public class TestRepository extends AbstractRepository<Long, Test>{
 
         try {
             JsonReader reader = new JsonReader(new FileReader(PATH));
+            data = new Gson().fromJson(reader, new TypeToken<ArrayList<Test>>() {}.getType());
+            reader.close();
+        }
+        catch (Exception ex) {
+            ex.printStackTrace();
+        }
+
+        for (Test test : data){
+            try {
+                super.add(test);
+            }
+            catch (Exception ex){
+                ex.printStackTrace();
+            }
+        }
+    }
+
+    private void loadData(String Path){
+        List<Test> data = new ArrayList<>();
+
+        try {
+            JsonReader reader = new JsonReader(new FileReader(Path));
             data = new Gson().fromJson(reader, new TypeToken<ArrayList<Test>>() {}.getType());
             reader.close();
         }

@@ -412,5 +412,4739 @@
     "score": 73925.87796035103,
     "userID": 1,
     "id": 46
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 10000,
+    "threads": 2,
+    "time": 3.3234519,
+    "score": 63010.264157121914,
+    "userID": 2,
+    "id": 47
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 10000,
+    "threads": 2,
+    "time": 3.3253567,
+    "score": 62992.21509436179,
+    "userID": 2,
+    "id": 48
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 10000,
+    "threads": 2,
+    "time": 3.2473566,
+    "score": 63744.248880395615,
+    "userID": 2,
+    "id": 49
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 10000,
+    "threads": 2,
+    "time": 3.2578938,
+    "score": 63641.07948030163,
+    "userID": 2,
+    "id": 50
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 10000,
+    "threads": 8,
+    "time": 4.6902244,
+    "score": 69987.61378236287,
+    "userID": 2,
+    "id": 51
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 10000,
+    "threads": 8,
+    "time": 4.5299591,
+    "score": 71214.89806001661,
+    "userID": 2,
+    "id": 52
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 10000,
+    "threads": 8,
+    "time": 4.5635178,
+    "score": 70952.5687186622,
+    "userID": 2,
+    "id": 53
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 10000,
+    "threads": 8,
+    "time": 4.4738,
+    "score": 71660.48032256037,
+    "userID": 2,
+    "id": 54
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 10000,
+    "threads": 8,
+    "time": 4.6052987,
+    "score": 70629.98198669743,
+    "userID": 2,
+    "id": 55
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 10000,
+    "threads": 8,
+    "time": 4.6396379,
+    "score": 70368.12087486038,
+    "userID": 2,
+    "id": 56
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 10000,
+    "threads": 8,
+    "time": 4.7247466,
+    "score": 69731.45654606243,
+    "userID": 2,
+    "id": 57
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 10000,
+    "threads": 8,
+    "time": 4.5693942,
+    "score": 70906.9303041927,
+    "userID": 2,
+    "id": 58
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 50000,
+    "threads": 8,
+    "time": 97.887066,
+    "score": 76599.39614991467,
+    "userID": 2,
+    "id": 59
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 50000,
+    "threads": 8,
+    "time": 97.6268728,
+    "score": 76701.4038216261,
+    "userID": 2,
+    "id": 60
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 50000,
+    "threads": 8,
+    "time": 97.4488606,
+    "score": 76771.42801593996,
+    "userID": 2,
+    "id": 61
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 50000,
+    "threads": 8,
+    "time": 97.575935,
+    "score": 76721.42151864011,
+    "userID": 2,
+    "id": 62
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 50000,
+    "threads": 8,
+    "time": 97.5156724,
+    "score": 76745.1239561442,
+    "userID": 2,
+    "id": 63
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 50000,
+    "threads": 8,
+    "time": 97.2368028,
+    "score": 76855.09548196812,
+    "userID": 2,
+    "id": 64
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 50000,
+    "threads": 8,
+    "time": 97.8559552,
+    "score": 76611.5715924314,
+    "userID": 2,
+    "id": 65
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 50000,
+    "threads": 8,
+    "time": 97.9589541,
+    "score": 76571.28439771886,
+    "userID": 2,
+    "id": 66
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 100000,
+    "threads": 2,
+    "time": 323.5468844,
+    "score": 63861.246035118245,
+    "userID": 2,
+    "id": 67
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 100000,
+    "threads": 2,
+    "time": 323.530708,
+    "score": 63862.84253295012,
+    "userID": 2,
+    "id": 68
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 50000,
+    "threads": 2,
+    "time": 80.6053271,
+    "score": 63972.61904182218,
+    "userID": 2,
+    "id": 69
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 50000,
+    "threads": 2,
+    "time": 80.5879407,
+    "score": 63979.51953803719,
+    "userID": 2,
+    "id": 70
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 100000,
+    "threads": 2,
+    "time": 4.7405659,
+    "score": 47482.48223940123,
+    "userID": 2,
+    "id": 71
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 100000,
+    "threads": 2,
+    "time": 4.8688975,
+    "score": 46852.54566595371,
+    "userID": 2,
+    "id": 72
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 1000000,
+    "threads": 2,
+    "time": 269.1700269,
+    "score": 63013.72591586903,
+    "userID": 2,
+    "id": 73
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 1000000,
+    "threads": 2,
+    "time": 269.7467752,
+    "score": 62946.324727416046,
+    "userID": 2,
+    "id": 74
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 100000,
+    "threads": 2,
+    "time": 4.809248,
+    "score": 47142.208252654455,
+    "userID": 2,
+    "id": 75
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 100000,
+    "threads": 2,
+    "time": 4.7990207,
+    "score": 47192.414423500486,
+    "userID": 2,
+    "id": 76
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 100000,
+    "threads": 2,
+    "time": 4.7653262,
+    "score": 47358.96376192293,
+    "userID": 2,
+    "id": 77
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 100000,
+    "threads": 2,
+    "time": 4.7744376,
+    "score": 47313.7529367007,
+    "userID": 2,
+    "id": 78
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 100000,
+    "threads": 2,
+    "time": 4.7137519,
+    "score": 47617.341880565815,
+    "userID": 2,
+    "id": 79
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 100000,
+    "threads": 2,
+    "time": 4.7347096,
+    "score": 47511.83839337533,
+    "userID": 2,
+    "id": 80
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 100000,
+    "threads": 2,
+    "time": 4.7702228,
+    "score": 47334.650700181955,
+    "userID": 2,
+    "id": 81
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 100000,
+    "threads": 2,
+    "time": 4.7772093,
+    "score": 47300.02540794551,
+    "userID": 2,
+    "id": 82
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 100000,
+    "threads": 2,
+    "time": 4.7173404,
+    "score": 47599.22708223592,
+    "userID": 2,
+    "id": 83
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 100000,
+    "threads": 2,
+    "time": 4.7138588,
+    "score": 47616.80194895961,
+    "userID": 2,
+    "id": 84
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 100000,
+    "threads": 2,
+    "time": 4.7395642,
+    "score": 47487.49965108872,
+    "userID": 2,
+    "id": 85
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 100000,
+    "threads": 2,
+    "time": 4.7384592,
+    "score": 47493.03632725966,
+    "userID": 2,
+    "id": 86
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 100000,
+    "threads": 2,
+    "time": 5.209717,
+    "score": 45294.07995397919,
+    "userID": 2,
+    "id": 87
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 100000,
+    "threads": 2,
+    "time": 5.2303673,
+    "score": 45204.577503601315,
+    "userID": 2,
+    "id": 88
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 100000,
+    "threads": 16,
+    "time": 8.3742771,
+    "score": 54149.299441470735,
+    "userID": 2,
+    "id": 89
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 100000,
+    "threads": 16,
+    "time": 9.9755891,
+    "score": 49613.198912628955,
+    "userID": 2,
+    "id": 90
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 100000,
+    "threads": 16,
+    "time": 9.7290476,
+    "score": 50237.88435439862,
+    "userID": 2,
+    "id": 91
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 100000,
+    "threads": 16,
+    "time": 11.4403081,
+    "score": 46328.436696788354,
+    "userID": 2,
+    "id": 92
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 100000,
+    "threads": 16,
+    "time": 11.6147321,
+    "score": 45979.25259961472,
+    "userID": 2,
+    "id": 93
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 100000,
+    "threads": 16,
+    "time": 8.6755037,
+    "score": 53200.92167971924,
+    "userID": 2,
+    "id": 94
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 100000,
+    "threads": 16,
+    "time": 8.4342311,
+    "score": 53956.49840457448,
+    "userID": 2,
+    "id": 95
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 100000,
+    "threads": 16,
+    "time": 9.9364142,
+    "score": 49710.90418901889,
+    "userID": 2,
+    "id": 96
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 100000,
+    "threads": 16,
+    "time": 9.8434807,
+    "score": 49945.01626701048,
+    "userID": 2,
+    "id": 97
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 100000,
+    "threads": 16,
+    "time": 11.6206095,
+    "score": 45967.62357801491,
+    "userID": 2,
+    "id": 98
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 100000,
+    "threads": 16,
+    "time": 11.5516831,
+    "score": 46104.5590603263,
+    "userID": 2,
+    "id": 99
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 100000,
+    "threads": 16,
+    "time": 8.7471862,
+    "score": 52982.484564865095,
+    "userID": 2,
+    "id": 100
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 100000,
+    "threads": 16,
+    "time": 8.6928008,
+    "score": 53147.96522136904,
+    "userID": 2,
+    "id": 101
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 100000,
+    "threads": 16,
+    "time": 10.1004904,
+    "score": 49305.48962237906,
+    "userID": 2,
+    "id": 102
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 100000,
+    "threads": 16,
+    "time": 9.9575822,
+    "score": 49658.03792927307,
+    "userID": 2,
+    "id": 103
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 100000,
+    "threads": 16,
+    "time": 11.3759075,
+    "score": 46459.38749856694,
+    "userID": 2,
+    "id": 104
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 100000,
+    "threads": 16,
+    "time": 9.0374192,
+    "score": 52124.78687171443,
+    "userID": 2,
+    "id": 105
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 100000,
+    "threads": 16,
+    "time": 10.5164972,
+    "score": 48320.44783711766,
+    "userID": 2,
+    "id": 106
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 100000,
+    "threads": 16,
+    "time": 10.4912827,
+    "score": 48378.47909941585,
+    "userID": 2,
+    "id": 107
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 100000,
+    "threads": 16,
+    "time": 12.0851278,
+    "score": 45075.534191161154,
+    "userID": 2,
+    "id": 108
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 100000,
+    "threads": 16,
+    "time": 11.453642,
+    "score": 46301.461930427526,
+    "userID": 2,
+    "id": 109
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 100000,
+    "threads": 16,
+    "time": 9.0663294,
+    "score": 52041.61422400976,
+    "userID": 2,
+    "id": 110
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 100000,
+    "threads": 16,
+    "time": 8.5957382,
+    "score": 53447.194812470996,
+    "userID": 2,
+    "id": 111
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 100000,
+    "threads": 16,
+    "time": 10.2585743,
+    "score": 48924.117646070496,
+    "userID": 2,
+    "id": 112
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 100000,
+    "threads": 16,
+    "time": 10.2627868,
+    "score": 48914.07583177858,
+    "userID": 2,
+    "id": 113
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 100000,
+    "threads": 16,
+    "time": 12.1775548,
+    "score": 44904.14790246943,
+    "userID": 2,
+    "id": 114
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 100000,
+    "threads": 16,
+    "time": 11.9574249,
+    "score": 45315.593779191186,
+    "userID": 2,
+    "id": 115
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 100000,
+    "threads": 16,
+    "time": 8.9714422,
+    "score": 52316.10156577059,
+    "userID": 2,
+    "id": 116
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 100000,
+    "threads": 16,
+    "time": 8.8160052,
+    "score": 52775.28498156403,
+    "userID": 2,
+    "id": 117
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 100000,
+    "threads": 16,
+    "time": 10.5718599,
+    "score": 48193.759534901124,
+    "userID": 2,
+    "id": 118
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 100000,
+    "threads": 16,
+    "time": 10.3216157,
+    "score": 48774.48173573351,
+    "userID": 2,
+    "id": 119
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 100000,
+    "threads": 16,
+    "time": 11.5781207,
+    "score": 46051.891165143985,
+    "userID": 2,
+    "id": 120
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 100000,
+    "threads": 16,
+    "time": 7.9232902,
+    "score": 55669.03904147201,
+    "userID": 2,
+    "id": 121
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 100000,
+    "threads": 16,
+    "time": 9.2994495,
+    "score": 51385.180427017025,
+    "userID": 2,
+    "id": 122
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 100000,
+    "threads": 16,
+    "time": 9.588451,
+    "score": 50604.86601951049,
+    "userID": 2,
+    "id": 123
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 100000,
+    "threads": 16,
+    "time": 9.7932042,
+    "score": 50073.056384174655,
+    "userID": 2,
+    "id": 124
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 100000,
+    "threads": 16,
+    "time": 9.5784016,
+    "score": 50631.40568880457,
+    "userID": 2,
+    "id": 125
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 100000,
+    "threads": 16,
+    "time": 7.9418434,
+    "score": 55603.97588920078,
+    "userID": 2,
+    "id": 126
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 100000,
+    "threads": 16,
+    "time": 7.8872123,
+    "score": 55796.21518690073,
+    "userID": 2,
+    "id": 127
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 100000,
+    "threads": 16,
+    "time": 9.3480125,
+    "score": 51251.533414208316,
+    "userID": 2,
+    "id": 128
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 100000,
+    "threads": 16,
+    "time": 9.4141972,
+    "score": 51071.058639797506,
+    "userID": 2,
+    "id": 129
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 100000,
+    "threads": 16,
+    "time": 9.7406367,
+    "score": 50207.98974068406,
+    "userID": 2,
+    "id": 130
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 100000,
+    "threads": 16,
+    "time": 9.3318397,
+    "score": 51295.92562455827,
+    "userID": 2,
+    "id": 131
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 100000,
+    "threads": 16,
+    "time": 7.8926582,
+    "score": 55776.96229172254,
+    "userID": 2,
+    "id": 132
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 100000,
+    "threads": 16,
+    "time": 7.8347566,
+    "score": 55982.68855408021,
+    "userID": 2,
+    "id": 133
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 100000,
+    "threads": 16,
+    "time": 9.5327334,
+    "score": 50752.54001491464,
+    "userID": 2,
+    "id": 134
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 100000,
+    "threads": 16,
+    "time": 9.5890512,
+    "score": 50603.28225927993,
+    "userID": 2,
+    "id": 135
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 100000,
+    "threads": 16,
+    "time": 9.7784439,
+    "score": 50110.83410431063,
+    "userID": 2,
+    "id": 136
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 200000,
+    "threads": 16,
+    "time": 30.3311291,
+    "score": 56905.23390942874,
+    "userID": 2,
+    "id": 137
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 200000,
+    "threads": 16,
+    "time": 30.760784,
+    "score": 56506.421092999706,
+    "userID": 2,
+    "id": 138
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 200000,
+    "threads": 16,
+    "time": 31.4201533,
+    "score": 55910.368132939686,
+    "userID": 2,
+    "id": 139
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 200000,
+    "threads": 16,
+    "time": 31.2988373,
+    "score": 56018.61915542124,
+    "userID": 2,
+    "id": 140
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 200000,
+    "threads": 16,
+    "time": 31.7202435,
+    "score": 55645.26889241419,
+    "userID": 2,
+    "id": 141
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 200000,
+    "threads": 16,
+    "time": 31.9084918,
+    "score": 55480.88282671,
+    "userID": 2,
+    "id": 142
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 200000,
+    "threads": 16,
+    "time": 30.360825,
+    "score": 56877.39761794737,
+    "userID": 2,
+    "id": 143
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 200000,
+    "threads": 16,
+    "time": 30.7434033,
+    "score": 56522.39171233628,
+    "userID": 2,
+    "id": 144
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 200000,
+    "threads": 16,
+    "time": 31.3895819,
+    "score": 55937.58802806111,
+    "userID": 2,
+    "id": 145
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 200000,
+    "threads": 16,
+    "time": 31.4068376,
+    "score": 55922.219163667534,
+    "userID": 2,
+    "id": 146
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 200000,
+    "threads": 16,
+    "time": 31.9729465,
+    "score": 55424.932279489425,
+    "userID": 2,
+    "id": 147
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 200000,
+    "threads": 16,
+    "time": 31.877488,
+    "score": 55507.85640999255,
+    "userID": 2,
+    "id": 148
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 200000,
+    "threads": 16,
+    "time": 30.3116132,
+    "score": 56923.54996124636,
+    "userID": 2,
+    "id": 149
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 200000,
+    "threads": 16,
+    "time": 30.2508618,
+    "score": 56980.67975293527,
+    "userID": 2,
+    "id": 150
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 200000,
+    "threads": 16,
+    "time": 31.3074709,
+    "score": 56010.89455033001,
+    "userID": 2,
+    "id": 151
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 200000,
+    "threads": 16,
+    "time": 31.478635,
+    "score": 55858.408233248985,
+    "userID": 2,
+    "id": 152
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 16,
+    "time": 2.6231759,
+    "score": 59125.248517169275,
+    "userID": 2,
+    "id": 153
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 16,
+    "time": 2.6065608,
+    "score": 59313.391336173634,
+    "userID": 2,
+    "id": 154
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 16,
+    "time": 2.4947249,
+    "score": 60628.29500500796,
+    "userID": 2,
+    "id": 155
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 16,
+    "time": 2.182285,
+    "score": 64823.272550674425,
+    "userID": 2,
+    "id": 156
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 16,
+    "time": 2.1720828,
+    "score": 64975.33057459364,
+    "userID": 2,
+    "id": 157
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 16,
+    "time": 2.3626048,
+    "score": 62300.44446797039,
+    "userID": 2,
+    "id": 158
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 16,
+    "time": 2.6244217,
+    "score": 59111.213619885435,
+    "userID": 2,
+    "id": 159
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 16,
+    "time": 3.0984414,
+    "score": 54402.022106602075,
+    "userID": 2,
+    "id": 160
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 16,
+    "time": 2.4510999,
+    "score": 61165.45065846277,
+    "userID": 2,
+    "id": 161
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 16,
+    "time": 2.4425724,
+    "score": 61272.12793270836,
+    "userID": 2,
+    "id": 162
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 16,
+    "time": 2.31832,
+    "score": 62892.664605669044,
+    "userID": 2,
+    "id": 163
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 16,
+    "time": 2.2403583,
+    "score": 63977.60021552468,
+    "userID": 2,
+    "id": 164
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 16,
+    "time": 2.719713,
+    "score": 58066.43288566555,
+    "userID": 2,
+    "id": 165
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 16,
+    "time": 2.6176356,
+    "score": 59187.78557711976,
+    "userID": 2,
+    "id": 166
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 16,
+    "time": 2.3552232,
+    "score": 62397.997259296375,
+    "userID": 2,
+    "id": 167
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 16,
+    "time": 2.4133785,
+    "score": 61641.60899244538,
+    "userID": 2,
+    "id": 168
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 16,
+    "time": 2.3765288,
+    "score": 62117.66828071497,
+    "userID": 2,
+    "id": 169
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 16,
+    "time": 2.3474741,
+    "score": 62500.90147058146,
+    "userID": 2,
+    "id": 170
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 16,
+    "time": 2.5664683,
+    "score": 59774.88287642772,
+    "userID": 2,
+    "id": 171
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 16,
+    "time": 2.6535555,
+    "score": 58785.82240445618,
+    "userID": 2,
+    "id": 172
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 16,
+    "time": 2.5872416,
+    "score": 59534.42908245451,
+    "userID": 2,
+    "id": 173
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 16,
+    "time": 2.3672088,
+    "score": 62239.83070903323,
+    "userID": 2,
+    "id": 174
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 16,
+    "time": 2.3537535,
+    "score": 62417.47509024205,
+    "userID": 2,
+    "id": 175
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 16,
+    "time": 2.46522,
+    "score": 60990.02969418016,
+    "userID": 2,
+    "id": 176
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 16,
+    "time": 2.3463487,
+    "score": 62515.888604051004,
+    "userID": 2,
+    "id": 177
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 16,
+    "time": 2.5142003,
+    "score": 60393.02023680437,
+    "userID": 2,
+    "id": 178
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 16,
+    "time": 2.6121507,
+    "score": 59249.89318205784,
+    "userID": 2,
+    "id": 179
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 16,
+    "time": 2.297061,
+    "score": 63183.026043207494,
+    "userID": 2,
+    "id": 180
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 16,
+    "time": 2.2873048,
+    "score": 63317.632134054125,
+    "userID": 2,
+    "id": 181
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 16,
+    "time": 2.6211828,
+    "score": 59147.72313053838,
+    "userID": 2,
+    "id": 182
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 16,
+    "time": 2.4195087,
+    "score": 61563.47018546362,
+    "userID": 2,
+    "id": 183
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 16,
+    "time": 2.5745136,
+    "score": 59681.41217980539,
+    "userID": 2,
+    "id": 184
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 32,
+    "time": 6.7649432,
+    "score": 42292.23219246037,
+    "userID": 2,
+    "id": 185
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 32,
+    "time": 6.0621179,
+    "score": 44676.639200957914,
+    "userID": 2,
+    "id": 186
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 32,
+    "time": 5.8930944,
+    "score": 45312.80906905186,
+    "userID": 2,
+    "id": 187
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 32,
+    "time": 5.1014947,
+    "score": 48701.682521173054,
+    "userID": 2,
+    "id": 188
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 32,
+    "time": 5.5694292,
+    "score": 46610.884192765734,
+    "userID": 2,
+    "id": 189
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 32,
+    "time": 5.2411643,
+    "score": 48048.385365604976,
+    "userID": 2,
+    "id": 190
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 32,
+    "time": 6.0144058,
+    "score": 44853.49835560428,
+    "userID": 2,
+    "id": 191
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 32,
+    "time": 6.2629508,
+    "score": 43954.48390817431,
+    "userID": 2,
+    "id": 192
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 32,
+    "time": 5.2925551,
+    "score": 47814.541003311366,
+    "userID": 2,
+    "id": 193
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 32,
+    "time": 5.3188248,
+    "score": 47696.3167267685,
+    "userID": 2,
+    "id": 194
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 32,
+    "time": 5.8947889,
+    "score": 45306.29585246433,
+    "userID": 2,
+    "id": 195
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 32,
+    "time": 4.8142097,
+    "score": 50133.74911657767,
+    "userID": 2,
+    "id": 196
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 32,
+    "time": 5.4641327,
+    "score": 47057.84839011843,
+    "userID": 2,
+    "id": 197
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 32,
+    "time": 5.8509459,
+    "score": 45475.7262937505,
+    "userID": 2,
+    "id": 198
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 32,
+    "time": 5.5256349,
+    "score": 46795.23064230294,
+    "userID": 2,
+    "id": 199
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 32,
+    "time": 5.989531,
+    "score": 44946.54118224988,
+    "userID": 2,
+    "id": 200
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 32,
+    "time": 4.6459076,
+    "score": 51033.74051765326,
+    "userID": 2,
+    "id": 201
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 32,
+    "time": 4.8216707,
+    "score": 50094.94589494551,
+    "userID": 2,
+    "id": 202
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 32,
+    "time": 5.774059,
+    "score": 45777.50055183005,
+    "userID": 2,
+    "id": 203
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 32,
+    "time": 5.8745057,
+    "score": 45384.44411220498,
+    "userID": 2,
+    "id": 204
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 32,
+    "time": 5.3652378,
+    "score": 47489.56563560564,
+    "userID": 2,
+    "id": 205
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 32,
+    "time": 5.6849114,
+    "score": 46135.032924605395,
+    "userID": 2,
+    "id": 206
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 32,
+    "time": 5.9973446,
+    "score": 44917.25249033973,
+    "userID": 2,
+    "id": 207
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 32,
+    "time": 5.8882757,
+    "score": 45331.34625979636,
+    "userID": 2,
+    "id": 208
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 32,
+    "time": 6.5364652,
+    "score": 43025.032641663216,
+    "userID": 2,
+    "id": 209
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 32,
+    "time": 6.3027452,
+    "score": 43815.50383267067,
+    "userID": 2,
+    "id": 210
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 32,
+    "time": 5.8813948,
+    "score": 45357.85606674509,
+    "userID": 2,
+    "id": 211
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 32,
+    "time": 4.9390568,
+    "score": 49496.0651697282,
+    "userID": 2,
+    "id": 212
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 32,
+    "time": 5.2043913,
+    "score": 48217.83584082716,
+    "userID": 2,
+    "id": 213
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 32,
+    "time": 5.0378747,
+    "score": 49008.228494535295,
+    "userID": 2,
+    "id": 214
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 32,
+    "time": 5.8863212,
+    "score": 45338.87156802858,
+    "userID": 2,
+    "id": 215
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 32,
+    "time": 5.7215468,
+    "score": 45987.093065488254,
+    "userID": 2,
+    "id": 216
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 2,
+    "time": 0.6577382,
+    "score": 77900.84273084658,
+    "userID": 2,
+    "id": 217
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 2,
+    "time": 0.6559158,
+    "score": 78008.98772630568,
+    "userID": 2,
+    "id": 218
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 2,
+    "time": 0.6570956,
+    "score": 77938.92459353623,
+    "userID": 2,
+    "id": 219
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 2,
+    "time": 0.6594237,
+    "score": 77801.22098509633,
+    "userID": 2,
+    "id": 220
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 2,
+    "time": 0.6852418,
+    "score": 76321.47675726318,
+    "userID": 2,
+    "id": 221
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 2,
+    "time": 0.6819292,
+    "score": 76506.62518182474,
+    "userID": 2,
+    "id": 222
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 2,
+    "time": 0.8053765,
+    "score": 70399.44121628258,
+    "userID": 2,
+    "id": 223
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 2,
+    "time": 0.7803399,
+    "score": 71519.88077432728,
+    "userID": 2,
+    "id": 224
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 2,
+    "time": 0.7644427,
+    "score": 72259.7109107278,
+    "userID": 2,
+    "id": 225
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 2,
+    "time": 0.7817664,
+    "score": 71454.59932120968,
+    "userID": 2,
+    "id": 226
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 2,
+    "time": 0.7177698,
+    "score": 74572.0527066525,
+    "userID": 2,
+    "id": 227
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 2,
+    "time": 0.7087268,
+    "score": 75046.2957994826,
+    "userID": 2,
+    "id": 228
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 2,
+    "time": 1.1619946,
+    "score": 58609.313401158324,
+    "userID": 2,
+    "id": 229
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 2,
+    "time": 1.208497,
+    "score": 57470.62237207752,
+    "userID": 2,
+    "id": 230
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 2,
+    "time": 0.8872923,
+    "score": 67071.08505570334,
+    "userID": 2,
+    "id": 231
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 2,
+    "time": 0.8859396,
+    "score": 67122.26938668756,
+    "userID": 2,
+    "id": 232
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 2,
+    "time": 0.8586319,
+    "score": 68181.28451121676,
+    "userID": 2,
+    "id": 233
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 2,
+    "time": 0.8587411,
+    "score": 68176.94930880348,
+    "userID": 2,
+    "id": 234
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 2,
+    "time": 0.7989478,
+    "score": 70682.10681845168,
+    "userID": 2,
+    "id": 235
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 2,
+    "time": 0.7940612,
+    "score": 70899.25974520583,
+    "userID": 2,
+    "id": 236
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 2,
+    "time": 0.7589279,
+    "score": 72521.77568941009,
+    "userID": 2,
+    "id": 237
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 2,
+    "time": 0.7683993,
+    "score": 72073.43291597009,
+    "userID": 2,
+    "id": 238
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 2,
+    "time": 0.8385207,
+    "score": 68994.07469233699,
+    "userID": 2,
+    "id": 239
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 2,
+    "time": 0.8326013,
+    "score": 69238.89787834955,
+    "userID": 2,
+    "id": 240
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 2,
+    "time": 0.8760124,
+    "score": 67501.52146129923,
+    "userID": 2,
+    "id": 241
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 2,
+    "time": 0.8672059,
+    "score": 67843.39563083956,
+    "userID": 2,
+    "id": 242
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 2,
+    "time": 0.8204596,
+    "score": 69749.33769967631,
+    "userID": 2,
+    "id": 243
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 2,
+    "time": 0.8114684,
+    "score": 70134.69012200308,
+    "userID": 2,
+    "id": 244
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 2,
+    "time": 0.8908293,
+    "score": 66937.80117358087,
+    "userID": 2,
+    "id": 245
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 2,
+    "time": 0.885665,
+    "score": 67132.67419364296,
+    "userID": 2,
+    "id": 246
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 2,
+    "time": 0.8889398,
+    "score": 67008.90375938446,
+    "userID": 2,
+    "id": 247
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 2,
+    "time": 0.8754911,
+    "score": 67521.61493029879,
+    "userID": 2,
+    "id": 248
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 2,
+    "time": 0.8439948,
+    "score": 68769.96498122567,
+    "userID": 2,
+    "id": 249
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 2,
+    "time": 0.8461574,
+    "score": 68682.02798902366,
+    "userID": 2,
+    "id": 250
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 2,
+    "time": 0.893003,
+    "score": 66856.28333430416,
+    "userID": 2,
+    "id": 251
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 2,
+    "time": 0.8949222,
+    "score": 66784.55673910002,
+    "userID": 2,
+    "id": 252
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 2,
+    "time": 0.8681349,
+    "score": 67807.0859600167,
+    "userID": 2,
+    "id": 253
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 2,
+    "time": 0.8638677,
+    "score": 67974.35113260195,
+    "userID": 2,
+    "id": 254
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 2,
+    "time": 0.8285956,
+    "score": 69406.05774544556,
+    "userID": 2,
+    "id": 255
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 2,
+    "time": 0.8404267,
+    "score": 68915.79460578639,
+    "userID": 2,
+    "id": 256
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 32,
+    "time": 5.1920103,
+    "score": 48275.292347878916,
+    "userID": 2,
+    "id": 257
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 32,
+    "time": 5.1153207,
+    "score": 48635.82105221936,
+    "userID": 2,
+    "id": 258
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 32,
+    "time": 4.5476885,
+    "score": 51581.89943702128,
+    "userID": 2,
+    "id": 259
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 32,
+    "time": 4.3081147,
+    "score": 52996.727898419354,
+    "userID": 2,
+    "id": 260
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 32,
+    "time": 5.1586864,
+    "score": 48430.964863886584,
+    "userID": 2,
+    "id": 261
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 32,
+    "time": 4.3036855,
+    "score": 53023.992058814554,
+    "userID": 2,
+    "id": 262
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 32,
+    "time": 4.6664607,
+    "score": 50921.2292223017,
+    "userID": 2,
+    "id": 263
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 32,
+    "time": 4.6233869,
+    "score": 51157.883207085564,
+    "userID": 2,
+    "id": 264
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 32,
+    "time": 5.0787132,
+    "score": 48810.79046899024,
+    "userID": 2,
+    "id": 265
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 32,
+    "time": 5.2368341,
+    "score": 48068.24623215729,
+    "userID": 2,
+    "id": 266
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 32,
+    "time": 3.996249,
+    "score": 55025.806276295705,
+    "userID": 2,
+    "id": 267
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 32,
+    "time": 4.6229164,
+    "score": 51160.486452479636,
+    "userID": 2,
+    "id": 268
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 32,
+    "time": 5.4164962,
+    "score": 47264.32541479303,
+    "userID": 2,
+    "id": 269
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 32,
+    "time": 4.9122133,
+    "score": 49631.12011749477,
+    "userID": 2,
+    "id": 270
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 32,
+    "time": 5.3220525,
+    "score": 47681.851184550076,
+    "userID": 2,
+    "id": 271
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 32,
+    "time": 4.5141439,
+    "score": 51773.1972397201,
+    "userID": 2,
+    "id": 272
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 32,
+    "time": 4.8687053,
+    "score": 49852.385109759816,
+    "userID": 2,
+    "id": 273
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 32,
+    "time": 5.2394505,
+    "score": 48056.242925309685,
+    "userID": 2,
+    "id": 274
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 32,
+    "time": 5.1188846,
+    "score": 48618.88734532147,
+    "userID": 2,
+    "id": 275
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 32,
+    "time": 5.1894207,
+    "score": 48287.33589881123,
+    "userID": 2,
+    "id": 276
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 32,
+    "time": 4.7565911,
+    "score": 50436.480751776115,
+    "userID": 2,
+    "id": 277
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 32,
+    "time": 4.4828081,
+    "score": 51953.83504882885,
+    "userID": 2,
+    "id": 278
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 32,
+    "time": 4.712254,
+    "score": 50673.20099566721,
+    "userID": 2,
+    "id": 279
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 32,
+    "time": 5.3946991,
+    "score": 47359.71411561723,
+    "userID": 2,
+    "id": 280
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 32,
+    "time": 4.5315323,
+    "score": 51673.76968661951,
+    "userID": 2,
+    "id": 281
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 32,
+    "time": 5.5409585,
+    "score": 46730.47940379562,
+    "userID": 2,
+    "id": 282
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 32,
+    "time": 5.4081127,
+    "score": 47300.94512418722,
+    "userID": 2,
+    "id": 283
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 32,
+    "time": 5.2005919,
+    "score": 48235.445893808224,
+    "userID": 2,
+    "id": 284
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 32,
+    "time": 4.8203587,
+    "score": 50101.76282512668,
+    "userID": 2,
+    "id": 285
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 32,
+    "time": 4.2316964,
+    "score": 53473.10885786605,
+    "userID": 2,
+    "id": 286
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 32,
+    "time": 4.7380679,
+    "score": 50534.97382177382,
+    "userID": 2,
+    "id": 287
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 32,
+    "time": 4.5181675,
+    "score": 51750.139104413865,
+    "userID": 2,
+    "id": 288
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 2,
+    "time": 0.7474946,
+    "score": 73074.29915996069,
+    "userID": 2,
+    "id": 289
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 2,
+    "time": 0.7396915,
+    "score": 73458.72303774768,
+    "userID": 2,
+    "id": 290
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 2,
+    "time": 0.7211032,
+    "score": 74399.49320437966,
+    "userID": 2,
+    "id": 291
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 2,
+    "time": 0.7260881,
+    "score": 74143.66145357353,
+    "userID": 2,
+    "id": 292
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 2,
+    "time": 0.8683522,
+    "score": 67798.60126814942,
+    "userID": 2,
+    "id": 293
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 2,
+    "time": 0.8767967,
+    "score": 67471.32444545098,
+    "userID": 2,
+    "id": 294
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 2,
+    "time": 0.7512487,
+    "score": 72891.488993328,
+    "userID": 2,
+    "id": 295
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 2,
+    "time": 0.7374634,
+    "score": 73569.60985633923,
+    "userID": 2,
+    "id": 296
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 2,
+    "time": 0.7571125,
+    "score": 72608.66978047599,
+    "userID": 2,
+    "id": 297
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 2,
+    "time": 0.761329,
+    "score": 72407.3248093568,
+    "userID": 2,
+    "id": 298
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 2,
+    "time": 0.767689,
+    "score": 72106.76797951119,
+    "userID": 2,
+    "id": 299
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 2,
+    "time": 0.7558699,
+    "score": 72668.32719185072,
+    "userID": 2,
+    "id": 300
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 2,
+    "time": 0.8264644,
+    "score": 69495.48867194925,
+    "userID": 2,
+    "id": 301
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 2,
+    "time": 0.8351491,
+    "score": 69133.20321179391,
+    "userID": 2,
+    "id": 302
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 2,
+    "time": 0.7428223,
+    "score": 73303.75501027536,
+    "userID": 2,
+    "id": 303
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 2,
+    "time": 0.7509103,
+    "score": 72907.91152841336,
+    "userID": 2,
+    "id": 304
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 2,
+    "time": 0.7202679,
+    "score": 74442.62152465462,
+    "userID": 2,
+    "id": 305
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 2,
+    "time": 0.7215248,
+    "score": 74377.75354295346,
+    "userID": 2,
+    "id": 306
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 2,
+    "time": 0.7747973,
+    "score": 71775.23767972791,
+    "userID": 2,
+    "id": 307
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 2,
+    "time": 0.7720936,
+    "score": 71900.79831079203,
+    "userID": 2,
+    "id": 308
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 2,
+    "time": 0.7282811,
+    "score": 74031.94659700131,
+    "userID": 2,
+    "id": 309
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 2,
+    "time": 0.7427691,
+    "score": 73306.38011270632,
+    "userID": 2,
+    "id": 310
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 2,
+    "time": 0.7486409,
+    "score": 73018.33296946972,
+    "userID": 2,
+    "id": 311
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 2,
+    "time": 0.7634192,
+    "score": 72308.13322071162,
+    "userID": 2,
+    "id": 312
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 2,
+    "time": 0.7427871,
+    "score": 73305.49188858658,
+    "userID": 2,
+    "id": 313
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 2,
+    "time": 0.7312875,
+    "score": 73879.6133029893,
+    "userID": 2,
+    "id": 314
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 2,
+    "time": 0.8606858,
+    "score": 68099.88361855914,
+    "userID": 2,
+    "id": 315
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 2,
+    "time": 0.8640572,
+    "score": 67966.89685418658,
+    "userID": 2,
+    "id": 316
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 100000,
+    "threads": 2,
+    "time": 4.353682,
+    "score": 49547.318611769646,
+    "userID": 2,
+    "id": 317
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 100000,
+    "threads": 2,
+    "time": 4.3611161,
+    "score": 49505.07061633296,
+    "userID": 2,
+    "id": 318
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 200000,
+    "threads": 2,
+    "time": 13.3485804,
+    "score": 56592.77155129347,
+    "userID": 2,
+    "id": 319
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 200000,
+    "threads": 2,
+    "time": 13.339856,
+    "score": 56611.27464739544,
+    "userID": 2,
+    "id": 320
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 300000,
+    "threads": 2,
+    "time": 27.0622346,
+    "score": 59619.44598177644,
+    "userID": 2,
+    "id": 321
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 300000,
+    "threads": 2,
+    "time": 26.9746128,
+    "score": 59716.19858076374,
+    "userID": 2,
+    "id": 322
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 300000,
+    "threads": 8,
+    "time": 36.2523184,
+    "score": 67969.46768938542,
+    "userID": 2,
+    "id": 323
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 300000,
+    "threads": 8,
+    "time": 35.9868991,
+    "score": 68219.65966331633,
+    "userID": 2,
+    "id": 324
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 300000,
+    "threads": 8,
+    "time": 35.9891929,
+    "score": 68217.48561138315,
+    "userID": 2,
+    "id": 325
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 300000,
+    "threads": 8,
+    "time": 36.8171043,
+    "score": 67446.11638826561,
+    "userID": 2,
+    "id": 326
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 300000,
+    "threads": 8,
+    "time": 36.8136123,
+    "score": 67449.31515414052,
+    "userID": 2,
+    "id": 327
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 300000,
+    "threads": 8,
+    "time": 35.8782187,
+    "score": 68322.90522603142,
+    "userID": 2,
+    "id": 328
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 300000,
+    "threads": 8,
+    "time": 36.800932,
+    "score": 67460.93447792609,
+    "userID": 2,
+    "id": 329
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 300000,
+    "threads": 8,
+    "time": 36.8614304,
+    "score": 67405.55200202038,
+    "userID": 2,
+    "id": 330
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 300000,
+    "threads": 16,
+    "time": 52.7588104,
+    "score": 64720.26150756664,
+    "userID": 2,
+    "id": 331
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 300000,
+    "threads": 16,
+    "time": 53.6738364,
+    "score": 64166.21788222776,
+    "userID": 2,
+    "id": 332
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 300000,
+    "threads": 16,
+    "time": 63.9271413,
+    "score": 58795.63953606007,
+    "userID": 2,
+    "id": 333
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 300000,
+    "threads": 16,
+    "time": 63.0739923,
+    "score": 59191.94357423034,
+    "userID": 2,
+    "id": 334
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 300000,
+    "threads": 16,
+    "time": 39.237605,
+    "score": 75047.54937824114,
+    "userID": 2,
+    "id": 335
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 300000,
+    "threads": 16,
+    "time": 42.3893,
+    "score": 72203.73078574515,
+    "userID": 2,
+    "id": 336
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 300000,
+    "threads": 16,
+    "time": 54.739913,
+    "score": 63538.31732200816,
+    "userID": 2,
+    "id": 337
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 300000,
+    "threads": 16,
+    "time": 53.9603073,
+    "score": 63995.664591352586,
+    "userID": 2,
+    "id": 338
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 300000,
+    "threads": 16,
+    "time": 64.0405443,
+    "score": 58743.55880855324,
+    "userID": 2,
+    "id": 339
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 300000,
+    "threads": 16,
+    "time": 61.6652477,
+    "score": 59864.246504336435,
+    "userID": 2,
+    "id": 340
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 300000,
+    "threads": 16,
+    "time": 42.4289045,
+    "score": 72170.0242794129,
+    "userID": 2,
+    "id": 341
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 300000,
+    "threads": 16,
+    "time": 42.7130437,
+    "score": 71929.57606305782,
+    "userID": 2,
+    "id": 342
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 300000,
+    "threads": 16,
+    "time": 54.6449297,
+    "score": 63593.51419787779,
+    "userID": 2,
+    "id": 343
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 300000,
+    "threads": 16,
+    "time": 54.6361382,
+    "score": 63598.63040767788,
+    "userID": 2,
+    "id": 344
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 300000,
+    "threads": 16,
+    "time": 63.0227854,
+    "score": 59215.98583510742,
+    "userID": 2,
+    "id": 345
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 300000,
+    "threads": 16,
+    "time": 63.1481793,
+    "score": 59157.16376544883,
+    "userID": 2,
+    "id": 346
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 300000,
+    "threads": 4,
+    "time": 31.4681129,
+    "score": 63509.75137733945,
+    "userID": 2,
+    "id": 347
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 300000,
+    "threads": 4,
+    "time": 31.3380253,
+    "score": 63641.432854727034,
+    "userID": 2,
+    "id": 348
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 300000,
+    "threads": 4,
+    "time": 31.695887,
+    "score": 63281.14191988331,
+    "userID": 2,
+    "id": 349
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 300000,
+    "threads": 4,
+    "time": 31.6117029,
+    "score": 63365.34687388065,
+    "userID": 2,
+    "id": 350
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 300000,
+    "threads": 4,
+    "time": 30.7211731,
+    "score": 64277.18737143531,
+    "userID": 2,
+    "id": 351
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 300000,
+    "threads": 4,
+    "time": 30.6956719,
+    "score": 64303.88177182141,
+    "userID": 2,
+    "id": 352
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 300000,
+    "threads": 4,
+    "time": 30.4357665,
+    "score": 64577.85873498551,
+    "userID": 2,
+    "id": 353
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 300000,
+    "threads": 4,
+    "time": 30.3760332,
+    "score": 64641.32248723106,
+    "userID": 2,
+    "id": 354
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 200000,
+    "threads": 4,
+    "time": 14.0471773,
+    "score": 63370.914051551285,
+    "userID": 2,
+    "id": 355
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 200000,
+    "threads": 4,
+    "time": 14.0420308,
+    "score": 63382.52592366217,
+    "userID": 2,
+    "id": 356
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 200000,
+    "threads": 4,
+    "time": 14.1969001,
+    "score": 63035.86840460603,
+    "userID": 2,
+    "id": 357
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 200000,
+    "threads": 4,
+    "time": 14.2350924,
+    "score": 62951.24999468208,
+    "userID": 2,
+    "id": 358
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 500000,
+    "threads": 2,
+    "time": 66.9326604,
+    "score": 63182.887445390166,
+    "userID": 2,
+    "id": 359
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 500000,
+    "threads": 2,
+    "time": 66.921355,
+    "score": 63188.22413985985,
+    "userID": 2,
+    "id": 360
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 500000,
+    "threads": 32,
+    "time": 284.8995456,
+    "score": 53320.79685924087,
+    "userID": 2,
+    "id": 361
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 500000,
+    "threads": 32,
+    "time": 288.7585738,
+    "score": 52963.30346136651,
+    "userID": 2,
+    "id": 362
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 500000,
+    "threads": 32,
+    "time": 258.410908,
+    "score": 55986.98600749244,
+    "userID": 2,
+    "id": 363
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 500000,
+    "threads": 32,
+    "time": 258.9754855,
+    "score": 55925.9257133683,
+    "userID": 2,
+    "id": 364
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 500000,
+    "threads": 32,
+    "time": 274.7113644,
+    "score": 54300.54599742472,
+    "userID": 2,
+    "id": 365
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 500000,
+    "threads": 32,
+    "time": 276.9307371,
+    "score": 54082.521128543165,
+    "userID": 2,
+    "id": 366
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 500000,
+    "threads": 32,
+    "time": 291.2916357,
+    "score": 52732.517118926546,
+    "userID": 2,
+    "id": 367
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 500000,
+    "threads": 32,
+    "time": 289.8743925,
+    "score": 52861.2688786619,
+    "userID": 2,
+    "id": 368
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 500000,
+    "threads": 32,
+    "time": 258.0010321,
+    "score": 56031.44049919441,
+    "userID": 2,
+    "id": 369
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 500000,
+    "threads": 32,
+    "time": 258.59701,
+    "score": 55966.83657627485,
+    "userID": 2,
+    "id": 370
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 500000,
+    "threads": 32,
+    "time": 276.5896838,
+    "score": 54115.854511717276,
+    "userID": 2,
+    "id": 371
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 500000,
+    "threads": 32,
+    "time": 278.3057466,
+    "score": 53948.75447023373,
+    "userID": 2,
+    "id": 372
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 500000,
+    "threads": 32,
+    "time": 290.61377,
+    "score": 52793.98141996894,
+    "userID": 2,
+    "id": 373
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 500000,
+    "threads": 32,
+    "time": 289.7487847,
+    "score": 52872.7254724404,
+    "userID": 2,
+    "id": 374
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 500000,
+    "threads": 32,
+    "time": 258.8438869,
+    "score": 55940.14053298291,
+    "userID": 2,
+    "id": 375
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 500000,
+    "threads": 32,
+    "time": 258.8394084,
+    "score": 55940.62447558897,
+    "userID": 2,
+    "id": 376
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 500000,
+    "threads": 32,
+    "time": 275.0751771,
+    "score": 54264.62533599409,
+    "userID": 2,
+    "id": 377
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 500000,
+    "threads": 32,
+    "time": 274.5923122,
+    "score": 54312.31598993576,
+    "userID": 2,
+    "id": 378
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 500000,
+    "threads": 32,
+    "time": 289.536318,
+    "score": 52892.12136975898,
+    "userID": 2,
+    "id": 379
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 500000,
+    "threads": 32,
+    "time": 288.156357,
+    "score": 53018.618472179674,
+    "userID": 2,
+    "id": 380
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 500000,
+    "threads": 32,
+    "time": 258.8313972,
+    "score": 55941.49018984924,
+    "userID": 2,
+    "id": 381
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 500000,
+    "threads": 32,
+    "time": 257.7096029,
+    "score": 56063.112939535924,
+    "userID": 2,
+    "id": 382
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 500000,
+    "threads": 32,
+    "time": 276.5859363,
+    "score": 54116.22112196608,
+    "userID": 2,
+    "id": 383
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 500000,
+    "threads": 32,
+    "time": 276.3094974,
+    "score": 54143.285137032035,
+    "userID": 2,
+    "id": 384
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 500000,
+    "threads": 32,
+    "time": 289.5345962,
+    "score": 52892.278638562726,
+    "userID": 2,
+    "id": 385
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 500000,
+    "threads": 32,
+    "time": 289.3953427,
+    "score": 52905.00266692561,
+    "userID": 2,
+    "id": 386
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 500000,
+    "threads": 32,
+    "time": 258.2942858,
+    "score": 55999.62389573171,
+    "userID": 2,
+    "id": 387
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 500000,
+    "threads": 32,
+    "time": 236.5662621,
+    "score": 58514.85127533502,
+    "userID": 2,
+    "id": 388
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 500000,
+    "threads": 32,
+    "time": 276.5229074,
+    "score": 54122.38822685388,
+    "userID": 2,
+    "id": 389
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 500000,
+    "threads": 32,
+    "time": 275.5042035,
+    "score": 54222.357328577964,
+    "userID": 2,
+    "id": 390
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 500000,
+    "threads": 32,
+    "time": 289.0489842,
+    "score": 52936.69039522334,
+    "userID": 2,
+    "id": 391
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 500000,
+    "threads": 32,
+    "time": 289.7257251,
+    "score": 52874.82953075451,
+    "userID": 2,
+    "id": 392
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 500000,
+    "threads": 2,
+    "time": 67.4405239,
+    "score": 62944.53726990893,
+    "userID": 2,
+    "id": 393
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 500000,
+    "threads": 2,
+    "time": 67.6238965,
+    "score": 62859.13743817311,
+    "userID": 2,
+    "id": 394
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 250000,
+    "threads": 2,
+    "time": 35.8076383,
+    "score": 105579.8035634352,
+    "userID": 2,
+    "id": 395
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 250000,
+    "threads": 2,
+    "time": 35.7477967,
+    "score": 105668.13659464443,
+    "userID": 2,
+    "id": 396
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 250000,
+    "threads": 2,
+    "time": 35.2180195,
+    "score": 106459.94165755247,
+    "userID": 2,
+    "id": 397
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 250000,
+    "threads": 2,
+    "time": 35.3576436,
+    "score": 106249.53344614843,
+    "userID": 2,
+    "id": 398
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 10000,
+    "threads": 2,
+    "time": 2.9370169,
+    "score": 67027.46219470001,
+    "userID": 2,
+    "id": 399
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 10000,
+    "threads": 2,
+    "time": 2.9353277,
+    "score": 67046.7456472218,
+    "userID": 2,
+    "id": 400
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 20000,
+    "threads": 2,
+    "time": 11.7236989,
+    "score": 67097.08715851721,
+    "userID": 2,
+    "id": 401
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 20000,
+    "threads": 2,
+    "time": 11.7414563,
+    "score": 67046.33022465989,
+    "userID": 2,
+    "id": 402
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 2,
+    "time": 0.8063186,
+    "score": 70358.3019582516,
+    "userID": 2,
+    "id": 403
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 2,
+    "time": 0.8017185,
+    "score": 70559.86415546972,
+    "userID": 2,
+    "id": 404
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 2,
+    "time": 0.762432,
+    "score": 72354.93050718913,
+    "userID": 2,
+    "id": 405
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 2,
+    "time": 0.7725104,
+    "score": 71881.39902756424,
+    "userID": 2,
+    "id": 406
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 100000,
+    "threads": 2,
+    "time": 4.3481392,
+    "score": 49578.88883056144,
+    "userID": 2,
+    "id": 407
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 100000,
+    "threads": 2,
+    "time": 4.3572747,
+    "score": 49526.88779522713,
+    "userID": 2,
+    "id": 408
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 1000000,
+    "threads": 32,
+    "time": 1042.458991,
+    "score": 55749.7617071439,
+    "userID": 2,
+    "id": 409
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 1000000,
+    "threads": 32,
+    "time": 1056.0387932,
+    "score": 55390.15354412274,
+    "userID": 2,
+    "id": 410
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 1000000,
+    "threads": 32,
+    "time": 1055.9079533,
+    "score": 55393.5851963025,
+    "userID": 2,
+    "id": 411
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 1000000,
+    "threads": 32,
+    "time": 938.7950119,
+    "score": 58747.19272856366,
+    "userID": 2,
+    "id": 412
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 1000000,
+    "threads": 32,
+    "time": 926.1301219,
+    "score": 59147.514620536895,
+    "userID": 2,
+    "id": 413
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 1000000,
+    "threads": 32,
+    "time": 1066.5816297,
+    "score": 55115.71622828058,
+    "userID": 2,
+    "id": 414
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 1000000,
+    "threads": 32,
+    "time": 1060.2336864,
+    "score": 55280.46731624059,
+    "userID": 2,
+    "id": 415
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 1000000,
+    "threads": 32,
+    "time": 1007.6039491,
+    "score": 56705.81211922961,
+    "userID": 2,
+    "id": 416
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 1000000,
+    "threads": 32,
+    "time": 1056.3746521,
+    "score": 55381.34759876126,
+    "userID": 2,
+    "id": 417
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 1000000,
+    "threads": 32,
+    "time": 926.9832489,
+    "score": 59120.29085079501,
+    "userID": 2,
+    "id": 418
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 1000000,
+    "threads": 32,
+    "time": 926.527144,
+    "score": 59134.84074109839,
+    "userID": 2,
+    "id": 419
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 1000000,
+    "threads": 32,
+    "time": 1062.9226079,
+    "score": 55210.50033867628,
+    "userID": 2,
+    "id": 420
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 1000000,
+    "threads": 32,
+    "time": 1055.429387,
+    "score": 55406.142407163396,
+    "userID": 2,
+    "id": 421
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 1000000,
+    "threads": 32,
+    "time": 1058.4834746,
+    "score": 55326.15181026888,
+    "userID": 2,
+    "id": 422
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 1000000,
+    "threads": 32,
+    "time": 1058.4247524,
+    "score": 55327.686557204455,
+    "userID": 2,
+    "id": 423
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 1000000,
+    "threads": 32,
+    "time": 928.695871,
+    "score": 59065.75338464599,
+    "userID": 2,
+    "id": 424
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 1000000,
+    "threads": 32,
+    "time": 928.1769101,
+    "score": 59082.26345549574,
+    "userID": 2,
+    "id": 425
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 1000000,
+    "threads": 32,
+    "time": 1057.1798168,
+    "score": 55360.253930980216,
+    "userID": 2,
+    "id": 426
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 1000000,
+    "threads": 32,
+    "time": 1035.7053153,
+    "score": 55931.23417716921,
+    "userID": 2,
+    "id": 427
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 1000000,
+    "threads": 32,
+    "time": 1018.3243247,
+    "score": 56406.538106487424,
+    "userID": 2,
+    "id": 428
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 1000000,
+    "threads": 32,
+    "time": 1057.9032134,
+    "score": 55341.322961004866,
+    "userID": 2,
+    "id": 429
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 1000000,
+    "threads": 32,
+    "time": 934.2208188,
+    "score": 58890.838036341185,
+    "userID": 2,
+    "id": 430
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 1000000,
+    "threads": 32,
+    "time": 927.0190387,
+    "score": 59119.14959925652,
+    "userID": 2,
+    "id": 431
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 1000000,
+    "threads": 32,
+    "time": 1062.9735699,
+    "score": 55209.17684798836,
+    "userID": 2,
+    "id": 432
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 1000000,
+    "threads": 32,
+    "time": 1056.0821069,
+    "score": 55389.017658438344,
+    "userID": 2,
+    "id": 433
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 1000000,
+    "threads": 32,
+    "time": 1057.9719151,
+    "score": 55339.52607743977,
+    "userID": 2,
+    "id": 434
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 1000000,
+    "threads": 32,
+    "time": 1017.9064514,
+    "score": 56418.11498941256,
+    "userID": 2,
+    "id": 435
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 1000000,
+    "threads": 32,
+    "time": 924.2710661,
+    "score": 59206.96865827343,
+    "userID": 2,
+    "id": 436
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 1000000,
+    "threads": 32,
+    "time": 924.610273,
+    "score": 59196.10718766502,
+    "userID": 2,
+    "id": 437
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 1000000,
+    "threads": 32,
+    "time": 1057.1572378,
+    "score": 55360.8451261471,
+    "userID": 2,
+    "id": 438
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 1000000,
+    "threads": 32,
+    "time": 1047.6885292,
+    "score": 55610.450154332815,
+    "userID": 2,
+    "id": 439
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 1000000,
+    "threads": 32,
+    "time": 1057.9272925,
+    "score": 55340.693155515495,
+    "userID": 2,
+    "id": 440
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 20000,
+    "threads": 32,
+    "time": 24.308791,
+    "score": 81129.40884561029,
+    "userID": 2,
+    "id": 441
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 20000,
+    "threads": 32,
+    "time": 28.6337627,
+    "score": 74751.64953098288,
+    "userID": 2,
+    "id": 442
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 20000,
+    "threads": 32,
+    "time": 28.5777308,
+    "score": 74824.89582756515,
+    "userID": 2,
+    "id": 443
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 20000,
+    "threads": 32,
+    "time": 29.61314,
+    "score": 73505.14885652371,
+    "userID": 2,
+    "id": 444
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 20000,
+    "threads": 32,
+    "time": 28.876175,
+    "score": 74437.22232371377,
+    "userID": 2,
+    "id": 445
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 20000,
+    "threads": 32,
+    "time": 23.597713,
+    "score": 82342.68683823082,
+    "userID": 2,
+    "id": 446
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 20000,
+    "threads": 32,
+    "time": 23.2989364,
+    "score": 82868.97047231674,
+    "userID": 2,
+    "id": 447
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 20000,
+    "threads": 32,
+    "time": 28.6758135,
+    "score": 74696.82074846006,
+    "userID": 2,
+    "id": 448
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 20000,
+    "threads": 32,
+    "time": 28.4207262,
+    "score": 75031.2887387399,
+    "userID": 2,
+    "id": 449
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 20000,
+    "threads": 32,
+    "time": 29.1062471,
+    "score": 74142.44186547416,
+    "userID": 2,
+    "id": 450
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 20000,
+    "threads": 32,
+    "time": 29.0828886,
+    "score": 74172.21037726164,
+    "userID": 2,
+    "id": 451
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 20000,
+    "threads": 32,
+    "time": 23.182592,
+    "score": 83076.65377135956,
+    "userID": 2,
+    "id": 452
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 20000,
+    "threads": 32,
+    "time": 29.3103496,
+    "score": 73883.84559960991,
+    "userID": 2,
+    "id": 453
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 20000,
+    "threads": 32,
+    "time": 28.8530306,
+    "score": 74467.0711726028,
+    "userID": 2,
+    "id": 454
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 20000,
+    "threads": 32,
+    "time": 28.6881991,
+    "score": 74680.69452148574,
+    "userID": 2,
+    "id": 455
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 20000,
+    "threads": 32,
+    "time": 28.9685659,
+    "score": 74318.42434288426,
+    "userID": 2,
+    "id": 456
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 20000,
+    "threads": 32,
+    "time": 29.0305468,
+    "score": 74239.04615998027,
+    "userID": 2,
+    "id": 457
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 20000,
+    "threads": 32,
+    "time": 29.1767366,
+    "score": 74052.8255361585,
+    "userID": 2,
+    "id": 458
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 20000,
+    "threads": 32,
+    "time": 28.582059,
+    "score": 74819.23022146722,
+    "userID": 2,
+    "id": 459
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 20000,
+    "threads": 32,
+    "time": 28.2904312,
+    "score": 75203.87308668427,
+    "userID": 2,
+    "id": 460
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 20000,
+    "threads": 32,
+    "time": 28.2764914,
+    "score": 75222.40787881063,
+    "userID": 2,
+    "id": 461
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 20000,
+    "threads": 32,
+    "time": 28.927885,
+    "score": 74370.66248982679,
+    "userID": 2,
+    "id": 462
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 20000,
+    "threads": 32,
+    "time": 29.0903311,
+    "score": 74162.72162331588,
+    "userID": 2,
+    "id": 463
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 20000,
+    "threads": 32,
+    "time": 28.4067173,
+    "score": 75049.78746656314,
+    "userID": 2,
+    "id": 464
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 20000,
+    "threads": 32,
+    "time": 28.2968217,
+    "score": 75195.3806578698,
+    "userID": 2,
+    "id": 465
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 20000,
+    "threads": 32,
+    "time": 28.6078579,
+    "score": 74785.48618472384,
+    "userID": 2,
+    "id": 466
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 20000,
+    "threads": 32,
+    "time": 27.9168403,
+    "score": 75705.40031305182,
+    "userID": 2,
+    "id": 467
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 20000,
+    "threads": 32,
+    "time": 26.1665413,
+    "score": 78196.41281709765,
+    "userID": 2,
+    "id": 468
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 20000,
+    "threads": 32,
+    "time": 26.2266569,
+    "score": 78106.74219800004,
+    "userID": 2,
+    "id": 469
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 20000,
+    "threads": 32,
+    "time": 28.6597067,
+    "score": 74717.80766526154,
+    "userID": 2,
+    "id": 470
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 20000,
+    "threads": 32,
+    "time": 27.2836192,
+    "score": 76578.87846809106,
+    "userID": 2,
+    "id": 471
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 20000,
+    "threads": 32,
+    "time": 27.9817897,
+    "score": 75617.48819309547,
+    "userID": 2,
+    "id": 472
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 20000,
+    "threads": 32,
+    "time": 30.7549717,
+    "score": 72127.74015563399,
+    "userID": 2,
+    "id": 473
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 20000,
+    "threads": 32,
+    "time": 35.784115,
+    "score": 66867.46374362595,
+    "userID": 2,
+    "id": 474
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 20000,
+    "threads": 32,
+    "time": 37.479724,
+    "score": 65337.39260883175,
+    "userID": 2,
+    "id": 475
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 20000,
+    "threads": 32,
+    "time": 32.0719858,
+    "score": 70631.27823050445,
+    "userID": 2,
+    "id": 476
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 20000,
+    "threads": 32,
+    "time": 31.4914217,
+    "score": 71279.37081889008,
+    "userID": 2,
+    "id": 477
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 20000,
+    "threads": 32,
+    "time": 28.4988037,
+    "score": 74928.4375200524,
+    "userID": 2,
+    "id": 478
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 20000,
+    "threads": 32,
+    "time": 28.8520203,
+    "score": 74468.37495345809,
+    "userID": 2,
+    "id": 479
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 20000,
+    "threads": 32,
+    "time": 36.9510126,
+    "score": 65803.17051560704,
+    "userID": 2,
+    "id": 480
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 20000,
+    "threads": 32,
+    "time": 36.0830358,
+    "score": 66589.9144158532,
+    "userID": 2,
+    "id": 481
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 20000,
+    "threads": 32,
+    "time": 31.7581677,
+    "score": 70979.39160215363,
+    "userID": 2,
+    "id": 482
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 20000,
+    "threads": 32,
+    "time": 38.1668082,
+    "score": 64746.6152964766,
+    "userID": 2,
+    "id": 483
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 20000,
+    "threads": 32,
+    "time": 29.8321528,
+    "score": 73234.83272395888,
+    "userID": 2,
+    "id": 484
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 20000,
+    "threads": 32,
+    "time": 29.7045414,
+    "score": 73391.97340627314,
+    "userID": 2,
+    "id": 485
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 20000,
+    "threads": 32,
+    "time": 36.0867437,
+    "score": 66586.4932830338,
+    "userID": 2,
+    "id": 486
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 20000,
+    "threads": 32,
+    "time": 36.737961,
+    "score": 65993.69829122476,
+    "userID": 2,
+    "id": 487
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 20000,
+    "threads": 32,
+    "time": 38.240131,
+    "score": 64684.51193950172,
+    "userID": 2,
+    "id": 488
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 20000,
+    "threads": 32,
+    "time": 38.0876363,
+    "score": 64813.87401782438,
+    "userID": 2,
+    "id": 489
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 20000,
+    "threads": 32,
+    "time": 34.431016,
+    "score": 68168.7094655811,
+    "userID": 2,
+    "id": 490
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 20000,
+    "threads": 32,
+    "time": 34.5402259,
+    "score": 68060.85562609567,
+    "userID": 2,
+    "id": 491
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 20000,
+    "threads": 32,
+    "time": 37.2081467,
+    "score": 65575.40355292529,
+    "userID": 2,
+    "id": 492
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 20000,
+    "threads": 32,
+    "time": 36.0259623,
+    "score": 66642.6404945253,
+    "userID": 2,
+    "id": 493
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 20000,
+    "threads": 32,
+    "time": 37.1922607,
+    "score": 65589.40673027824,
+    "userID": 2,
+    "id": 494
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 20000,
+    "threads": 32,
+    "time": 38.0471316,
+    "score": 64848.36503034377,
+    "userID": 2,
+    "id": 495
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 20000,
+    "threads": 32,
+    "time": 34.3781075,
+    "score": 68221.14570769547,
+    "userID": 2,
+    "id": 496
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 20000,
+    "threads": 32,
+    "time": 34.6499755,
+    "score": 67952.98288213614,
+    "userID": 2,
+    "id": 497
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 20000,
+    "threads": 32,
+    "time": 35.4004248,
+    "score": 67228.8611733245,
+    "userID": 2,
+    "id": 498
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 20000,
+    "threads": 32,
+    "time": 34.6515712,
+    "score": 67951.41825145153,
+    "userID": 2,
+    "id": 499
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 20000,
+    "threads": 32,
+    "time": 38.0534469,
+    "score": 64842.98373237997,
+    "userID": 2,
+    "id": 500
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 20000,
+    "threads": 32,
+    "time": 37.651167,
+    "score": 65188.46735423209,
+    "userID": 2,
+    "id": 501
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 20000,
+    "threads": 32,
+    "time": 34.388096,
+    "score": 68211.23709857145,
+    "userID": 2,
+    "id": 502
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 20000,
+    "threads": 32,
+    "time": 34.5524759,
+    "score": 68048.78963993379,
+    "userID": 2,
+    "id": 503
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 20000,
+    "threads": 32,
+    "time": 34.7342431,
+    "score": 67870.50358295543,
+    "userID": 2,
+    "id": 504
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 20000,
+    "threads": 2,
+    "time": 11.6654134,
+    "score": 67264.50147574588,
+    "userID": 3,
+    "id": 505
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 20000,
+    "threads": 2,
+    "time": 11.6726699,
+    "score": 67243.5902042777,
+    "userID": 3,
+    "id": 506
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 30000,
+    "threads": 4,
+    "time": 28.3604052,
+    "score": 74332.20863707845,
+    "userID": 3,
+    "id": 507
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 30000,
+    "threads": 4,
+    "time": 28.4170798,
+    "score": 74258.04811849243,
+    "userID": 3,
+    "id": 508
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 30000,
+    "threads": 4,
+    "time": 28.5011607,
+    "score": 74148.43336909826,
+    "userID": 3,
+    "id": 509
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 30000,
+    "threads": 4,
+    "time": 28.3267549,
+    "score": 74376.34639174187,
+    "userID": 3,
+    "id": 510
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 300000,
+    "threads": 2,
+    "time": 31.5266943,
+    "score": 55237.05877160294,
+    "userID": 3,
+    "id": 511
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 300000,
+    "threads": 2,
+    "time": 41.4663182,
+    "score": 48163.94206105715,
+    "userID": 3,
+    "id": 512
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 20000,
+    "threads": 2,
+    "time": 12.0912634,
+    "score": 66069.36819156776,
+    "userID": 3,
+    "id": 513
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 20000,
+    "threads": 2,
+    "time": 12.1322587,
+    "score": 65957.64845467929,
+    "userID": 3,
+    "id": 514
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 30000,
+    "threads": 2,
+    "time": 26.4563068,
+    "score": 66998.12437897378,
+    "userID": 3,
+    "id": 515
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 30000,
+    "threads": 2,
+    "time": 26.4494357,
+    "score": 67006.82628331223,
+    "userID": 3,
+    "id": 516
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 40000,
+    "threads": 2,
+    "time": 47.7868879,
+    "score": 66467.84774227306,
+    "userID": 3,
+    "id": 517
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 40000,
+    "threads": 2,
+    "time": 47.8268754,
+    "score": 66440.0554306482,
+    "userID": 3,
+    "id": 518
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 40000,
+    "threads": 4,
+    "time": 61.0485704,
+    "score": 67551.38230466722,
+    "userID": 3,
+    "id": 519
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 40000,
+    "threads": 4,
+    "time": 61.0312477,
+    "score": 67560.96829014727,
+    "userID": 3,
+    "id": 520
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 40000,
+    "threads": 4,
+    "time": 60.3601233,
+    "score": 67935.52414331354,
+    "userID": 3,
+    "id": 521
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 40000,
+    "threads": 4,
+    "time": 60.3794561,
+    "score": 67924.64718999699,
+    "userID": 3,
+    "id": 522
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 30000,
+    "threads": 2,
+    "time": 35.4031566,
+    "score": 57917.02703475443,
+    "userID": 3,
+    "id": 523
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 30000,
+    "threads": 2,
+    "time": 35.4126188,
+    "score": 57909.28884531274,
+    "userID": 3,
+    "id": 524
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 30000,
+    "threads": 8,
+    "time": 40.4191486,
+    "score": 71522.99161292639,
+    "userID": 3,
+    "id": 525
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 30000,
+    "threads": 8,
+    "time": 40.3726334,
+    "score": 71564.18224454888,
+    "userID": 3,
+    "id": 526
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 30000,
+    "threads": 8,
+    "time": 46.739524,
+    "score": 66511.55623014056,
+    "userID": 3,
+    "id": 527
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 30000,
+    "threads": 8,
+    "time": 46.9479289,
+    "score": 66363.76748175305,
+    "userID": 3,
+    "id": 528
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 30000,
+    "threads": 8,
+    "time": 40.417788,
+    "score": 71524.19545618743,
+    "userID": 3,
+    "id": 529
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 30000,
+    "threads": 8,
+    "time": 40.4186838,
+    "score": 71523.40285579482,
+    "userID": 3,
+    "id": 530
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 30000,
+    "threads": 8,
+    "time": 46.9118024,
+    "score": 66389.31573536535,
+    "userID": 3,
+    "id": 531
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 30000,
+    "threads": 8,
+    "time": 46.8730198,
+    "score": 66416.77521975976,
+    "userID": 3,
+    "id": 532
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 100000,
+    "threads": 8,
+    "time": 7.6792125,
+    "score": 49226.86333546933,
+    "userID": 3,
+    "id": 533
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 100000,
+    "threads": 8,
+    "time": 8.2395466,
+    "score": 47523.5472411213,
+    "userID": 3,
+    "id": 534
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 100000,
+    "threads": 8,
+    "time": 8.1092126,
+    "score": 47903.93215496801,
+    "userID": 3,
+    "id": 535
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 100000,
+    "threads": 8,
+    "time": 7.5343927,
+    "score": 49697.710361565405,
+    "userID": 3,
+    "id": 536
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 100000,
+    "threads": 8,
+    "time": 7.6573424,
+    "score": 49297.1115200177,
+    "userID": 3,
+    "id": 537
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 100000,
+    "threads": 8,
+    "time": 8.2571103,
+    "score": 47472.97666400814,
+    "userID": 3,
+    "id": 538
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 100000,
+    "threads": 8,
+    "time": 8.1880151,
+    "score": 47672.858067576824,
+    "userID": 3,
+    "id": 539
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 100000,
+    "threads": 8,
+    "time": 7.6766555,
+    "score": 49235.061085752495,
+    "userID": 3,
+    "id": 540
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 8,
+    "time": 2.3255732,
+    "score": 54665.796449587426,
+    "userID": 3,
+    "id": 541
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 8,
+    "time": 2.2080602,
+    "score": 56101.59801845866,
+    "userID": 3,
+    "id": 542
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 8,
+    "time": 2.262505,
+    "score": 55422.474606266514,
+    "userID": 3,
+    "id": 543
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 8,
+    "time": 2.5105546,
+    "score": 52613.3374406619,
+    "userID": 3,
+    "id": 544
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 8,
+    "time": 2.5800253,
+    "score": 51900.16093452527,
+    "userID": 3,
+    "id": 545
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 8,
+    "time": 2.1484242,
+    "score": 56874.90301149525,
+    "userID": 3,
+    "id": 546
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 8,
+    "time": 2.2397757,
+    "score": 55702.979092394344,
+    "userID": 3,
+    "id": 547
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 8,
+    "time": 2.3984426,
+    "score": 53828.964103871855,
+    "userID": 3,
+    "id": 548
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 75000,
+    "threads": 8,
+    "time": 12.6564913,
+    "score": 70298.37387561507,
+    "userID": 3,
+    "id": 549
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 75000,
+    "threads": 8,
+    "time": 12.6984784,
+    "score": 70182.0580200742,
+    "userID": 3,
+    "id": 550
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 75000,
+    "threads": 8,
+    "time": 13.9034285,
+    "score": 67071.95846760215,
+    "userID": 3,
+    "id": 551
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 75000,
+    "threads": 8,
+    "time": 13.6968487,
+    "score": 67575.86481926437,
+    "userID": 3,
+    "id": 552
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 75000,
+    "threads": 8,
+    "time": 12.6489267,
+    "score": 70319.39145318225,
+    "userID": 3,
+    "id": 553
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 75000,
+    "threads": 8,
+    "time": 12.6360456,
+    "score": 70355.22388130704,
+    "userID": 3,
+    "id": 554
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 75000,
+    "threads": 8,
+    "time": 13.7275504,
+    "score": 67500.25572725787,
+    "userID": 3,
+    "id": 555
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 75000,
+    "threads": 8,
+    "time": 13.7054813,
+    "score": 67554.57963833693,
+    "userID": 3,
+    "id": 556
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 75000,
+    "threads": 16,
+    "time": 26.8181229,
+    "score": 55474.5454527454,
+    "userID": 3,
+    "id": 557
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 75000,
+    "threads": 16,
+    "time": 26.432321,
+    "score": 55877.927624811586,
+    "userID": 3,
+    "id": 558
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 75000,
+    "threads": 16,
+    "time": 26.7201917,
+    "score": 55576.11134307088,
+    "userID": 3,
+    "id": 559
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 75000,
+    "threads": 16,
+    "time": 26.7261344,
+    "score": 55569.93217564201,
+    "userID": 3,
+    "id": 560
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 75000,
+    "threads": 16,
+    "time": 26.5135164,
+    "score": 55792.301306649126,
+    "userID": 3,
+    "id": 561
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 75000,
+    "threads": 16,
+    "time": 26.5285539,
+    "score": 55776.486353832755,
+    "userID": 3,
+    "id": 562
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 75000,
+    "threads": 16,
+    "time": 26.6117734,
+    "score": 55689.20682985781,
+    "userID": 3,
+    "id": 563
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 75000,
+    "threads": 16,
+    "time": 26.4741489,
+    "score": 55833.76793725547,
+    "userID": 3,
+    "id": 564
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 75000,
+    "threads": 16,
+    "time": 25.9843045,
+    "score": 56357.58727935458,
+    "userID": 3,
+    "id": 565
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 75000,
+    "threads": 16,
+    "time": 26.7899362,
+    "score": 55503.7212089435,
+    "userID": 3,
+    "id": 566
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 75000,
+    "threads": 16,
+    "time": 26.7203536,
+    "score": 55575.942973553945,
+    "userID": 3,
+    "id": 567
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 75000,
+    "threads": 16,
+    "time": 25.943522,
+    "score": 56401.86617016678,
+    "userID": 3,
+    "id": 568
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 75000,
+    "threads": 16,
+    "time": 27.2115846,
+    "score": 55072.02229305759,
+    "userID": 3,
+    "id": 569
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 75000,
+    "threads": 16,
+    "time": 26.0007627,
+    "score": 56339.74758592858,
+    "userID": 3,
+    "id": 570
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 75000,
+    "threads": 16,
+    "time": 27.09192,
+    "score": 55193.514427507835,
+    "userID": 3,
+    "id": 571
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 75000,
+    "threads": 16,
+    "time": 26.885004,
+    "score": 55405.5012201927,
+    "userID": 3,
+    "id": 572
   }
 ]

@@ -9,21 +9,12 @@
     "id": 1
   },
   {
-    "username": "Raul",
-    "password": "Cox123",
-    "configuration": {
-      "cpu": "I7-9570H",
-      "ram": "16 GB"
-    },
-    "id": 2
-  },
-  {
     "username": "Raluca",
     "password": "Raluca2001",
     "configuration": {
       "cpu": "Intel i7-8565U",
       "ram": "8GB"
     },
-    "id": 3
+    "id": 2
   }
 ]
