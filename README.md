@@ -45,12 +45,17 @@ Gauss 58885 CPU: I5-8265U Ram: 8GB
 ### Authors
 
 *Bogdan Tatu*
+
 *Sarbu Raul*
+
 *Surugiu Dragos*
+
 *Stiopu Crstina*
+
 *Trandafir Raluca*
 
 ### Conclusion
-    This app can be upgraded in many ways and in the future we might have some fun
+
+This app can be upgraded in many ways and in the future we might have some fun
 rebuilding it from scratch with better OOP concepts, and greater depth of knowledge
 databases and testbenches. Thank you for reading until here!
