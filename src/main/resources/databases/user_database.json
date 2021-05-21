@@ -25,5 +25,14 @@
       "ram": "8GB"
     },
     "id": 3
+  },
+  {
+    "username": "mrBrasneni",
+    "password": "Ciment123",
+    "configuration": {
+      "cpu": "i7-9700k",
+      "ram": "16gb"
+    },
+    "id": 4
   }
 ]
