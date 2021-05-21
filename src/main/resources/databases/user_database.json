@@ -61,5 +61,14 @@
       "ram": "8GB"
     },
     "id": 7
+  },
+  {
+    "username": "Tatu",
+    "password": "Cox123",
+    "configuration": {
+      "cpu": "Ryzen 7 2700",
+      "ram": "16 Gb"
+    },
+    "id": 8
   }
 ]

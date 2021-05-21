@@ -12670,5 +12670,59 @@
     "score": 71322.69921957112,
     "userID": 7,
     "id": 1408
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 10000,
+    "threads": 2,
+    "time": 3.7467242,
+    "score": 59344.453720863974,
+    "userID": 8,
+    "id": 1409
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 10000,
+    "threads": 2,
+    "time": 3.7676042,
+    "score": 59179.782263039735,
+    "userID": 8,
+    "id": 1410
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 200000,
+    "threads": 4,
+    "time": 11.6812887,
+    "score": 69492.69023088388,
+    "userID": 8,
+    "id": 1411
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 200000,
+    "threads": 4,
+    "time": 11.6112996,
+    "score": 69701.8151254444,
+    "userID": 8,
+    "id": 1412
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 200000,
+    "threads": 4,
+    "time": 11.5908314,
+    "score": 69763.33104957046,
+    "userID": 8,
+    "id": 1413
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 200000,
+    "threads": 4,
+    "time": 11.563615,
+    "score": 69845.38111893194,
+    "userID": 8,
+    "id": 1414
   }
 ]
