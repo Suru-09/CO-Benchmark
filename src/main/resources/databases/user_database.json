@@ -52,5 +52,14 @@
       "ram": "4 GB"
     },
     "id": 6
+  },
+  {
+    "username": "vali:(",
+    "password": "Hagihagi99",
+    "configuration": {
+      "cpu": "I5-8265U",
+      "ram": "8GB"
+    },
+    "id": 7
   }
 ]

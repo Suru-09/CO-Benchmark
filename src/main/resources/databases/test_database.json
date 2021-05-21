@@ -11374,5 +11374,1301 @@
     "score": 62248.14168527228,
     "userID": 6,
     "id": 1264
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 10000,
+    "threads": 2,
+    "time": 3.727355,
+    "score": 59498.44565015491,
+    "userID": 7,
+    "id": 1265
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 10000,
+    "threads": 2,
+    "time": 3.7276339,
+    "score": 59496.21978418472,
+    "userID": 7,
+    "id": 1266
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 10000,
+    "threads": 4,
+    "time": 3.7401039,
+    "score": 68229.18202887432,
+    "userID": 7,
+    "id": 1267
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 10000,
+    "threads": 4,
+    "time": 3.7448902,
+    "score": 68185.56663188557,
+    "userID": 7,
+    "id": 1268
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 10000,
+    "threads": 4,
+    "time": 3.7453281,
+    "score": 68181.58042138048,
+    "userID": 7,
+    "id": 1269
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 10000,
+    "threads": 4,
+    "time": 3.7474049,
+    "score": 68162.68479441508,
+    "userID": 7,
+    "id": 1270
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 10000,
+    "threads": 8,
+    "time": 5.2709603,
+    "score": 66019.63589182335,
+    "userID": 7,
+    "id": 1271
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 10000,
+    "threads": 8,
+    "time": 5.2413244,
+    "score": 66206.01945149073,
+    "userID": 7,
+    "id": 1272
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 10000,
+    "threads": 8,
+    "time": 5.101748,
+    "score": 67105.55861266145,
+    "userID": 7,
+    "id": 1273
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 10000,
+    "threads": 8,
+    "time": 5.132956,
+    "score": 66901.2491291082,
+    "userID": 7,
+    "id": 1274
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 10000,
+    "threads": 8,
+    "time": 5.1982768,
+    "score": 66479.58455121629,
+    "userID": 7,
+    "id": 1275
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 10000,
+    "threads": 8,
+    "time": 5.2170344,
+    "score": 66359.96483442663,
+    "userID": 7,
+    "id": 1276
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 10000,
+    "threads": 8,
+    "time": 5.0917364,
+    "score": 67171.49919114039,
+    "userID": 7,
+    "id": 1277
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 10000,
+    "threads": 8,
+    "time": 5.1170454,
+    "score": 67005.17754787223,
+    "userID": 7,
+    "id": 1278
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 10000,
+    "threads": 16,
+    "time": 8.75677,
+    "score": 58837.20381056216,
+    "userID": 7,
+    "id": 1279
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 10000,
+    "threads": 16,
+    "time": 8.8364112,
+    "score": 58571.4583906316,
+    "userID": 7,
+    "id": 1280
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 10000,
+    "threads": 16,
+    "time": 8.5975558,
+    "score": 59379.494341040445,
+    "userID": 7,
+    "id": 1281
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 10000,
+    "threads": 16,
+    "time": 8.6732036,
+    "score": 59119.97283474012,
+    "userID": 7,
+    "id": 1282
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 10000,
+    "threads": 16,
+    "time": 8.7524053,
+    "score": 58851.87262023127,
+    "userID": 7,
+    "id": 1283
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 10000,
+    "threads": 16,
+    "time": 8.5509409,
+    "score": 59541.12609124172,
+    "userID": 7,
+    "id": 1284
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 10000,
+    "threads": 16,
+    "time": 9.034727,
+    "score": 57925.05828633272,
+    "userID": 7,
+    "id": 1285
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 10000,
+    "threads": 16,
+    "time": 8.7504112,
+    "score": 58858.578009914214,
+    "userID": 7,
+    "id": 1286
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 10000,
+    "threads": 16,
+    "time": 8.7332862,
+    "score": 58916.25730086453,
+    "userID": 7,
+    "id": 1287
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 10000,
+    "threads": 16,
+    "time": 8.5663259,
+    "score": 59487.6345533182,
+    "userID": 7,
+    "id": 1288
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 10000,
+    "threads": 16,
+    "time": 8.7813068,
+    "score": 58754.94460756844,
+    "userID": 7,
+    "id": 1289
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 10000,
+    "threads": 16,
+    "time": 8.6504348,
+    "score": 59197.72651252142,
+    "userID": 7,
+    "id": 1290
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 10000,
+    "threads": 16,
+    "time": 8.8509583,
+    "score": 58523.305681137776,
+    "userID": 7,
+    "id": 1291
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 10000,
+    "threads": 16,
+    "time": 8.7450657,
+    "score": 58876.56417916404,
+    "userID": 7,
+    "id": 1292
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 10000,
+    "threads": 16,
+    "time": 8.7247376,
+    "score": 58945.113653326785,
+    "userID": 7,
+    "id": 1293
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 10000,
+    "threads": 16,
+    "time": 8.7355113,
+    "score": 58908.75328027846,
+    "userID": 7,
+    "id": 1294
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 20000,
+    "threads": 2,
+    "time": 12.1624764,
+    "score": 65875.6615357928,
+    "userID": 7,
+    "id": 1295
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 20000,
+    "threads": 2,
+    "time": 12.1615077,
+    "score": 65878.28507903333,
+    "userID": 7,
+    "id": 1296
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 20000,
+    "threads": 4,
+    "time": 16.5202611,
+    "score": 64928.22650836337,
+    "userID": 7,
+    "id": 1297
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 20000,
+    "threads": 4,
+    "time": 16.5315652,
+    "score": 64906.024113523636,
+    "userID": 7,
+    "id": 1298
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 20000,
+    "threads": 4,
+    "time": 16.5239915,
+    "score": 64920.89710711858,
+    "userID": 7,
+    "id": 1299
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 20000,
+    "threads": 4,
+    "time": 16.5428848,
+    "score": 64883.814082888646,
+    "userID": 7,
+    "id": 1300
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 20000,
+    "threads": 8,
+    "time": 21.7418027,
+    "score": 65013.001652400315,
+    "userID": 7,
+    "id": 1301
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 20000,
+    "threads": 8,
+    "time": 20.6337311,
+    "score": 66735.83670236901,
+    "userID": 7,
+    "id": 1302
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 20000,
+    "threads": 8,
+    "time": 20.6233959,
+    "score": 66752.55659253523,
+    "userID": 7,
+    "id": 1303
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 20000,
+    "threads": 8,
+    "time": 21.5976102,
+    "score": 65229.664342668155,
+    "userID": 7,
+    "id": 1304
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 20000,
+    "threads": 8,
+    "time": 21.7776692,
+    "score": 64959.443356688425,
+    "userID": 7,
+    "id": 1305
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 20000,
+    "threads": 8,
+    "time": 20.5293886,
+    "score": 66905.21725678742,
+    "userID": 7,
+    "id": 1306
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 20000,
+    "threads": 8,
+    "time": 20.4335095,
+    "score": 67062.00149999643,
+    "userID": 7,
+    "id": 1307
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 20000,
+    "threads": 8,
+    "time": 21.760652,
+    "score": 64984.83808769436,
+    "userID": 7,
+    "id": 1308
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 20000,
+    "threads": 16,
+    "time": 41.586463,
+    "score": 53998.04046214212,
+    "userID": 7,
+    "id": 1309
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 20000,
+    "threads": 16,
+    "time": 41.9211916,
+    "score": 53782.02902670019,
+    "userID": 7,
+    "id": 1310
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 20000,
+    "threads": 16,
+    "time": 41.7507877,
+    "score": 53891.67169147579,
+    "userID": 7,
+    "id": 1311
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 20000,
+    "threads": 16,
+    "time": 41.3166557,
+    "score": 54174.06339720788,
+    "userID": 7,
+    "id": 1312
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 20000,
+    "threads": 16,
+    "time": 41.5276291,
+    "score": 54036.277546238816,
+    "userID": 7,
+    "id": 1313
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 20000,
+    "threads": 16,
+    "time": 41.4631341,
+    "score": 54078.28734134346,
+    "userID": 7,
+    "id": 1314
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 20000,
+    "threads": 16,
+    "time": 41.6747202,
+    "score": 53940.832619188375,
+    "userID": 7,
+    "id": 1315
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 20000,
+    "threads": 16,
+    "time": 41.8063751,
+    "score": 53855.831531143514,
+    "userID": 7,
+    "id": 1316
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 20000,
+    "threads": 16,
+    "time": 41.5329299,
+    "score": 54032.82914227781,
+    "userID": 7,
+    "id": 1317
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 20000,
+    "threads": 16,
+    "time": 41.5227732,
+    "score": 54039.43710265684,
+    "userID": 7,
+    "id": 1318
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 20000,
+    "threads": 16,
+    "time": 41.6904178,
+    "score": 53930.6765524079,
+    "userID": 7,
+    "id": 1319
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 20000,
+    "threads": 16,
+    "time": 42.0418097,
+    "score": 53704.823195689794,
+    "userID": 7,
+    "id": 1320
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 20000,
+    "threads": 16,
+    "time": 41.8614991,
+    "score": 53820.360670196125,
+    "userID": 7,
+    "id": 1321
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 20000,
+    "threads": 16,
+    "time": 41.499911,
+    "score": 54054.32015039092,
+    "userID": 7,
+    "id": 1322
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 20000,
+    "threads": 16,
+    "time": 41.9008329,
+    "score": 53795.09319690831,
+    "userID": 7,
+    "id": 1323
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 20000,
+    "threads": 16,
+    "time": 41.8835299,
+    "score": 53806.20401283654,
+    "userID": 7,
+    "id": 1324
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 30000,
+    "threads": 2,
+    "time": 34.6560359,
+    "score": 58537.9907161638,
+    "userID": 7,
+    "id": 1325
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 30000,
+    "threads": 2,
+    "time": 34.676452499,
+    "score": 58520.75535086181,
+    "userID": 7,
+    "id": 1326
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 30000,
+    "threads": 4,
+    "time": 36.9308375,
+    "score": 65138.63817841749,
+    "userID": 7,
+    "id": 1327
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 30000,
+    "threads": 4,
+    "time": 36.931056701,
+    "score": 65138.444865836005,
+    "userID": 7,
+    "id": 1328
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 30000,
+    "threads": 4,
+    "time": 36.934187101,
+    "score": 65135.68436500142,
+    "userID": 7,
+    "id": 1329
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 30000,
+    "threads": 4,
+    "time": 36.9171546,
+    "score": 65150.708487075135,
+    "userID": 7,
+    "id": 1330
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 30000,
+    "threads": 8,
+    "time": 48.1248579,
+    "score": 65547.25697633822,
+    "userID": 7,
+    "id": 1331
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 30000,
+    "threads": 8,
+    "time": 47.8270332,
+    "score": 65751.02558031496,
+    "userID": 7,
+    "id": 1332
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 30000,
+    "threads": 8,
+    "time": 46.4118327,
+    "score": 66745.94604904474,
+    "userID": 7,
+    "id": 1333
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 30000,
+    "threads": 8,
+    "time": 46.0778654,
+    "score": 66987.39298127299,
+    "userID": 7,
+    "id": 1334
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 30000,
+    "threads": 8,
+    "time": 47.5799596,
+    "score": 65921.52075910385,
+    "userID": 7,
+    "id": 1335
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 30000,
+    "threads": 8,
+    "time": 47.5085082,
+    "score": 65971.07414924742,
+    "userID": 7,
+    "id": 1336
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 30000,
+    "threads": 8,
+    "time": 46.6764546,
+    "score": 66556.47639293749,
+    "userID": 7,
+    "id": 1337
+  },
+  {
+    "algorithm": "SPIGOT",
+    "size": 30000,
+    "threads": 8,
+    "time": 46.5640868,
+    "score": 66636.73457945924,
+    "userID": 7,
+    "id": 1338
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 100000,
+    "threads": 2,
+    "time": 6.6389407,
+    "score": 40123.52808862203,
+    "userID": 7,
+    "id": 1339
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 100000,
+    "threads": 2,
+    "time": 6.638092,
+    "score": 40126.09296343236,
+    "userID": 7,
+    "id": 1340
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 100000,
+    "threads": 4,
+    "time": 7.2227103,
+    "score": 44188.00655777446,
+    "userID": 7,
+    "id": 1341
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 100000,
+    "threads": 4,
+    "time": 7.0865479,
+    "score": 44610.505476432576,
+    "userID": 7,
+    "id": 1342
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 100000,
+    "threads": 4,
+    "time": 7.2111242,
+    "score": 44223.490704881726,
+    "userID": 7,
+    "id": 1343
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 100000,
+    "threads": 4,
+    "time": 7.211803,
+    "score": 44221.40942147072,
+    "userID": 7,
+    "id": 1344
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 100000,
+    "threads": 8,
+    "time": 10.668537,
+    "score": 41764.5756364698,
+    "userID": 7,
+    "id": 1345
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 100000,
+    "threads": 8,
+    "time": 10.6684105,
+    "score": 41764.82324613746,
+    "userID": 7,
+    "id": 1346
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 100000,
+    "threads": 8,
+    "time": 10.6682866,
+    "score": 41765.065770863774,
+    "userID": 7,
+    "id": 1347
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 100000,
+    "threads": 8,
+    "time": 10.6682101,
+    "score": 41765.2155158432,
+    "userID": 7,
+    "id": 1348
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 100000,
+    "threads": 8,
+    "time": 10.6681634,
+    "score": 41765.306929583174,
+    "userID": 7,
+    "id": 1349
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 100000,
+    "threads": 8,
+    "time": 10.6681506,
+    "score": 41765.3319852741,
+    "userID": 7,
+    "id": 1350
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 100000,
+    "threads": 8,
+    "time": 10.6680641,
+    "score": 41765.50130811748,
+    "userID": 7,
+    "id": 1351
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 100000,
+    "threads": 8,
+    "time": 10.6679661,
+    "score": 41765.69314457861,
+    "userID": 7,
+    "id": 1352
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 100000,
+    "threads": 16,
+    "time": 10.5161611,
+    "score": 48321.21999972542,
+    "userID": 7,
+    "id": 1353
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 100000,
+    "threads": 16,
+    "time": 19.2607759,
+    "score": 35705.04763817512,
+    "userID": 7,
+    "id": 1354
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 100000,
+    "threads": 16,
+    "time": 19.6303267,
+    "score": 35367.36807613111,
+    "userID": 7,
+    "id": 1355
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 100000,
+    "threads": 16,
+    "time": 10.5857286,
+    "score": 48162.179098650704,
+    "userID": 7,
+    "id": 1356
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 100000,
+    "threads": 16,
+    "time": 10.3646864,
+    "score": 48673.03447693882,
+    "userID": 7,
+    "id": 1357
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 100000,
+    "threads": 16,
+    "time": 19.7432432,
+    "score": 35266.08568288429,
+    "userID": 7,
+    "id": 1358
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 100000,
+    "threads": 16,
+    "time": 19.7377213,
+    "score": 35271.01842505525,
+    "userID": 7,
+    "id": 1359
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 100000,
+    "threads": 16,
+    "time": 10.667085,
+    "score": 47978.1643831865,
+    "userID": 7,
+    "id": 1360
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 100000,
+    "threads": 16,
+    "time": 13.6637789,
+    "score": 42391.72537420152,
+    "userID": 7,
+    "id": 1361
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 100000,
+    "threads": 16,
+    "time": 19.4120658,
+    "score": 35565.64003336346,
+    "userID": 7,
+    "id": 1362
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 100000,
+    "threads": 16,
+    "time": 19.4910628,
+    "score": 35493.49334044001,
+    "userID": 7,
+    "id": 1363
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 100000,
+    "threads": 16,
+    "time": 13.6188315,
+    "score": 42461.62227721471,
+    "userID": 7,
+    "id": 1364
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 100000,
+    "threads": 16,
+    "time": 13.6930098,
+    "score": 42346.45372383433,
+    "userID": 7,
+    "id": 1365
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 100000,
+    "threads": 16,
+    "time": 19.5676976,
+    "score": 35423.9219163924,
+    "userID": 7,
+    "id": 1366
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 100000,
+    "threads": 16,
+    "time": 19.7908247,
+    "score": 35223.66645392468,
+    "userID": 7,
+    "id": 1367
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 100000,
+    "threads": 16,
+    "time": 13.6191552,
+    "score": 42461.117660423064,
+    "userID": 7,
+    "id": 1368
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 200000,
+    "threads": 2,
+    "time": 20.9423582,
+    "score": 45182.027177699805,
+    "userID": 7,
+    "id": 1369
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 200000,
+    "threads": 2,
+    "time": 20.9341092,
+    "score": 45190.92819732258,
+    "userID": 7,
+    "id": 1370
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 200000,
+    "threads": 4,
+    "time": 22.0788116,
+    "score": 50547.147993821345,
+    "userID": 7,
+    "id": 1371
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 200000,
+    "threads": 4,
+    "time": 22.0187661,
+    "score": 50616.022479508574,
+    "userID": 7,
+    "id": 1372
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 200000,
+    "threads": 4,
+    "time": 22.0204663,
+    "score": 50614.06841047495,
+    "userID": 7,
+    "id": 1373
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 200000,
+    "threads": 4,
+    "time": 22.0886656,
+    "score": 50535.87191293895,
+    "userID": 7,
+    "id": 1374
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 300000,
+    "threads": 2,
+    "time": 40.8148487,
+    "score": 48546.80665158258,
+    "userID": 7,
+    "id": 1375
+  },
+  {
+    "algorithm": "MONTE_CARLO",
+    "size": 300000,
+    "threads": 2,
+    "time": 40.8118404,
+    "score": 48548.595846407545,
+    "userID": 7,
+    "id": 1376
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 2,
+    "time": 1.405958,
+    "score": 53282.244980371026,
+    "userID": 7,
+    "id": 1377
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 2,
+    "time": 1.3937563,
+    "score": 53514.967607936705,
+    "userID": 7,
+    "id": 1378
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 4,
+    "time": 1.7816205,
+    "score": 54370.97076303493,
+    "userID": 7,
+    "id": 1379
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 4,
+    "time": 1.7712478,
+    "score": 54529.94075525025,
+    "userID": 7,
+    "id": 1380
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 4,
+    "time": 1.7859346,
+    "score": 54305.2618540778,
+    "userID": 7,
+    "id": 1381
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 4,
+    "time": 1.793323,
+    "score": 54193.27892881061,
+    "userID": 7,
+    "id": 1382
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 8,
+    "time": 2.3290962,
+    "score": 54624.43695503059,
+    "userID": 7,
+    "id": 1383
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 8,
+    "time": 2.2539316,
+    "score": 55527.78127443498,
+    "userID": 7,
+    "id": 1384
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 8,
+    "time": 2.3522714,
+    "score": 54354.683689856334,
+    "userID": 7,
+    "id": 1385
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 8,
+    "time": 2.2985819,
+    "score": 54985.81867907565,
+    "userID": 7,
+    "id": 1386
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 8,
+    "time": 2.3242835,
+    "score": 54680.96084331949,
+    "userID": 7,
+    "id": 1387
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 8,
+    "time": 2.3710356,
+    "score": 54139.176997920185,
+    "userID": 7,
+    "id": 1388
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 8,
+    "time": 2.2082273,
+    "score": 56099.4753306396,
+    "userID": 7,
+    "id": 1389
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 25000,
+    "threads": 8,
+    "time": 2.2531911,
+    "score": 55536.90498885405,
+    "userID": 7,
+    "id": 1390
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 50000,
+    "threads": 2,
+    "time": 3.3242267,
+    "score": 69303.21267647775,
+    "userID": 7,
+    "id": 1391
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 50000,
+    "threads": 2,
+    "time": 3.339011,
+    "score": 69149.61387548785,
+    "userID": 7,
+    "id": 1392
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 50000,
+    "threads": 4,
+    "time": 5.7429976,
+    "score": 60566.90283420767,
+    "userID": 7,
+    "id": 1393
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 50000,
+    "threads": 4,
+    "time": 5.7187891,
+    "score": 60694.96188830025,
+    "userID": 7,
+    "id": 1394
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 50000,
+    "threads": 4,
+    "time": 5.8382044,
+    "score": 60071.024037012656,
+    "userID": 7,
+    "id": 1395
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 50000,
+    "threads": 4,
+    "time": 5.7614819,
+    "score": 60469.66776478072,
+    "userID": 7,
+    "id": 1396
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 50000,
+    "threads": 8,
+    "time": 8.7285943,
+    "score": 56433.70043057862,
+    "userID": 7,
+    "id": 1397
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 50000,
+    "threads": 8,
+    "time": 8.4739285,
+    "score": 57275.42031363237,
+    "userID": 7,
+    "id": 1398
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 50000,
+    "threads": 8,
+    "time": 8.4167884,
+    "score": 57469.50785495958,
+    "userID": 7,
+    "id": 1399
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 50000,
+    "threads": 8,
+    "time": 8.5953855,
+    "score": 56869.315748041314,
+    "userID": 7,
+    "id": 1400
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 50000,
+    "threads": 8,
+    "time": 8.7811907,
+    "score": 56264.43708180264,
+    "userID": 7,
+    "id": 1401
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 50000,
+    "threads": 8,
+    "time": 8.6075722,
+    "score": 56829.04337188691,
+    "userID": 7,
+    "id": 1402
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 50000,
+    "threads": 8,
+    "time": 8.5259315,
+    "score": 57100.48052336829,
+    "userID": 7,
+    "id": 1403
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 50000,
+    "threads": 8,
+    "time": 8.672164,
+    "score": 56617.01147516883,
+    "userID": 7,
+    "id": 1404
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 75000,
+    "threads": 4,
+    "time": 9.3176061,
+    "score": 71325.32661821037,
+    "userID": 7,
+    "id": 1405
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 75000,
+    "threads": 4,
+    "time": 9.3455843,
+    "score": 71218.4820395886,
+    "userID": 7,
+    "id": 1406
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 75000,
+    "threads": 4,
+    "time": 9.347185,
+    "score": 71212.38371666022,
+    "userID": 7,
+    "id": 1407
+  },
+  {
+    "algorithm": "GAUSS_LEGENDRE",
+    "size": 75000,
+    "threads": 4,
+    "time": 9.3182926,
+    "score": 71322.69921957112,
+    "userID": 7,
+    "id": 1408
   }
 ]
